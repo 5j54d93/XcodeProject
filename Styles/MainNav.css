@@ -37,8 +37,9 @@
   color: rgb(51, 51, 51);
 }
 #wideScreenSearchBar::placeholder {
-  font-size: 20px;
+  font-size: 18px;
   height: 20.87px;
+  font-weight: 500;
   color: rgb(110, 110, 115);
 }
 #wideScreenSearchBar::-webkit-search-cancel-button,
