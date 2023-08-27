@@ -1,5 +1,6 @@
 /* 最上方導覽列 */
 #mainNav {
+  height: 44px;
   z-index: 1022;
   transition: all .35s ease;
   background-color: rgb(243, 243, 243);
