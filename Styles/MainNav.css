@@ -5,6 +5,12 @@
   transition: all .35s ease;
   background-color: rgb(243, 243, 243);
 }
+/* 小螢幕最上方導覽列中的選單按鈕 */
+#hamburgerBtn {
+  font-size: 26px;
+  --bs-btn-color: rgb(48, 48, 48);
+  --bs-btn-hover-color: black;
+}
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media (min-width: 768px) {
   #mainNav {
