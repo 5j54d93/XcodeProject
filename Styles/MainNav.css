@@ -26,6 +26,11 @@
   --bs-nav-link-padding-x: 10px;
   --bs-nav-link-padding-y: 0;
 }
+/* 寬螢幕最上方導覽列中的搜尋表單 */
+#wideScreenSearchForm {
+  height: 44px;
+  display: none;
+}
 /* 小螢幕最上方導覽列中的選單按鈕 */
 #hamburgerBtn {
   font-size: 26px;
