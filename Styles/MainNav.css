@@ -13,6 +13,11 @@
   --bs-navbar-brand-color: rgb(48, 48, 48);
   --bs-navbar-brand-hover-color: black;
 }
+/* 寬螢幕最上方導覽列中的主題連結容器 */
+#wideScreenNavLinks {
+  font-size: 16px;
+  font-weight: 300;
+}
 /* 寬螢幕最上方導覽列中的主題連結 */
 .nav-link {
   --bs-nav-link-color: rgb(48, 48, 48);
