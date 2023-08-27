@@ -13,6 +13,13 @@
   --bs-navbar-brand-color: rgb(48, 48, 48);
   --bs-navbar-brand-hover-color: black;
 }
+/* 寬螢幕最上方導覽列中的主題連結 */
+.nav-link {
+  --bs-nav-link-color: rgb(48, 48, 48);
+  --bs-nav-link-hover-color: black;
+  --bs-nav-link-padding-x: 10px;
+  --bs-nav-link-padding-y: 0;
+}
 /* 小螢幕最上方導覽列中的選單按鈕 */
 #hamburgerBtn {
   font-size: 26px;
