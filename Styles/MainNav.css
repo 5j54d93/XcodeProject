@@ -39,7 +39,7 @@
 #wideScreenSearchBar::placeholder {
   font-size: 18px;
   height: 20.87px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(110, 110, 115);
 }
 #wideScreenSearchBar::-webkit-search-cancel-button,
