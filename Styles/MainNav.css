@@ -9,7 +9,7 @@
 .navbar-brand {
   font-weight: 480;
   padding: 0px 10px;
-  --bs-navbar-brand-font-size: 18px;
+  --bs-navbar-brand-font-size: 20px;
   --bs-navbar-brand-color: rgb(48, 48, 48);
   --bs-navbar-brand-hover-color: black;
 }
