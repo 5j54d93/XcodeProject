@@ -4,3 +4,11 @@
   transition: all .35s ease;
   background-color: rgb(243, 243, 243);
 }
+/* 螢幕大於 768：寬螢幕導覽連結顯示 */
+@media (min-width: 768px) {
+  height: 44px;
+}
+/* 螢幕小於 768：寬螢幕導覽連結隱藏 */
+@media (max-width: 767.98px) {
+  height: 48px;
+}
