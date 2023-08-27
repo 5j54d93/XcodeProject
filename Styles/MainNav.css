@@ -5,6 +5,16 @@
   transition: all .35s ease;
   background-color: rgb(243, 243, 243);
 }
+/* 最上方導覽列中的網站標題 */
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 480;
+  color: rgb(48, 48, 48);
+  padding: 0px 10px;
+}
+.navbar-brand:hover {
+  color: black !important;
+}
 /* 小螢幕最上方導覽列中的選單按鈕 */
 #hamburgerBtn {
   font-size: 26px;
