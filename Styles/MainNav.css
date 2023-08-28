@@ -39,7 +39,7 @@
   color: rgb(51, 51, 51);
 }
 #wideScreenSearchBar::placeholder {
-  font-size: 20px;
+  font-size: 18px;
   height: 20.87px;
   font-weight: 300;
   color: rgb(110, 110, 115);
@@ -54,6 +54,19 @@
   padding: 23px 40px 18px;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
+}
+/* 寬螢幕搜尋時的快速連結 */
+.wideScreenSearchQuickLink {
+  height: 28px;
+  font-size: 14px;
+  margin: 6px -32px;
+  line-height: 28px;
+  padding-left: 52px;
+  color: rgb(29, 29, 31);
+}
+.wideScreenSearchQuickLink:hover {
+  color: rgb(0, 102, 204);
+  background-color: rgb(245, 245, 247);
 }
 /* 小螢幕最上方導覽列中的選單按鈕 */
 #hamburgerBtn {
