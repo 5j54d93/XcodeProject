@@ -14,12 +14,12 @@
   --bs-navbar-brand-color: rgb(48, 48, 48);
   --bs-navbar-brand-hover-color: black;
 }
-/* 寬螢幕最上方導覽列中的主題連結容器 */
+/* 寬螢幕最上方導覽列中的連結容器 */
 #wideScreenNavLinks {
   font-size: 16px;
   font-weight: 300;
 }
-/* 寬螢幕最上方導覽列中的主題連結 */
+/* 寬螢幕最上方導覽列中的連結 */
 .nav-link {
   --bs-nav-link-color: rgb(48, 48, 48);
   --bs-nav-link-hover-color: black;
@@ -47,6 +47,13 @@
 #wideScreenSearchBar::-webkit-search-cancel-button,
 #wideScreenSearchBar::-webkit-search-results-button {
   -webkit-appearance: none;
+}
+/* 寬螢幕搜尋時的快速連結區塊 */
+#wideScreenSearchQuickLinks {
+  top: 44px;
+  padding: 23px 40px 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 }
 /* 小螢幕最上方導覽列中的選單按鈕 */
 #hamburgerBtn {
