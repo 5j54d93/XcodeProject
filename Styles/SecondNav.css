@@ -51,7 +51,7 @@
   background-color: rgba(0, 0, 0, 0.485);
 }
 /* 螢幕大於 768 */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   /* 上方導覽列二變矮 */
   #secondNav {
     height: 48px;
@@ -62,7 +62,7 @@
   }
 }
 /* 螢幕小於 768 */
-@media (max-width: 767.98px) {
+@media only screen and (max-width: 767.98px) {
   /* 上方導覽列二長高 */
   #secondNav {
     height: 52px;
