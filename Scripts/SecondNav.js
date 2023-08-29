@@ -7,14 +7,14 @@ hotTopics.addEventListener('show.bs.collapse', event => {
     hotTopicsDimBackground.style.display = "block";
     wideScreenHotTopicBtn.innerHTML = "熱門話題<i class='bi bi-chevron-up' style='font-size: 12px; margin-left: 6px;'/>";
     smallScreenHotTopicBtn.innerHTML = "<i class='bi bi-chevron-up'/>";
-    wideScreenHotTopics.style.top = "";
-    wideScreenHotTopics.style.bottom = "";
+    hotTopics.style.top = "";
+    hotTopics.style.bottom = "";
 })
 // 熱門話題「出現完」
 hotTopics.addEventListener('shown.bs.collapse', event => { 
-    if (secondNav.offsetHeight + wideScreenHotTopics.offsetHeight > window.innerHeight) {
-        wideScreenHotTopics.style.top = secondNav.offsetHeight + "px";
-        wideScreenHotTopics.style.bottom = "0";
+    if (secondNav.offsetHeight + hotTopics.offsetHeight > window.innerHeight) {
+        hotTopics.style.top = secondNav.offsetHeight + "px";
+        hotTopics.style.bottom = "0";
     }
 })
 // 熱門話題「開始隱藏」
