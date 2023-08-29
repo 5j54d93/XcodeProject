@@ -136,6 +136,32 @@
   color: rgb(0, 102, 204);
   transition: all .35s ease, visibility 0s ease;
 }
+/* 小螢幕展開全螢幕導覽列搜尋中的快速連結標題 */
+#smallScreenSearchQuickLinksTitle {
+  height: 0;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 250;
+  line-height: 16px;
+  visibility: hidden;
+  color: rgb(134, 134, 139);
+  transition: all .35s ease, visibility 0s ease;
+}
+#smallScreenSearchQuickLinksTitle:hover {
+  color: black;
+}
+/* 小螢幕展開全螢幕導覽列的快速連結 */
+.smallScreenSearchQuickLink {
+  height: 45px;
+  font-size: 17px;
+  line-height: 45px;
+  color: rgb(51, 51, 51);
+}
+/* 小螢幕展開全螢幕導覽列的快速連結分隔線 */
+.quickLinkHr {
+  color: rgb(215, 215, 215);
+  transition: all .35s ease;
+}
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media (min-width: 768px) {
   #mainNav {
