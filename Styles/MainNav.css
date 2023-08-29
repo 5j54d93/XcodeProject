@@ -48,6 +48,18 @@
 #wideScreenSearchBar::-webkit-search-results-button {
   -webkit-appearance: none;
 }
+/* 寬螢幕最上方導覽列右方的放大鏡（搜尋時會變叉叉） */
+#wideScreenSearchBtn {
+  font-size: 18px;
+  padding: 0px 10px;
+  color: rgb(130, 130, 130);
+}
+#wideScreenSearchBtn .bi-search:hover {
+  color: rgb(102, 102, 102);
+}
+#wideScreenSearchBtn .bi-x-lg:hover {
+  color: black;
+}
 /* 寬螢幕搜尋時的快速連結區塊 */
 #wideScreenSearchQuickLinks {
   top: 44px;
@@ -68,17 +80,12 @@
   color: rgb(0, 102, 204);
   background-color: rgb(245, 245, 247);
 }
-/* 寬螢幕最上方導覽列右方的放大鏡（搜尋時會變叉叉） */
-#wideScreenSearchBtn {
-  font-size: 18px;
-  padding: 0px 10px;
-  color: rgb(130, 130, 130);
-}
-#wideScreenSearchBtn .bi-search:hover {
-  color: rgb(102, 102, 102);
-}
-#wideScreenSearchBtn .bi-x-lg:hover {
-  color: black;
+/* 寬螢幕搜尋時的暗掉背景 */
+#wideScreenSearchDimBackground {
+  display: none;
+  z-index: 1021;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.485);
 }
 /* 小螢幕最上方導覽列中的選單按鈕 */
 #hamburgerBtn {
