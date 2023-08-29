@@ -31,6 +31,13 @@
   padding: 32px;
   width: 34.38776%;
 }
+/* 最新文章的文字標題 */
+#homeNewestPostTextTitle {
+  font-size: 28px;
+  font-weight: 550;
+  line-height: 36px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -49,6 +56,11 @@
   /* 最新文章的文字容器 */
   #homeNewestPostTextContainer {
     padding: 24px;
+  }
+  /* 最新文章的文字標題 */
+  #homeNewestPostTextTitle {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 /* 螢幕小於 767.98 */
@@ -71,4 +83,10 @@
   #homeNewestPostImgContainer {
     min-height: 158px;
   }
+  /* 最新文章的文字標題 */
+  #homeNewestPostTextTitle {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+	}
 }
