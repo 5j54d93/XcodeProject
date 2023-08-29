@@ -11,6 +11,10 @@
   margin-bottom: 24px;
   color: rgb(29, 29, 31);
 }
+/* 最新文章 */
+#homeNewestPost {
+  border-radius: 16px;
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -34,5 +38,9 @@
   /* 標題「最新文章」*/
   #homeNewestPostTitle {
     font-size: 21px;
+  }
+  /* 最新文章 */
+  #homeNewestPost {
+    border-radius: 12px;
   }
 }
