@@ -27,8 +27,8 @@
   --bs-btn-color: rgb(29, 29, 31);
   --bs-btn-hover-color: rgb(0, 102, 204);
 }
-/* 小螢幕上方導覽列二展開的熱門主題區塊 */
-#wideScreenHotTopics {
+/* 上方導覽列二展開的熱門主題區塊 */
+#hotTopics {
   z-index: 1022;
   background-color: rgb(245, 245, 245);
 }
