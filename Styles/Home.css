@@ -13,7 +13,7 @@
   color: rgb(29, 29, 31);
 }
 /* 文章 hover 時放大圖片 */
-#homeNewestPost:hover #homeNewestPostImg, {
+#homeNewestPost:hover #homeNewestPostImg {
   transform: scale(1.03);
 }
 /* 最新文章 */
