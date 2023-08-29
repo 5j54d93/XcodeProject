@@ -54,7 +54,7 @@ function smallScreenSearchBarOnBlur() {
     smallScreenSearchQuickLinksTitle.style.margin = "0px";
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
-    for (let i=0; i&lt;quickLinksHrs.length; i++) {
-        quickLinksHrs[i].style.color = "rgb(215, 215, 215)";
+    for (let i=0; i<quickLinkHrs.length; i++) {
+        quickLinkHrs[i].style.color = "rgb(215, 215, 215)";
     }
 }
