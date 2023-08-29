@@ -28,6 +28,11 @@ function smallScreenSearchBarOnfocus() {
     smallScreenSearchQuickLinksTitle.style.visibility = "visible";
     smallScreenSearchQuickLinksTitle.style.height = "auto";
     smallScreenSearchQuickLinksTitle.style.margin = "21px 0px 5px";
+    // 小螢幕展開全螢幕導覽列下方的快速連結
+    const smallScreenSearchQuickLinks = document.getElementsByClassName("smallScreenSearchQuickLink");
+    for (let i=0; i<smallScreenSearchQuickLinks.length; i++) {
+        smallScreenSearchQuickLinks[i].style.fontSize = "14px";
+    }
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
     for (let i=0; i<quickLinkHrs.length; i++) {
@@ -52,6 +57,11 @@ function smallScreenSearchBarOnBlur() {
     smallScreenSearchQuickLinksTitle.style.visibility = "hidden";
     smallScreenSearchQuickLinksTitle.style.height = "0";
     smallScreenSearchQuickLinksTitle.style.margin = "0px";
+    // 小螢幕展開全螢幕導覽列下方的快速連結
+    const smallScreenSearchQuickLinks = document.getElementsByClassName("smallScreenSearchQuickLink");
+    for (let i=0; i<smallScreenSearchQuickLinks.length; i++) {
+        smallScreenSearchQuickLinks[i].style.fontSize = "17px";
+    }
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
     for (let i=0; i<quickLinkHrs.length; i++) {
