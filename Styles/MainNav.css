@@ -109,6 +109,18 @@
   color: rgb(165, 165, 165);
   background-color: rgb(215, 215, 215);
 }
+/* 小螢幕展開全螢幕導覽列的搜尋框 */
+#smallScreenSearchBar {
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 1px;
+  color: rgb(51, 51, 51);
+  background-color: rgb(215, 215, 215);
+}
+#smallScreenSearchBar::-webkit-search-cancel-button,
+#smallScreenSearchBar::-webkit-search-results-button {
+  -webkit-appearance: none;
+}
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media (min-width: 768px) {
   #mainNav {
