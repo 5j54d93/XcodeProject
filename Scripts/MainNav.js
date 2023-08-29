@@ -34,6 +34,7 @@ function smallScreenSearchBarOnfocus() {
         smallScreenSearchQuickLinks[i].style.fontSize = "14px";
         smallScreenSearchQuickLinks[i].style.height = "43px";
         smallScreenSearchQuickLinks[i].style.lineHeight = "43px";
+        smallScreenSearchQuickLinks[i].classList.replace("hoverBlack", "hoverBlue");
     }
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
@@ -65,6 +66,7 @@ function smallScreenSearchBarOnBlur() {
         smallScreenSearchQuickLinks[i].style.fontSize = "17px";
         smallScreenSearchQuickLinks[i].style.height = "45px";
         smallScreenSearchQuickLinks[i].style.lineHeight = "45px";
+        smallScreenSearchQuickLinks[i].classList.replace("hoverBlue", "hoverBlack");
     }
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
