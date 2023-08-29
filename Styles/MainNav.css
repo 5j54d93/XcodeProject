@@ -147,15 +147,15 @@
   color: rgb(134, 134, 139);
   transition: all .35s ease, visibility 0s ease;
 }
-#smallScreenSearchQuickLinksTitle:hover {
-  color: black;
-}
 /* 小螢幕展開全螢幕導覽列的快速連結 */
 .smallScreenSearchQuickLink {
   height: 45px;
   font-size: 17px;
   line-height: 45px;
   color: rgb(51, 51, 51);
+}
+.smallScreenSearchQuickLink:hover {
+  color: black;
 }
 /* 小螢幕展開全螢幕導覽列的快速連結分隔線 */
 .quickLinkHr {
