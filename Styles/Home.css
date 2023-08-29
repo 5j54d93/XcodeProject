@@ -3,6 +3,7 @@
   width: auto;
   max-width: 980px;
   padding-top: 40px;
+  transition: all .35s ease;
 }
 /* 標題「最新文章」*/
 #homeNewestPostTitle {
@@ -14,6 +15,7 @@
 /* 最新文章 */
 #homeNewestPost {
   border-radius: 16px;
+  transition: all .35s ease;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
