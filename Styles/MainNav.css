@@ -98,7 +98,7 @@
   z-index: 1021;
 }
 /* 小螢幕展開全螢幕導覽列的搜尋表單 */
-#wideScreenSearchForm {
+#smallScreenSearchForm {
   padding: 0px 10px 16px;
   transition: all .35s ease;
 }
