@@ -97,6 +97,11 @@
 #fullScreenNav {
   z-index: 1021;
 }
+/* 小螢幕展開全螢幕導覽列的搜尋表單 */
+#wideScreenSearchForm {
+  padding: 0px 10px 16px;
+  transition: all .35s ease;
+}
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media (min-width: 768px) {
   #mainNav {
