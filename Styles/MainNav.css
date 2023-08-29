@@ -102,6 +102,13 @@
   padding: 0px 10px 16px;
   transition: all .35s ease;
 }
+/* 小螢幕展開全螢幕導覽列的搜尋放大鏡 */
+#smallScreenSearchIcon {
+  font-size: 17px;
+  padding: 6px 8px;
+  color: rgb(165, 165, 165);
+  background-color: rgb(215, 215, 215);
+}
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media (min-width: 768px) {
   #mainNav {
