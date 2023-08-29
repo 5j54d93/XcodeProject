@@ -20,6 +20,13 @@
   --bs-btn-color: rgb(29, 29, 31);
   --bs-btn-hover-color: rgb(0, 102, 204);
 }
+/* 小螢幕上方導覽列二右方的「熱門主題」按鈕 */
+#smallScreenHotTopicBtn {
+  font-size: 21px;
+  padding: 2px 0px;
+  --bs-btn-color: rgb(29, 29, 31);
+  --bs-btn-hover-color: rgb(0, 102, 204);
+}
 /* 螢幕大於 768：上方導覽列二變矮 */
 @media (min-width: 768px) {
   #secondNav {
