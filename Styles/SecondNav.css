@@ -43,6 +43,13 @@
 .smallScreenHotTopicLink:hover {
   color: rgb(0, 102, 204);
 }
+/* 熱門話題展開時的暗掉背景 */
+#hotTopicsDimBackground {
+  display: none;
+  z-index: 1021;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.485);
+}
 /* 螢幕大於 768：上方導覽列二變矮 */
 @media (min-width: 768px) {
   #secondNav {
