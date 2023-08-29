@@ -4,6 +4,13 @@
   max-width: 980px;
   padding-top: 40px;
 }
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  /* 首頁容器 */
+  #homeContainer {
+    max-width: 692px;
+  }
+}
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
   /* 首頁容器 */
@@ -11,12 +18,5 @@
     width: 87.5%;
     max-width: 366px;
     padding-top: 24px;
-  }
-}
-/* 螢幕小於 1068 */
-@media only screen and (max-width: 1068px) {
-  /* 首頁容器 */
-  #homeContainer {
-    max-width: 692px;
   }
 }
