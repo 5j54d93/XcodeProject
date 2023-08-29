@@ -4,19 +4,35 @@
   max-width: 980px;
   padding-top: 40px;
 }
+/* 標題「最新文章」*/
+#homeNewestPostTitle {
+  font-size: 28px;
+  font-weight: 450;
+  margin-bottom: 24px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
   #homeContainer {
     max-width: 692px;
   }
+  /* 標題「最新文章」*/
+  #homeNewestPostTitle {
+    font-size: 25px;
+    margin-bottom: 16px;
+  }
 }
-/* 螢幕小於 734 */
-@media only screen and (max-width: 734px) {
+/* 螢幕小於 767.98 */
+@media only screen and (max-width: 767.98px) {
   /* 首頁容器 */
   #homeContainer {
     width: 87.5%;
     max-width: 366px;
     padding-top: 24px;
+  }
+  /* 標題「最新文章」*/
+  #homeNewestPostTitle {
+    font-size: 21px;
   }
 }
