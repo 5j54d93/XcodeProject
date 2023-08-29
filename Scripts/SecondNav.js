@@ -1,5 +1,5 @@
 // 熱門話題「開始出現」
-wideScreenHotTopics.addEventListener('show.bs.collapse', event => {
+hotTopics.addEventListener('show.bs.collapse', event => {
     document.body.style.position = "fixed";
     document.body.style.width = "100%";
     mainNav.style.display = "none";
@@ -11,14 +11,14 @@ wideScreenHotTopics.addEventListener('show.bs.collapse', event => {
     wideScreenHotTopics.style.bottom = "";
 })
 // 熱門話題「出現完」
-wideScreenHotTopics.addEventListener('shown.bs.collapse&', event => { 
+hotTopics.addEventListener('shown.bs.collapse', event => { 
     if (secondNav.offsetHeight + wideScreenHotTopics.offsetHeight > window.innerHeight) {
         wideScreenHotTopics.style.top = secondNav.offsetHeight + "px";
         wideScreenHotTopics.style.bottom = "0";
     }
 })
 // 熱門話題「開始隱藏」
-wideScreenHotTopics.addEventListener('hide.bs.collapse', event => {
+hotTopics.addEventListener('hide.bs.collapse', event => {
     document.body.style.position = "";
     document.body.style.width = "auto";
     mainNav.style.display = "";
