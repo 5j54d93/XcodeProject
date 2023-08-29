@@ -17,6 +17,11 @@
   border-radius: 16px;
   transition: all .35s ease;
 }
+/* 最新文章的圖片容器 */
+#homeNewestPostImgContainer {
+  min-height: 362px;
+  background-color: rgb(250, 250, 250);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -27,6 +32,10 @@
   #homeNewestPostTitle {
     font-size: 25px;
     margin-bottom: 16px;
+  }
+  /* 最新文章的圖片容器 */
+  #homeNewestPostImgContainer {
+    min-height: 255px;
   }
 }
 /* 螢幕小於 767.98 */
@@ -44,5 +53,9 @@
   /* 最新文章 */
   #homeNewestPost {
     border-radius: 12px;
+  }
+  /* 最新文章的圖片容器 */
+  #homeNewestPostImgContainer {
+    min-height: 158px;
   }
 }
