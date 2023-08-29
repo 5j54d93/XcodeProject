@@ -153,6 +153,7 @@
   font-size: 17px;
   line-height: 45px;
   color: rgb(51, 51, 51);
+  transition: all .35s ease;
 }
 .smallScreenSearchQuickLink:hover {
   color: black;
