@@ -167,13 +167,13 @@
   transition: all .35s ease;
 }
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   #mainNav {
     height: 44px;
   }
 }
 /* 螢幕小於 768：寬螢幕導覽連結隱藏 */
-@media (max-width: 767.98px) {
+@media only screen and (max-width: 767.98px) {
   #mainNav {
     height: 48px;
   }
