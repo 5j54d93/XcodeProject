@@ -32,15 +32,15 @@
   z-index: 1022;
   background-color: rgb(245, 245, 245);
 }
-/* 小螢幕上方導覽列二展開的熱門主題連結 */
-.smallScreenHotTopicLink {
+/* 上方導覽列二展開的熱門主題連結 */
+.hotTopicLink {
   font-size: 14px;
   font-weight: 350;
   margin-top: 12px;
   padding-left: 0px;
   color: rgb(29, 29, 31);
 }
-.smallScreenHotTopicLink:hover {
+.hotTopicLink:hover {
   color: rgb(0, 102, 204);
 }
 /* 熱門話題展開時的暗掉背景 */
@@ -50,24 +50,29 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0.485);
 }
-/* 螢幕大於 768：上方導覽列二變矮 */
+/* 螢幕大於 768 */
 @media (min-width: 768px) {
+  /* 上方導覽列二變矮 */
   #secondNav {
     height: 48px;
   }
+  /* 上方導覽列二容器左右間距變大 */
   #secondNavContainer {
     padding: 0px 22px;
   }
 }
-/* 螢幕小於 768：上方導覽列二長高 */
+/* 螢幕小於 768 */
 @media (max-width: 767.98px) {
+  /* 上方導覽列二長高 */
   #secondNav {
     height: 52px;
   }
+  /* 上方導覽列二容器左右間距變小 */
   #secondNavContainer {
     padding: 0px 16px;
   }
-  .smallScreenHotTopicLink {
+  /* 上方導覽列二展開的熱門主題連結字變大 */
+  .hotTopicLink {
     font-size: 17px;
     margin-top: 14px;
     padding-left: 34px;
