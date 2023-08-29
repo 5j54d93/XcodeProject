@@ -125,6 +125,16 @@
 #smallScreenSearchBar::-webkit-search-results-button {
   -webkit-appearance: none;
 }
+/* 小螢幕展開全螢幕導覽列搜尋中的取消按鈕 */
+#smallScreenSearchCancelBtn {
+  width: 0;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 300;
+  visibility: hidden;
+  color: rgb(0, 102, 204);
+  transition: all .35s ease, visibility 0s ease;
+}
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media (min-width: 768px) {
   #mainNav {
