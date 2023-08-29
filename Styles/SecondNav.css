@@ -30,8 +30,7 @@
 /* 小螢幕上方導覽列二展開的熱門主題區塊 */
 #wideScreenHotTopics {
   z-index: 1022;
-  background-color: rgba(255, 255, 255, 0.9);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgb(245, 245, 245);
 }
 /* 小螢幕上方導覽列二展開的熱門主題連結 */
 .smallScreenHotTopicLink {
