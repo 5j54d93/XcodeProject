@@ -107,6 +107,7 @@
   font-size: 17px;
   padding: 6px 8px;
   color: rgb(165, 165, 165);
+  transition: all .35s ease;
   background-color: rgb(215, 215, 215);
 }
 /* 小螢幕展開全螢幕導覽列的搜尋框 */
