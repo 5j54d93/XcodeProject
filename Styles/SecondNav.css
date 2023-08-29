@@ -1,0 +1,31 @@
+/* 上方導覽列二 */
+#secondNav {
+  height: 50px;
+  transition: all .4s ease;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+/* 上方導覽列二容器 */
+#secondNavContainer {
+  padding: 0px 19px;
+  max-width: 1024px;
+  transition: all .35s ease;
+}
+/* 螢幕大於 768：上方導覽列二變矮 */
+@media (min-width: 768px) {
+  #secondNav {
+    height: 48px;
+  }
+  #secondNavContainer {
+    padding: 0px 22px;
+  }
+}
+/* 螢幕小於 768：上方導覽列二長高 */
+@media (max-width: 767.98px) {
+  #secondNav {
+    height: 52px;
+  }
+  #secondNavContainer {
+    padding: 0px 16px;
+  }
+}
