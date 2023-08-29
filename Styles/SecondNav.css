@@ -30,7 +30,19 @@
 /* 小螢幕上方導覽列二展開的熱門主題區塊 */
 #wideScreenHotTopics {
   z-index: 1022;
-  background-color: rgb(245, 245, 245);
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+/* 小螢幕上方導覽列二展開的熱門主題連結 */
+.smallScreenHotTopicLink {
+  font-size: 14px;
+  font-weight: 350;
+  margin-top: 12px;
+  padding-left: 0px;
+  color: rgb(29, 29, 31);
+}
+.smallScreenHotTopicLink:hover {
+  color: rgb(0, 102, 204);
 }
 /* 螢幕大於 768：上方導覽列二變矮 */
 @media (min-width: 768px) {
@@ -48,5 +60,10 @@
   }
   #secondNavContainer {
     padding: 0px 16px;
+  }
+  .smallScreenHotTopicLink {
+    font-size: 17px;
+    margin-top: 14px;
+    padding-left: 34px;
   }
 }
