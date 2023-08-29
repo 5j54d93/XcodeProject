@@ -48,7 +48,7 @@
 #wideScreenSearchBar::-webkit-search-results-button {
   -webkit-appearance: none;
 }
-/* 寬螢幕最上方導覽列右方的放大鏡（搜尋時會變叉叉） */
+/* 寬螢幕最上方導覽列右方的放大鏡（搜尋時會變叉叉）*/
 #wideScreenSearchBtn {
   font-size: 18px;
   padding: 0px 10px;
