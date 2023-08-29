@@ -26,6 +26,11 @@
   min-height: 362px;
   background-color: rgb(250, 250, 250);
 }
+/* 最新文章的文字容器 */
+#homeNewestPostTextContainer {
+  padding: 32px;
+  width: 34.38776%;
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -40,6 +45,10 @@
   /* 最新文章的圖片容器 */
   #homeNewestPostImgContainer {
     min-height: 255px;
+  }
+  /* 最新文章的文字容器 */
+  #homeNewestPostTextContainer {
+    padding: 24px;
   }
 }
 /* 螢幕小於 767.98 */
