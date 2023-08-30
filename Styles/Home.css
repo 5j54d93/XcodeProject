@@ -19,7 +19,6 @@
 /* 最新文章 */
 #homeNewestPost {
   border-radius: 16px;
-  transition: all .35s ease;
 }
 /* 最新文章的圖片容器 */
 #homeNewestPostImgContainer {
@@ -37,6 +36,10 @@
   font-weight: 550;
   line-height: 36px;
   color: rgb(29, 29, 31);
+}
+/* 最新文章（1～10）*/
+.homeNewPostCol {
+	margin-top: 36px;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
@@ -62,6 +65,10 @@
     font-size: 20px;
     line-height: 25px;
   }
+	/* 最新文章（1～10）*/
+	.homeNewPostCol {
+		margin-top: 24px;
+	}
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
