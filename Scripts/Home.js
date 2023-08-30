@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", () => {
     homeNewPosts.forEach(homeNewPost => {
         var position = homeNewPost.getBoundingClientRect().top / window.innerHeight;
         if (position >= 0 && position <= 1) {
-            homeSecondPost.classList.add('show');
+            homeNewPost.classList.add('show');
         }
     });
 });
@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
     homeNewPosts.forEach(homeNewPost => {
         var position = homeNewPost.getBoundingClientRect().top / window.innerHeight;
         if (position >= 0 && position <= 1) {
-            homeSecondPost.classList.add('show');
+            homeNewPost.classList.add('show');
         }
     });
     const homePopularPosts = document.querySelectorAll(".homePopularPost");
