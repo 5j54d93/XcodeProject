@@ -78,6 +78,10 @@
   margin-left: 18px;
   margin-right: 0px;
 }
+.homeNewPost5-10ImgContainer {
+  min-height: 170px;
+  background-color: rgb(250, 250, 250);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -93,8 +97,8 @@
   #homeNewestPostImgContainer {
     min-height: 255px;
   }
-  /* 最新文章的文字容器 */
-  #homeNewestPostTextContainer {
+  #homeNewestPostTextContainer,
+  .homeNewPost1-4TextContainer {
     padding: 24px;
   }
   /* 最新文章的文字標題 */
@@ -114,9 +118,6 @@
   }
   .homeNewPost1-4ImgContainer {
     min-height: 187px;
-  }
-  .homeNewPost1-4TextContainer {
-    padding: 24px;
   }
   .homeNewPost1-4Title {
     font-size: 17px;
@@ -148,6 +149,9 @@
     margin-left: 12px;
     margin-right: 0px;
   }
+  .homeNewPost5-10ImgContainer {
+    min-height: 187px;
+  }
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
@@ -165,8 +169,8 @@
   .homeNewPost {
     border-radius: 12px;
   }
-  /* 最新文章的圖片容器 */
-  #homeNewestPostImgContainer {
+  #homeNewestPostImgContainer,
+  .homeNewPost5-10ImgContainer {
     min-height: 158px;
   }
   /* 最新文章的文字標題 */
