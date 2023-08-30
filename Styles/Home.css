@@ -95,6 +95,12 @@
   max-width: 980px;
   padding: 160px 0px 80px;
 }
+#homePopularPostTitle {
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 8px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -155,6 +161,10 @@
     max-width: 692px;
     padding: 128px 0px 64px;
   }
+  #homePopularPostTitle {
+    font-size: 25px;
+    margin-bottom: 4px;
+  }
 }
 /* 螢幕小於 991.98 */
 @media only screen and (max-width: 991.98px) {
@@ -212,5 +222,9 @@
   #homePopularPostContainer {
     max-width: 366px;
     padding: 80px 0px 52px;
+  }
+  #homePopularPostTitle {
+    font-size: 21px;
+    margin-bottom: 0px;
   }
 }
