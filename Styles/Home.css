@@ -67,7 +67,7 @@
   color: rgb(110, 110, 115);
 }
 #homeNewPost5, #homeNewPost8 {
-	margin-left: 0px;
+  margin-left: 0px;
   margin-right: 18px;
 }
 #homeNewPost6, #homeNewPost9 {
@@ -76,7 +76,7 @@
 }
 #homeNewPost7, #homeNewPost10 {
   margin-left: 18px;
-	margin-right: 0px;
+  margin-right: 0px;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
@@ -125,26 +125,18 @@
   .homeNewPost1-4Date {
     margin-top: 8px;
   }
-	#homeNewPost5, #homeNewPost7, #homeNewPost9 {
+  #homeNewPost5, #homeNewPost8 {
     margin-left: 0px;
     margin-right: 12px;
   }
-  #homeNewPost6, #homeNewPost8, #homeNewPost10 {
+  #homeNewPost6, #homeNewPost9 {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  #homeNewPost7, #homeNewPost10 {
     margin-left: 12px;
     margin-right: 0px;
   }
-	/*
-	#homeThirdPostA5, #homeThirdPostA8 {
-        margin-right: 12px;
-      }
-      #homeThirdPostA6, #homeThirdPostA9 {
-        margin-left: 12px;
-        margin-right: 12px;
-      }
-      #homeThirdPostA7, #homeThirdPostA10 {
-        margin-left: 12px;
-      }
-	*/
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
@@ -181,7 +173,7 @@
   .homeNewPost1-4ImgContainer {
     min-height: 158px;
   }
-	#homeNewPost5, #homeNewPost6, #homeNewPost7, #homeNewPost8, #homeNewPost9, #homeNewPost10 {
+  #homeNewPost5, #homeNewPost6, #homeNewPost7, #homeNewPost8, #homeNewPost9, #homeNewPost10 {
     margin-left: 0px;
     margin-right: 0px;
   }
