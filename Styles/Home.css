@@ -197,6 +197,7 @@
     border-radius: 12px;
   }
   #homeNewestPostImgContainer,
+  .homeNewPost1-4ImgContainer,
   .homeNewPost5-10ImgContainer {
     min-height: 158px;
   }
@@ -206,15 +207,7 @@
     font-weight: 500;
     line-height: 23px;
   }
-  #homeNewPost1, #homeNewPost3 {
-    margin-right: 0px;
-  }
-  #homeNewPost2, #homeNewPost4 {
-    margin-left: 0px;
-  }
-  .homeNewPost1-4ImgContainer {
-    min-height: 158px;
-  }
+  #homeNewPost1, #homeNewPost3, #homeNewPost2, #homeNewPost4,
   #homeNewPost5, #homeNewPost6, #homeNewPost7, #homeNewPost8, #homeNewPost9, #homeNewPost10 {
     margin-left: 0px;
     margin-right: 0px;
