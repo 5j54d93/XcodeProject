@@ -24,4 +24,10 @@ window.addEventListener('resize', () => {
     } else {
         wideScreenSearchQuickLinks.style.height = "";
     }
+    if (hotTopics.ariaExpanded === "true") {
+        if (secondNav.offsetHeight + hotTopics.offsetHeight > window.innerHeight) {
+            hotTopics.style.top = secondNav.offsetHeight + "px";
+            hotTopics.style.bottom = "0";
+        }
+    }
 });
