@@ -27,12 +27,48 @@
   color: rgb(66, 66, 69);
   --bs-link-hover-color-rgb: 66, 66, 69;
 }
+#bottomFooter {
+  padding-top: 34px;
+  padding-bottom: 21px;
+}
+#wideScreenBottomFooterDivider {
+  margin: 8px 0px 7px;
+  color: rgb(210, 210, 215);
+}
+#wideScreenFooterRegion {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+  color: rgb(110, 110, 115);
+}
+#smallScreenFooterRegion {
+  display: none;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  color: rgb(110, 110, 115);
+}
+.bottomFooterLink {
+  margin-right: 7px;
+  padding-right: 10px;
+  color: rgb(66, 66, 69);
+  --bs-link-hover-color-rgb: 66, 66, 69;
+  --bs-border-color: rgb(134, 134, 139);
+}
 /* 螢幕小於 833 */
 @media only screen and (max-width: 833px) {
+  #wideScreenBottomFooterDivider,
+  #wideScreenFooterRegion,
   #wideScreenFooter {
     display: none;
   }
-  #smallScreenFooter {
+  #smallScreenFooter,
+  #smallScreenFooterRegion {
     display: block;
+  }
+  #bottomFooter {
+    padding-top: 17px;
+    padding-bottom: 19px;
   }
 }
