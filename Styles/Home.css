@@ -193,6 +193,9 @@
   .homeNewPost5-10ImgContainer {
     min-height: 187px;
   }
+  #homePopularPost6 {
+    --bs-border-width: 1px !important;
+  }
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
