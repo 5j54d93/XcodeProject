@@ -13,6 +13,12 @@
   font-size: 12px;
   line-height: 16px;
 }
+.wideScreenFooterLink {
+  font-weight: 350;
+  margin-bottom: 9.6px;
+  color: rgb(66, 66, 69);
+  --bs-link-hover-color-rgb: 66, 66, 69;
+}
 /* 螢幕小於 833 */
 @media only screen and (max-width: 833px) {
   #wideScreenFooter {
