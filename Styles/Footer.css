@@ -19,9 +19,20 @@
   color: rgb(66, 66, 69);
   --bs-link-hover-color-rgb: 66, 66, 69;
 }
+#smallScreenFooter {
+  display: none;
+}
+.smallScreenFooterLink {
+  padding: 6px 14px;
+  color: rgb(66, 66, 69);
+  --bs-link-hover-color-rgb: 66, 66, 69;
+}
 /* 螢幕小於 833 */
 @media only screen and (max-width: 833px) {
   #wideScreenFooter {
     display: none;
+  }
+  #smallScreenFooter {
+    display: block;
   }
 }
