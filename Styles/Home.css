@@ -20,10 +20,12 @@
   transform: translateY(20%);
   transition: .8s all ease;
 }
-.homeNewPost:hover .homeNewPostImg {
+.homeNewPost:hover .homeNewPostImg,
+.homePopularPost:hover .homePopularPostImg {
   transform: scale(1.03);
 }
-.homeNewPost.show {
+.homeNewPost.show,
+.homePopularPost.show {
   opacity: 1;
   transform: translateY(0);
 }
@@ -101,6 +103,14 @@
   margin-bottom: 8px;
   color: rgb(29, 29, 31);
 }
+.homePopularPost {
+  opacity: 0;
+  margin-top: 32px;
+  position: relative;
+  padding-bottom: 32px;
+  transition: .8s all ease;
+  transform: translateY(20%);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -164,6 +174,10 @@
   #homePopularPostTitle {
     font-size: 25px;
     margin-bottom: 4px;
+  }
+  .homePopularPost {
+    margin-top: 24px;
+    padding-bottom: 24px;
   }
 }
 /* 螢幕小於 991.98 */
