@@ -111,6 +111,12 @@
   transition: .8s all ease;
   transform: translateY(20%);
 }
+.homePopularPostImgContainer {
+  height: 132px;
+  min-width: 132px;
+  border-radius: 16px;
+  background-color: white;
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -196,6 +202,9 @@
   #homePopularPost6 {
     --bs-border-width: 1px !important;
   }
+  .homePopularPostImgContainer {
+    margin-left: 0px !important;
+  }
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
@@ -236,5 +245,10 @@
   #homePopularPostTitle {
     font-size: 21px;
     margin-bottom: 0px;
+  }
+  .homePopularPostImgContainer {
+    height: 105px;
+    min-width: 105px;
+    border-radius: 12px;
   }
 }
