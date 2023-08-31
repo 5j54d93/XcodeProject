@@ -117,6 +117,9 @@
   border-radius: 16px;
   background-color: white;
 }
+.homePopularPostTextContainer {
+  padding-left: 24px;
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -205,6 +208,9 @@
   .homePopularPostImgContainer {
     margin-left: 0px !important;
   }
+  .homePopularPostTextContainer {
+		margin-right: 0px !important;
+  }
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
@@ -250,5 +256,8 @@
     height: 105px;
     min-width: 105px;
     border-radius: 12px;
+  }
+  .homePopularPostTextContainer {
+		padding-left: 16px;
   }
 }
