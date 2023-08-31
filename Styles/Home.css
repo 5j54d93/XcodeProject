@@ -120,6 +120,20 @@
 .homePopularPostTextContainer {
   padding-left: 24px;
 }
+#homeReadHistoryPostBtn {
+  font-size: 15px;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-radius: 30px;
+  padding-bottom: 9px;
+  color: rgb(29, 29, 31);
+  transition: all .3s ease;
+  border: 2px solid rgb(29, 29, 31);
+}
+#homeReadHistoryPostBtn:hover {
+  color: rgb(245, 245, 247);
+  background-color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   /* 首頁容器 */
@@ -188,6 +202,9 @@
     margin-top: 24px;
     padding-bottom: 24px;
   }
+  #homeReadHistoryPostBtn {
+    margin-top: 28px;
+  }
 }
 /* 螢幕小於 991.98 */
 @media only screen and (max-width: 991.98px) {
@@ -209,7 +226,7 @@
     margin-left: 0px !important;
   }
   .homePopularPostTextContainer {
-		margin-right: 0px !important;
+    margin-right: 0px !important;
   }
 }
 /* 螢幕小於 767.98 */
@@ -259,5 +276,8 @@
   }
   .homePopularPostTextContainer {
 		padding-left: 16px;
+  }
+  #homeReadHistoryPostBtn {
+    margin-top: 24px;
   }
 }
