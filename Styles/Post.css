@@ -41,6 +41,28 @@
   margin: 52px 0px;
   color: rgb(210, 210, 215);
 }
+#contactsContainer {
+  max-width: 693px;
+  padding: 0px 20px;
+}
+#contactsTitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 28px;
+  color: rgb(29, 29, 31);
+}
+.contactsName {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 4px;
+  color: rgb(29, 29, 31);
+}
+#underContactsHr {
+  margin: 52px 0px;
+  color: rgb(210, 210, 215);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #blogPostTopSection,
@@ -62,6 +84,21 @@
   #blogPostBottomHr {
     margin: 48px 0px;
   }
+  #contactsContainer {
+    max-width: 616px;
+    margin-bottom: 32px;
+  }
+  #contactsTitle {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .contactsName {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  #underContactsHr {
+    margin: 48px 0px;
+  }
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
@@ -80,6 +117,13 @@
     padding: 24px;
   }
   #blogPostBottomHr {
+    margin: 44px 0px;
+  }
+  #contactsContainer {
+    max-width: 402px;
+    margin-bottom: 24px;
+  }
+  #underContactsHr {
     margin: 44px 0px;
   }
 }
