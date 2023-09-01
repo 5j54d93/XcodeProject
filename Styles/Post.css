@@ -1,10 +1,12 @@
 #blogPostTopSection {
   max-width: 693px;
   padding: 64px 20px 0px;
+  transition: all .35s ease;
 }
 #blogPostBottomSection {
   max-width: 693px;
   padding: 0px 20px 0px;
+  transition: all .35s ease;
 }
 #blogPostShareTitle {
   font-size: 18px;
