@@ -65,6 +65,41 @@
   margin: 52px 0px;
   color: rgb(210, 210, 215);
 }
+#blogPostNewestPostContainer {
+  max-width: 693px;
+  padding: 0px 20px;
+  margin-bottom: 48px;
+}
+#blogPostNewestPostTitle {
+  font-size: 21px;
+  font-weight: 450;
+  line-height: 28px;
+  color: rgb(29,29,31);
+}
+.blogPostNewestPost {
+  padding: 32px 0px;
+}
+.blogPostNewestPost:hover .blogPostNewestPostImg {
+  transform: scale(1.03);
+}
+.blogPostNewestPost:hover .blogPostNewestPostImgContainer {
+  background-color: rgb(213,213,213);
+}
+.blogPostNewestPostImgContainer {
+  height: 96px;
+  min-width: 171px;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+}
+.blogPostNewestPostTextContainer {
+  padding-left: 24px;
+}
+.blogPostNewestPostTextTitle {
+  font-size: 17px;
+  font-weight: 550;
+  line-height: 23px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #blogPostTopSection,
@@ -101,6 +136,18 @@
   #underContactsHr {
     margin: 48px 0px;
   }
+  #blogPostNewestPostContainer {
+    max-width: 616px;
+    margin-bottom: 32px;
+  }
+  #blogPostNewestPostTitle {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .blogPostNewestPostTextTitle {
+    font-size: 15px;
+    line-height: 21px;
+  }
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
@@ -127,5 +174,20 @@
   }
   #underContactsHr {
     margin: 44px 0px;
+  }
+  #blogPostNewestPostContainer {
+    max-width: 402px;
+    margin-bottom: 24px;
+  }
+  .blogPostNewestPost {
+    padding: 28px 0px;
+  }
+  .blogPostNewestPostImgContainer {
+    min-width: 93px;
+    height: 93px;
+    border-radius: 12px;
+  }
+  .blogPostNewestPostTextContainer {
+    padding-left: 16px;
   }
 }
