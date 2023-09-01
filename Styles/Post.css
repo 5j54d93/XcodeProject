@@ -3,6 +3,12 @@
   padding: 64px 20px 0px;
   transition: all .35s ease;
 }
+.blogPostHeadline {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 52px 0px 16px;
+}
 .blogPost {
   font-size: 17px;
   font-weight: 300;
@@ -150,6 +156,11 @@
     line-height: 44px;
     margin: 20px 0px 16px;
   }
+  .blogPostHeadline {
+    font-size: 21px;
+    line-height: 25px;
+    margin: 48px 0px 16px;
+  }
   .blogPost {
     font-size: 15px;
     font-weight: 300;
@@ -213,6 +224,10 @@
     max-width: 402px;
     padding: 40px 20px 0px;
   }
+  .blogPostHeadline {
+    margin: 44px 0px 16px;
+  }
+  .blogPost,
   #blogPostBottomSection {
     max-width: 402px;
   }
