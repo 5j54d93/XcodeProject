@@ -3,7 +3,15 @@
   padding: 64px 20px 0px;
   transition: all .35s ease;
 }
-#blogPost {
+.blogPost {
+  font-size: 17px;
+  font-weight: 300;
+  max-width: 693px;
+  line-height: 27px;
+  padding: 0px 20px;
+  transition: all .35s ease;
+}
+#blogPostBottomSection {
   max-width: 693px;
   padding: 0px 20px;
   transition: all .35s ease;
@@ -134,13 +142,19 @@
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #blogPostTopSection,
-  #blogPost {
+  #blogPostBottomSection {
     max-width: 616px;
   }
   #blogPostTitle {
     font-size: 37px;
     line-height: 44px;
     margin: 20px 0px 16px;
+  }
+  .blogPost {
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 616px;
+    line-height: 24px;
   }
   #blogPostShareTitle {
     font-size: 16px;
@@ -199,7 +213,7 @@
     max-width: 402px;
     padding: 40px 20px 0px;
   }
-  #blogPost {
+  #blogPostBottomSection {
     max-width: 402px;
   }
   #blogPostTitle {
