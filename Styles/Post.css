@@ -22,6 +22,9 @@
   max-width: 980px;
   transition: all .35s ease;
 }
+.blogPostImg {
+  border-radius: 10px;
+}
 #blogPostBottomSection {
   max-width: 693px;
   padding: 0px 20px;
@@ -247,7 +250,6 @@
   }
   .blogPostImgContainer {
     max-width: 454px;
-    padding: 0px 20px;
   }
   #blogPostTitle {
     font-size: 29px;
@@ -287,5 +289,11 @@
   }
   #learnMore {
     padding: 44px 0px;
+  }
+}
+/* 螢幕小於 362 */
+@media only screen and (max-width: 362px) {
+  .blogPostImg {
+    border-radius: 0px;
   }
 }
