@@ -16,6 +16,13 @@
   margin-bottom: 8px;
   color: rgb(29, 29, 31);
 }
+#blogPostTitle {
+  font-size: 45px;
+  font-weight: 550;
+  margin: 20px 0px;
+  line-height: 52px;
+  color: rgb(29, 29, 31);
+}
 #blogPostTopic {
   padding: 36px;
   margin: 44px 0px;
@@ -102,11 +109,38 @@
   line-height: 23px;
   color: rgb(29, 29, 31);
 }
+#learnMore {
+  padding: 52px 0px;
+  background-color: rgb(251 ,251, 253);
+}
+#learnMoreText {
+  font-size: 17px;
+  font-weight: 450;
+  line-height: 23px;
+  margin-bottom: 18px;
+  color: rgb(110, 110, 115);
+}
+#learnMoreBtn {
+  font-size: 14px;
+  font-weight: 450;
+  border-radius: 30px;
+  color: rgb(22, 22, 23);
+  transition: all .3s ease;
+  background-color: rgb(232, 232, 237);
+}
+#learnMoreBtn:hover {
+  background-color: rgb(210, 210, 215);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #blogPostTopSection,
   #blogPostBottomSection {
     max-width: 616px;
+  }
+  #blogPostTitle {
+    font-size: 37px;
+    line-height: 44px;
+    margin: 20px 0px 16px;
   }
   #blogPostShareTitle {
     font-size: 16px;
@@ -150,6 +184,14 @@
     font-size: 15px;
     line-height: 21px;
   }
+  #learnMore {
+    padding: 48px 0px;
+  }
+  #learnMoreText {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 14px;
+  }
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
@@ -159,6 +201,10 @@
   }
   #blogPostBottomSection {
     max-width: 402px;
+  }
+  #blogPostTitle {
+    font-size: 29px;
+    line-height: 36px;
   }
   #blogPostShareTitle {
     margin-top: 32px;
@@ -191,5 +237,8 @@
   }
   .blogPostNewestPostTextContainer {
     padding-left: 16px;
+  }
+  #learnMore {
+    padding: 44px 0px;
   }
 }
