@@ -35,7 +35,7 @@
   color: rgb(29, 29, 31);
 }
 #blogPostTopicLink:hover {
-  background-color: rgb(232, 232, 237);
+  background-color: rgb(232, 232, 237) !important;
 }
 #blogPostBottomHr {
   margin: 52px 0px;
