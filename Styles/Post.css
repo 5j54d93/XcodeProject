@@ -291,8 +291,8 @@
     padding: 44px 0px;
   }
 }
-/* 螢幕小於 362 */
-@media only screen and (max-width: 362px) {
+/* 螢幕小於 454 */
+@media only screen and (max-width: 454px) {
   .blogPostImg {
     border-radius: 0px;
   }
