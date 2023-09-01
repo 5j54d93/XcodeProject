@@ -46,6 +46,7 @@
 #contactsContainer {
   max-width: 693px;
   padding: 0px 20px;
+  transition: all .35s ease;
 }
 #contactsTitle {
   font-size: 24px;
@@ -69,6 +70,7 @@
   max-width: 693px;
   padding: 0px 20px;
   margin-bottom: 48px;
+  transition: all .35s ease;
 }
 #blogPostNewestPostTitle {
   font-size: 21px;
