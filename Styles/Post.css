@@ -30,6 +30,12 @@
   margin-bottom: 8px;
   color: rgb(29, 29, 31);
 }
+.blogPostShareBtn {
+  color: rgb(110, 110, 115);
+}
+.blogPostShareBtn:hover {
+  color: rgb(29, 29, 31);
+}
 #blogPostTitle {
   font-size: 45px;
   font-weight: 550;
