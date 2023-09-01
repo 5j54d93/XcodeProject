@@ -20,6 +20,7 @@
 .blogPostImgContainer {
   padding: 0px;
   max-width: 980px;
+  transition: all .35s ease;
 }
 #blogPostBottomSection {
   max-width: 693px;
@@ -245,7 +246,8 @@
     max-width: 402px;
   }
   .blogPostImgContainer {
-    max-width: 414px;
+    max-width: 454px;
+    padding: 0px 20px;
   }
   #blogPostTitle {
     font-size: 29px;
