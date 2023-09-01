@@ -3,9 +3,9 @@
   padding: 64px 20px 0px;
   transition: all .35s ease;
 }
-#blogPostBottomSection {
+#blogPost {
   max-width: 693px;
-  padding: 0px 20px 0px;
+  padding: 0px 20px;
   transition: all .35s ease;
 }
 #blogPostShareTitle {
@@ -134,7 +134,7 @@
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #blogPostTopSection,
-  #blogPostBottomSection {
+  #blogPost {
     max-width: 616px;
   }
   #blogPostTitle {
@@ -199,7 +199,7 @@
     max-width: 402px;
     padding: 40px 20px 0px;
   }
-  #blogPostBottomSection {
+  #blogPost {
     max-width: 402px;
   }
   #blogPostTitle {
