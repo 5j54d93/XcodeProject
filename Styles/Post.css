@@ -2,6 +2,10 @@
   max-width: 693px;
   padding: 64px 20px 0px;
 }
+#blogPostBottomSection {
+  max-width: 693px;
+  padding: 0px 20px 0px;
+}
 #blogPostShareTitle {
   font-size: 18px;
   font-weight: 450;
@@ -39,7 +43,8 @@
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
-  #blogPostTopSection {
+  #blogPostTopSection,
+  #blogPostBottomSection {
     max-width: 616px;
   }
   #blogPostShareTitle {
@@ -63,6 +68,9 @@
   #blogPostTopSection {
     max-width: 402px;
     padding: 40px 20px 0px;
+  }
+  ##blogPostBottomSection {
+    max-width: 402px;
   }
   #blogPostShareTitle {
     margin-top: 32px;
