@@ -1,0 +1,28 @@
+#searchPageContainer {
+  width: 980px;
+}
+#searchPageResultCountText {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 40px 32px;
+  color: rgb(110, 110, 115);
+}
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  #searchPageContainer {
+    width: 692px;
+  }
+  #searchPageResultCountText {
+    margin: 40px 24px;
+  }
+}
+/* 螢幕小於 734 */
+@media only screen and (max-width: 734px) {
+  #searchPageContainer {
+    width: 87.5%;
+  }
+  #searchPageResultCountText {
+    margin: 32px 24px;
+  }
+}
