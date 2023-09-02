@@ -1,5 +1,5 @@
 document.getElementById("SecondNav").classList.toggle("sticky-top");
-$(window).click(function() {
+$(document).click(function() {
     hideArchiveFilterYear();
     hideArchiveFilterMonth();
 });
