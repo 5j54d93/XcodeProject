@@ -49,6 +49,9 @@
     line-height: 32px;
     margin-bottom: 16px;
   }
+  #labelPageFirstPostImgContainer {
+    min-height: 187px;
+  }
   #labelPageFirstPostTextContainer {
     padding: 24px;
   }
@@ -70,5 +73,8 @@
   }
   .labelPagePost {
     border-radius: 12px;
+  }
+  #labelPageFirstPostImgContainer {
+    min-height: 158px;
   }
 }
