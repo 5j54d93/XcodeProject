@@ -62,6 +62,21 @@
   margin-right: 0px;
   margin-left: 24px;
 }
+#labelPageReadHistoryPostBtn {
+  font-size: 15px;
+  margin-top: 32px;
+  padding-top: 10px;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  padding-bottom: 9px;
+  color: rgb(29, 29, 31);
+  transition: all .3s ease;
+  border: 2px solid rgb(29, 29, 31);
+}
+#labelPageReadHistoryPostBtn:hover {
+  color: rgb(245, 245, 247);
+  background-color: rgb(29, 29, 31);
+}
 /* 螢幕小於 991.98 */
 @media only screen and (max-width: 991.98px) {
   #labelPageContainer {
@@ -99,6 +114,10 @@
     margin-left: 12px;
     margin-right: 0px;
   }
+  #labelPageReadHistoryPostBtn {
+    margin-top: 28px;
+    margin-bottom: 64px;
+  }
 }
 /* 螢幕小於 767.98 */
 @media (max-width: 767.98px) {
@@ -123,5 +142,9 @@
   #labelPagePost0, #labelPagePost1, #labelPagePost2, #labelPagePost3, #labelPagePost4, #labelPagePost5, #labelPagePost6, #labelPagePost7, #labelPagePost8, #labelPagePost9 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+  #labelPageReadHistoryPostBtn {
+    margin-top: 24px;
+    margin-bottom: 52px;
   }
 }
