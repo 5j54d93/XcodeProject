@@ -41,6 +41,13 @@
 .archiveFilterLink:hover {
   color: rgb(0, 102, 204);
 }
+.archivePagePostDate {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 52px 0 16px;
+  color: rgb(29, 29, 31);
+}
 .archivePagePost {
   padding: 32px 0px;
   --bs-border-color: rgb(210, 210, 215);
@@ -72,6 +79,11 @@
   #archivePageContainer {
     width: 692px;
   }
+  .archivePagePostDate {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 48px 0 16px;
+  }
   .archivePagePost {
     padding: 24px 0px;
   }
@@ -94,6 +106,11 @@
   }
   #archivePageContainer {
     width: 87.5%;
+  }
+  .archivePagePostDate {
+    font-size: 19px;
+    line-height: 25px;
+    margin: 44px 0 16px;
   }
   .archivePagePostImg {
     width: 106px;
