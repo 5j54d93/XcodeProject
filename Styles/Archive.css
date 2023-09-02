@@ -2,6 +2,9 @@
   width: 980px;
   padding: 32px 0px;
 }
+#archivePageContainer {
+  width: 980px;
+}
 #archiveFilterYearBtn {
   height: 40px;
   max-width: 255px;
@@ -38,10 +41,47 @@
 .archiveFilterLink:hover {
   color: rgb(0, 102, 204);
 }
+.archivePagePost {
+  padding: 32px 0px;
+}
+.archivePagePostImg {
+  width: 295px;
+  border-radius: 16px;
+}
+.archivePagePostTextContainer {
+  margin-left: 32px;
+}
+.archivePagePostTitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 8px 0px 12px;
+  color: rgb(29, 29, 31);
+}
+.archivePagePostDate {
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 20px;
+  color: rgb(110, 110, 115);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
-  #archiveFilterContainer {
+  #archiveFilterContainer,
+  #archivePageContainer {
     width: 692px;
+  }
+  .archivePagePost {
+    padding: 24px 0px;
+  }
+  .archivePagePostImg {
+    width: 264px;
+  }
+  .archivePagePostTextContainer {
+    margin-left: 24px;
+  }
+  .archivePagePostTitle {
+    font-size: 19px;
+    line-height: 25px;
   }
 }
 /* 螢幕小於 734 */
@@ -49,5 +89,20 @@
   #archiveFilterContainer {
     width: 87.5%;
     padding: 24px 0px;
+  }
+  #archivePageContainer {
+    width: 87.5%;
+  }
+  .archivePagePostImg {
+    width: 106px;
+    border-radius: 7px;
+  }
+  .archivePagePostTitle {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 4px 0px 8px;
+  }
+  .archivePagePostDate {
+    line-height: 18px;
   }
 }
