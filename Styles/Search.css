@@ -63,6 +63,7 @@
   }
   .searchPagePostImg {
     width: 106px;
+    border-radius: 7px;
   }
   .searchPagePostTitle {
     font-size: 15px;
