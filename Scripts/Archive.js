@@ -1,5 +1,8 @@
 document.getElementById("SecondNav").classList.toggle("sticky-top");
 document.addEventListener("click", (event) => {
+    if (event.target == archiveFilterYearBtn || event.target == archiveFilterMonthBtn) {
+        return;
+    }
     hideArchiveFilterYear();
     hideArchiveFilterMonth();
 });
