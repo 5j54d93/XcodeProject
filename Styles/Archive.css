@@ -41,7 +41,7 @@
 .archiveFilterLink:hover {
   color: rgb(0, 102, 204);
 }
-.archivePagePostDate {
+.archivePagePostDateTitle {
   font-size: 26px;
   font-weight: 600;
   line-height: 32px;
@@ -79,7 +79,7 @@
   #archivePageContainer {
     width: 692px;
   }
-  .archivePagePostDate {
+  .archivePagePostDateTitle {
     font-size: 22px;
     line-height: 28px;
     margin: 48px 0 16px;
@@ -107,7 +107,7 @@
   #archivePageContainer {
     width: 87.5%;
   }
-  .archivePagePostDate {
+  .archivePagePostDateTitle {
     font-size: 19px;
     line-height: 25px;
     margin: 44px 0 16px;
