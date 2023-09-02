@@ -92,12 +92,12 @@
     margin-top: 24px;
   }
   #labelPagePost0, #labelPagePost2, #labelPagePost4, #labelPagePost6, #labelPagePost8 {
-    margin-right: 0px;
-    margin-left: 12px;
+    margin-left: 0px;
+    margin-right: 12px;
   }
   #labelPagePost1, #labelPagePost3, #labelPagePost5, #labelPagePost7, #labelPagePost9 {
-    margin-right: 12px;
-    margin-left: 0px;
+    margin-left: 12px;
+    margin-right: 0px;
   }
 }
 /* 螢幕小於 767.98 */
@@ -121,7 +121,7 @@
     margin-top: 24px;
   }
   #labelPagePost0, #labelPagePost1, #labelPagePost2, #labelPagePost3, #labelPagePost4, #labelPagePost5, #labelPagePost6, #labelPagePost7, #labelPagePost8, #labelPagePost9 {
-    margin-right: 0px;
     margin-left: 0px;
+    margin-right: 0px;
   }
 }
