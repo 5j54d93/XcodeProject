@@ -1,0 +1,17 @@
+#archiveFilterContainer {
+  width: 980px;
+  padding: 32px 0px;
+}
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  #archiveFilterContainer {
+    width: 692px;
+  }
+}
+/* 螢幕小於 734 */
+@media only screen and (max-width: 734px) {
+  #archiveFilterContainer {
+    width: 87.5%;
+    padding: 24px 0px;
+  }
+}
