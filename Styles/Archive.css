@@ -24,6 +24,8 @@
 #archiveFilterMonthList {
   top: 40px;
   padding: 8px;
+  overflow: scroll;
+  max-height: 334px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   --bs-border-color: rgb(245,245,247);
