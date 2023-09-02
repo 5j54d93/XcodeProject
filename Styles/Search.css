@@ -5,7 +5,7 @@
   font-size: 10px;
   font-weight: 500;
   line-height: 16px;
-  margin: 40px 32px;
+  margin: 40px 0px 32px;
   color: rgb(110, 110, 115);
 }
 /* 螢幕小於 1068 */
@@ -14,7 +14,7 @@
     width: 692px;
   }
   #searchPageResultCountText {
-    margin: 40px 24px;
+    margin: 40px 0px 24px;
   }
 }
 /* 螢幕小於 734 */
@@ -23,6 +23,6 @@
     width: 87.5%;
   }
   #searchPageResultCountText {
-    margin: 32px 24px;
+    margin: 32px 0px 24px;
   }
 }
