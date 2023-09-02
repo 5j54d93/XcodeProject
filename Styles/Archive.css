@@ -8,11 +8,20 @@
   margin-right: 6px;
   border-radius: 7px;
 }
-#archiveFilterYearBtnIcon {
+#archiveFilterMonthBtn {
+  height: 40px;
+  max-width: 255px;
+  margin-left: 6px;
+  margin-right: 16px;
+  border-radius: 7px;
+}
+#archiveFilterYearBtnIcon,
+#archiveFilterMonthBtnIcon {
   font-size: 10px;
   color: rgb(134, 134, 139);
 }
-#archiveFilterYearList {
+#archiveFilterYearList,
+#archiveFilterMonthList {
   top: 40px;
   padding: 8px;
   display: none;
