@@ -72,6 +72,13 @@
   line-height: 20px;
   color: rgb(110, 110, 115);
 }
+#archivePageResultEndText {
+  font-size: 17px;
+  margin: 60px 0px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #archiveFilterContainer,
@@ -122,5 +129,8 @@
   }
   .archivePagePostDate {
     line-height: 18px;
+  }
+  #archivePageResultEndText {
+    margin: 45px 0px;
   }
 }
