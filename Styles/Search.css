@@ -8,6 +8,29 @@
   margin: 40px 0px 32px;
   color: rgb(110, 110, 115);
 }
+.searchPagePost {
+  padding: 32px 0px;
+}
+.searchPagePostImg {
+  width: 295px;
+  border-radius: 16px;
+}
+.searchPagePostTextContainer {
+  margin-left: 32px;
+}
+.searchPagePostTitle {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 8px 0px 12px;
+  color: rgb(29, 29, 31);
+}
+.searchPagePostDate {
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 20px;
+  color: rgb(110, 110, 115);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #searchPageContainer {
@@ -15,6 +38,19 @@
   }
   #searchPageResultCountText {
     margin: 40px 0px 24px;
+  }
+  .searchPagePost {
+    padding: 24px 0px;
+  }
+  .searchPagePostImg {
+    width: 264px;
+  }
+  .searchPagePostTextContainer {
+    margin-left: 24px;
+  }
+  .searchPagePostTitle {
+    font-size: 19px;
+    line-height: 25px;
   }
 }
 /* 螢幕小於 734 */
@@ -24,5 +60,16 @@
   }
   #searchPageResultCountText {
     margin: 32px 0px 24px;
+  }
+  .searchPagePostImg {
+    width: 106px;
+  }
+  .searchPagePostTitle {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 4px 0px 8px;
+  }
+  .searchPagePostDate {
+    line-height: 18px;
   }
 }
