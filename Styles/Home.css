@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(245, 245, 247);
+}
 /* 首頁容器 */
 #homeContainer {
   width: auto;
