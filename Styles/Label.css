@@ -47,6 +47,21 @@
 #labelPagePostCol1, #labelPagePostCol2, #labelPagePostCol3, #labelPagePostCol4, #labelPagePostCol5, #labelPagePostCol6, #labelPagePostCol7, #labelPagePostCol8, #labelPagePostCol9 {
   margin-top: 36px;
 }
+#labelPagePost0 {
+  margin-right: 0px;
+}
+#labelPagePost1, #labelPagePost4, #labelPagePost7 {
+  margin-right: 24px;
+  margin-left: 0px;
+}
+#labelPagePost2, #labelPagePost5, #labelPagePost8 {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+#labelPagePost3, #labelPagePost6, #labelPagePost9 {
+  margin-right: 0px;
+  margin-left: 24px;
+}
 /* 螢幕小於 991.98 */
 @media only screen and (max-width: 991.98px) {
   #labelPageContainer {
@@ -76,6 +91,14 @@
   #labelPagePostCol2, #labelPagePostCol3, #labelPagePostCol4, #labelPagePostCol5, #labelPagePostCol6, #labelPagePostCol7, #labelPagePostCol8, #labelPagePostCol9 {
     margin-top: 24px;
   }
+  #labelPagePost0, #labelPagePost2, #labelPagePost4, #labelPagePost6, #labelPagePost8 {
+    margin-right: 0px;
+    margin-left: 12px;
+  }
+  #labelPagePost1, #labelPagePost3, #labelPagePost5, #labelPagePost7, #labelPagePost9 {
+    margin-right: 12px;
+    margin-left: 0px;
+  }
 }
 /* 螢幕小於 767.98 */
 @media (max-width: 767.98px) {
@@ -96,5 +119,9 @@
   }
   #labelPagePostCol1 {
     margin-top: 24px;
+  }
+  #labelPagePost0, #labelPagePost1, #labelPagePost2, #labelPagePost3, #labelPagePost4, #labelPagePost5, #labelPagePost6, #labelPagePost7, #labelPagePost8, #labelPagePost9 {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
