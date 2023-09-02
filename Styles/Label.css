@@ -1,6 +1,7 @@
 #labelPageContainer {
   max-width: 1020px;
   padding: 40px 20px 0px;
+  transition: all .35s ease;
 }
 #labelPageTitle {
   font-size: 32px;
@@ -17,7 +18,8 @@
   transform: translateY(20%);
   transition: .8s all ease;
 }
-.labelPagePost:hover .labelPagePostImg {
+.labelPagePost:hover .labelPagePostImg,
+.labelPagePostImgContainer:hover .labelPagePostImg {
   transform: scale(1.03);
 }
 .labelPagePost.show {
@@ -38,6 +40,10 @@
   line-height: 36px;
   color: rgb(29, 29, 31);
 }
+.labelPagePostImgContainer {
+  min-height: 170px;
+  position: relative;
+}
 /* 螢幕小於 991.98 */
 @media only screen and (max-width: 991.98px) {
   #labelPageContainer {
@@ -49,7 +55,8 @@
     line-height: 32px;
     margin-bottom: 16px;
   }
-  #labelPageFirstPostImgContainer {
+  #labelPageFirstPostImgContainer,
+  .labelPagePostImgContainer {
     min-height: 187px;
   }
   #labelPageFirstPostTextContainer {
@@ -74,7 +81,8 @@
   .labelPagePost {
     border-radius: 12px;
   }
-  #labelPageFirstPostImgContainer {
+  #labelPageFirstPostImgContainer,
+  .labelPagePostImgContainer {
     min-height: 158px;
   }
 }
