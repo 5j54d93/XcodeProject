@@ -43,6 +43,7 @@
 }
 .archivePagePost {
   padding: 32px 0px;
+  --bs-border-color: rgb(210, 210, 215);
 }
 .archivePagePostImg {
   width: 295px;
