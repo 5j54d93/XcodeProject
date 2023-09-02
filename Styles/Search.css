@@ -38,6 +38,13 @@
   line-height: 25px;
   color: rgb(29, 29, 31);
 }
+#searchPageResultNone {
+  height: 50vh;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #searchPageContainer {
@@ -58,6 +65,10 @@
   .searchPagePostTitle {
     font-size: 19px;
     line-height: 25px;
+  }
+  #searchPageResultNone {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
 /* 螢幕小於 734 */
@@ -82,5 +93,9 @@
   }
   #searchPageResultEndText {
     margin: 45px 0px;
+  }
+  #searchPageResultNone {
+    font-size: 28px;
+    line-height: 36px;
   }
 }
