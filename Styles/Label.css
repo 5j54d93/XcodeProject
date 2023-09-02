@@ -44,7 +44,7 @@
   min-height: 170px;
   position: relative;
 }
-#labelPagePost1, #labelPagePost2, #labelPagePost3, #labelPagePost4, #labelPagePost5, #labelPagePost6, #labelPagePost7, #labelPagePost8, #labelPagePost9 {
+#labelPagePostCol1, #labelPagePostCol2, #labelPagePostCol3, #labelPagePostCol4, #labelPagePostCol5, #labelPagePostCol6, #labelPagePostCol7, #labelPagePostCol8, #labelPagePostCol9 {
   margin-top: 36px;
 }
 /* 螢幕小於 991.98 */
@@ -70,10 +70,10 @@
     font-weight: 500;
     line-height: 23px;
   }
-  #labelPagePost1 {
+  #labelPagePostCol1 {
     margin-top: 0px;
   }
-  #labelPagePost2, #labelPagePost3, #labelPagePost4, #labelPagePost5, #labelPagePost6, #labelPagePost7, #labelPagePost8, #labelPagePost9 {
+  #labelPagePostCol2, #labelPagePostCol3, #labelPagePostCol4, #labelPagePostCol5, #labelPagePostCol6, #labelPagePostCol7, #labelPagePostCol8, #labelPagePostCol9 {
     margin-top: 24px;
   }
 }
@@ -94,7 +94,7 @@
   .labelPagePostImgContainer {
     min-height: 158px;
   }
-  #labelPagePost1 {
+  #labelPagePostCol1 {
     margin-top: 24px;
   }
 }
