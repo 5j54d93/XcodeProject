@@ -4,6 +4,7 @@
 }
 #archivePageContainer {
   width: 980px;
+  --bs-border-color: rgb(210, 210, 215);
 }
 #archiveFilterYearBtn {
   height: 40px;
@@ -78,7 +79,6 @@
   font-weight: 400;
   line-height: 25px;
   color: rgb(29, 29, 31);
-  --bs-border-color: rgb(210, 210, 215);
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
