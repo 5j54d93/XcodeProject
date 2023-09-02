@@ -53,4 +53,6 @@ function hideArchiveFilterMonth() {
 }
 function showArchiveProgressView() {
     archivePageProgressView.style.display = "block";
+    hideArchiveFilterYear();
+    hideArchiveFilterMonth();
 }
