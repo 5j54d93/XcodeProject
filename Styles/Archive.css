@@ -2,6 +2,32 @@
   width: 980px;
   padding: 32px 0px;
 }
+#archiveFilterYearBtn {
+  height: 40px;
+  max-width: 255px;
+  margin-right: 6px;
+  border-radius: 7px;
+}
+#archiveFilterYearBtnIcon {
+  font-size: 10px;
+  color: rgb(134, 134, 139);
+}
+#archiveFilterYearList {
+  top: 40px;
+  padding: 8px;
+  display: none;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  --bs-border-color: rgb(245,245,247);
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+}
+.archiveFilterLink {
+  padding: 8px;
+  color: rgb(29, 29, 31);
+}
+.archiveFilterLink:hover {
+  color: rgb(0, 102, 204);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #archiveFilterContainer {
