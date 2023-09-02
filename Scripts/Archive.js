@@ -51,3 +51,6 @@ function hideArchiveFilterMonth() {
     archiveFilterMonthBtnIcon.classList.remove("bi-chevron-up");
     archiveFilterMonthBtnIcon.classList.add("bi-chevron-down");
 }
+function showArchiveProgressView() {
+    archivePageProgressView.style.display = "block";
+}
