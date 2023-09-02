@@ -10,8 +10,8 @@
   margin-bottom: 24px;
   color: rgb(29, 29, 31);
 }
-/* 螢幕小於 767.98 */
-@media (max-width: 767.98px) {
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
   #labelPageContainer {
     max-width: 732px;
   }
@@ -22,8 +22,8 @@
     margin-bottom: 16px;
   }
 }
-/* 螢幕小於 575.98 */
-@media (max-width: 575.98px) {
+/* 螢幕小於 734 */
+@media (max-width: 734px) {
   #labelPageContainer {
     max-width: 406px;
     padding: 24px 20px 0px;
