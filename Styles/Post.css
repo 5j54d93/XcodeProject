@@ -38,6 +38,10 @@ p {
 .syntaxTitle {
   color: rgb(112, 61, 170);
 }
+/* 文章中程式碼裡的註解（灰色）*/
+.syntaxComment {
+  color: rgb(112, 127, 140);
+}
 .blogPostImgContainer {
   padding: 0px;
   max-width: 980px;
