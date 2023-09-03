@@ -41,6 +41,7 @@ p {
 .blogPostImgContainer {
   padding: 0px;
   max-width: 980px;
+  margin-bottom: 27px;
   transition: all .35s ease;
 }
 .blogPostImg {
@@ -203,9 +204,8 @@ p {
     line-height: 24px;
     padding: 0px 20px 0px;
   }
-  p {
-    margin-bottom: 24px;
-  }
+  p,
+  .blogPostImgContainer,
   .codeBlock {
     margin-bottom: 24px;
   }
