@@ -1,3 +1,6 @@
+const date = new Date();
+homeReadHistoryPostBtn.href = "/" + date.getFullYear() + "/" + ("0" + (date.getMonth() + 1)).slice(-2);
+
 window.addEventListener("DOMContentLoaded", () => {
     const homeNewPosts = document.querySelectorAll(".homeNewPost");
     homeNewPosts.forEach(homeNewPost => {
