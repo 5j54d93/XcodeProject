@@ -201,7 +201,7 @@ p {
     font-weight: 300;
     max-width: 616px;
     line-height: 24px;
-    padding: 0px 20px 8px;
+    padding: 0px 20px 0px;
   }
   p {
     margin-bottom: 24px;
