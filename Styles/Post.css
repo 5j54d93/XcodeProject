@@ -38,6 +38,14 @@ p {
 .syntaxTitle {
   color: rgb(112, 61, 170);
 }
+/* 文章中程式碼裡的字串（橘色）*/
+.syntaxString {
+  color: rgb(209, 47, 27);
+}
+/* 文章中程式碼裡的數字（藍色）*/
+.syntaxInt {
+  color: rgb(39, 42, 216);
+}
 /* 文章中程式碼裡的註解（灰色）*/
 .syntaxComment {
   color: rgb(112, 127, 140);
