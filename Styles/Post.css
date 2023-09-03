@@ -1,3 +1,4 @@
+/* 文章頂部區塊 */
 #blogPostTopSection {
   max-width: 693px;
   padding: 64px 20px 0px;
@@ -16,6 +17,22 @@
   line-height: 27px;
   padding: 0px 20px 11px;
   transition: all .35s ease;
+}
+/* 文章中的程式碼區塊 */
+.codeBlock {
+  color: black;
+  padding: 8px 14px; 
+  line-height: 24px;
+  border-radius: 15px;
+  background-color: rgb(245, 245, 247);
+}
+/* 文章中程式碼裡的文法關鍵字（粉色）*/
+.syntaxKeyword {
+  color: rgb(173, 61, 164);
+}
+/* 文章中程式碼裡的文法標題（紫色）*/
+.syntaxTitle {
+  color: rgb(112, 61, 170);
 }
 .blogPostImgContainer {
   padding: 0px;
