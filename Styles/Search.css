@@ -13,6 +13,7 @@
 }
 .searchPagePostImg {
   width: 295px;
+  height: 166px;
   border-radius: 16px;
   background-color: rgb(250, 250, 250);
 }
@@ -58,6 +59,7 @@
   }
   .searchPagePostImg {
     width: 264px;
+    height: 149px;
   }
   .searchPagePostTextContainer {
     margin-left: 24px;
@@ -82,6 +84,7 @@
   }
   .searchPagePostImg {
     width: 106px;
+    height: 60px;
     border-radius: 7px;
   }
   .searchPagePostTitle {
