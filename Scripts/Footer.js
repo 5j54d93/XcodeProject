@@ -1,5 +1,6 @@
 const footerDate = new Date();
 footerCopyright.innerText = "Copyright © " + footerDate.getFullYear() + " XcodeProject Inc. 保留一切權利。"
+footerReadHistoryPostLink.href = "/" + footerDate.getFullYear() + "/" + ("0" + (footerDate.getMonth() + 1)).slice(-2);
 
 function rotate(id) {
     const obj = document.getElementById(String(id));
