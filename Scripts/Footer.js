@@ -1,4 +1,3 @@
-const date = new Date();
 footerCopyright.innerText = "Copyright © " + date.getFullYear() + " XcodeProject Inc. 保留一切權利。"
 
 function rotate(id) {
