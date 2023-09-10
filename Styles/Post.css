@@ -23,7 +23,7 @@ p {
 }
 table {
   font-size: 17px;
-  margin-bottom: 27px;
+  margin-bottom: 27px !important;
 }
 /* 文章中的程式碼區塊 */
 .codeBlock {
@@ -242,7 +242,7 @@ table {
   }
   table {
     font-size: 15px;
-    margin-bottom: 24px;
+    margin-bottom: 24px !important;
   }
   .blogPostImgContainer {
     max-width: 692px;
