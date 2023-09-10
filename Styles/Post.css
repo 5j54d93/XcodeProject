@@ -21,6 +21,9 @@
 p {
   margin-bottom: 27px;
 }
+table {
+  font-size: 17px;
+}
 /* 文章中的程式碼區塊 */
 .codeBlock {
   color: black;
@@ -235,6 +238,9 @@ p {
   .blogPostImgContainer,
   .codeBlock {
     margin-bottom: 24px;
+  }
+  table {
+    font-size: 15px;
   }
   .blogPostImgContainer {
     max-width: 692px;
