@@ -1,4 +1,5 @@
-footerCopyright.innerText = "Copyright © " + date.getFullYear() + " XcodeProject Inc. 保留一切權利。"
+const footerDate = new Date();
+footerCopyright.innerText = "Copyright © " + footerDate.getFullYear() + " XcodeProject Inc. 保留一切權利。"
 
 function rotate(id) {
     const obj = document.getElementById(String(id));
