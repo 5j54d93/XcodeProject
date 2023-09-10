@@ -1,4 +1,3 @@
-const date = new Date();
 window.addEventListener('resize', () => {
     if (window.innerWidth > 768 && hamburgerBtn.ariaExpanded === "true") { // 全螢幕導覽列展開中
         var 全螢幕導覽列收合元件 = new bootstrap.Collapse(fullScreenNav);
