@@ -1,6 +1,5 @@
 const date = new Date();
 homeReadHistoryPostBtn.href = "/" + date.getFullYear() + "/" + ("0" + (date.getMonth() + 1)).slice(-2);
-footerCopyright.innerText = "Copyright © " + date.getFullYear() + " XcodeProject Inc. 保留一切權利。"
 
 window.addEventListener("DOMContentLoaded", () => {
     const homeNewPosts = document.querySelectorAll(".homeNewPost");
