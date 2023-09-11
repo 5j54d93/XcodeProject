@@ -86,6 +86,12 @@
   color: rgb(0, 102, 204);
   background-color: rgba(255, 255, 255, 0.8);
 }
+#archivePageResultNone {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #archiveFilterContainer,
@@ -110,6 +116,11 @@
   .archivePagePostTitle {
     font-size: 19px;
     line-height: 25px;
+  }
+  #archivePageResultNone {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
   }
 }
 /* 螢幕小於 734 */
@@ -141,5 +152,9 @@
   }
   #archivePageResultEndText {
     margin: 45px 0px;
+  }
+  #archivePageResultNone {
+    font-size: 24px;
+    line-height: 36px;
   }
 }
