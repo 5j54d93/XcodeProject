@@ -1,0 +1,16 @@
+#PageContainer {
+  max-width: 980px;
+  transition: all .35s ease;
+}
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  #PageContainer {
+    width: 692px;
+  }
+}
+/* 螢幕小於 734 */
+@media only screen and (max-width: 734px) {
+  #PageContainer {
+    width: 90%;
+  }
+}
