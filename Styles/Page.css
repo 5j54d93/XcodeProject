@@ -1,5 +1,6 @@
 #PageContainer {
   max-width: 980px;
+  margin-bottom: 60px;
   transition: all .35s ease;
 }
 #contactTitle {
@@ -56,6 +57,7 @@
 @media only screen and (max-width: 734px) {
   #PageContainer {
     width: 90%;
+    margin-bottom: 40px;
   }
   #contactTitle {
     height: 39px;
