@@ -20,6 +20,15 @@
   line-height: 44px;
   color: rgb(29, 29, 31);
 }
+.contactTitle3 {
+  height: 32px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 33.6px;
+  margin-bottom: 11.2px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #PageContainer {
@@ -34,6 +43,13 @@
     height: 36px;
     font-size: 28px;
     line-height: 36px;
+  }
+  .contactTitle3 {
+    height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 28.8px;
+    margin-bottom: 9.6px;
   }
 }
 /* 螢幕小於 734 */
@@ -54,5 +70,12 @@
     height: 32px;
     font-size: 24px;
     line-height: 32px;
+  }
+  .contactTitle3 {
+    height: 25px;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 25.2px;
+    margin-bottom: 8.4px;
   }
 }
