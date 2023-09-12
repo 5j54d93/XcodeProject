@@ -2,15 +2,39 @@
   max-width: 980px;
   transition: all .35s ease;
 }
+#contactTitle {
+  height: 68px;
+  font-size: 56px;
+  font-weight: 600;
+  margin-top: 80px;
+  line-height: 68px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #PageContainer {
     width: 692px;
+  }
+  #contactTitle {
+    height: 52px;
+    font-size: 40px;
+    line-height: 52px;
   }
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
   #PageContainer {
     width: 90%;
+  }
+  #contactTitle {
+    height: 39px;
+    margin-left: 0;
+    font-size: 28px;
+    margin-top: 60px;
+    line-height: 39px;
+    margin-bottom: 60px;
   }
 }
