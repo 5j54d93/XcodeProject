@@ -15,8 +15,8 @@
 }
 #contactTitle2 {
   height: 44px;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 34px;
+  font-weight: 500;
   line-height: 44px;
   color: rgb(29, 29, 31);
 }
@@ -32,7 +32,7 @@
   }
   #contactTitle2 {
     height: 36px;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 36px;
   }
 }
@@ -52,7 +52,7 @@
   }
   #contactTitle2 {
     height: 32px;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 32px;
   }
 }
