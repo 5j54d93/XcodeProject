@@ -22,8 +22,8 @@
 }
 .contactTitle3 {
   height: 32px;
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   line-height: 32px;
   margin-top: 33.6px;
   margin-bottom: 11.2px;
@@ -46,7 +46,7 @@
   }
   .contactTitle3 {
     height: 28px;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 28px;
     margin-top: 28.8px;
     margin-bottom: 9.6px;
@@ -73,7 +73,7 @@
   }
   .contactTitle3 {
     height: 25px;
-    font-size: 21px;
+    font-size: 19px;
     line-height: 25px;
     margin-top: 25.2px;
     margin-bottom: 8.4px;
