@@ -38,7 +38,7 @@
   line-height: 24px;
 }
 #sitemapContainer {
-  margin-top: 65px;
+  margin-top: 39px;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
@@ -94,6 +94,6 @@
     font-size: 17px;
   }
   #sitemapContainer {
-    margin-top: 45px;
+    margin-top: 19px;
   }
 }
