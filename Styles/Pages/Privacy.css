@@ -22,6 +22,19 @@
   margin-bottom: 21px;
   color: rgb(29, 29, 31);
 }
+.privacyTitle2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 32.93px;
+  margin-bottom: 32.93px;
+  color: rgb(29, 29, 31);
+}
+.privacyContext {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 17px;
+  color: rgb(29, 29, 31);
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #PageContainer {
@@ -33,6 +46,9 @@
     margin-top: 50px;
     line-height: 25px;
     margin-bottom: 18px;
+  }
+  .privacyTitle2 {
+    font-size: 24px;
   }
 }
 /* 螢幕小於 734 */
@@ -52,5 +68,8 @@
     font-size: 17px;
     font-weight: 300;
     margin-bottom: 19px;
+  }
+  .privacyTitle2 {
+    font-size: 22px;
   }
 }
