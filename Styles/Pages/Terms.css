@@ -1,0 +1,28 @@
+#PageContainer {
+  width: 816.66px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  transition: all .35s ease;
+}
+#termsTitle {
+  height: 52px;
+  font-size: 48px;
+  font-weight: 600;
+  lie-height: 52px;
+  margin-bottom: 21.6px;
+  color: rgb(29, 29, 31);
+}
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  #PageContainer {
+    width: 576.66px;
+    margin-top: 50px;
+  }
+}
+/* 螢幕小於 734 */
+@media only screen and (max-width: 734px) {
+  #PageContainer {
+    width: 87.5%;
+    margin-top: 35px;
+  }
+}
