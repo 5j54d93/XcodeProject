@@ -1,2 +1,2 @@
 const termsDate = new Date();
-termsCurrentYear.innerText = termsDate.getFullYear() + "";
+termsCurrentYear.innerHTML = termsDate.getFullYear();
