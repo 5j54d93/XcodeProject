@@ -1,11 +1,41 @@
 #privacyTitle {
   height: 52px;
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 42px;
+  font-weight: 500;
   margin-top: 70px;
   line-height: 52px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21.6px;
   color: rgb(29, 29, 31);
+}
+.privacySummary {
+  height: 29px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 21px;
+  color: rgb(29, 29, 31);
+}
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  #privacyTitle {
+    height: 25px;
+    font-size: 34px;
+    margin-top: 50px;
+    line-height: 25px;
+    margin-bottom: 18px;
+  }
+}
+/* 螢幕小於 734 */
+@media only screen and (max-width: 734px) {
+  #privacyTitle {
+    height: 39px;
+    margin-left: 0;
+    font-size: 28px;
+    margin-top: 35px;
+    line-height: 39px;
+  }
 }
