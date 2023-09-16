@@ -23,10 +23,16 @@
   color: rgb(29, 29, 31);
 }
 .termsTitle2 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 21px;
+  font-weight: 500;
   margin-top: 50px;
   margin-bottom: 10.8px;
+  color: rgb(29, 29, 31);
+}
+.termsContext {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 17px;
   color: rgb(29, 29, 31);
 }
 /* 螢幕小於 1068 */
