@@ -5,10 +5,8 @@
   transition: all .35s ease;
 }
 #termsTitle {
-  height: 52px;
   font-size: 42px;
   font-weight: 500;
-  lie-height: 52px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21.6px;
@@ -42,9 +40,7 @@
     margin-top: 50px;
   }
   #termsTitle {
-    height: 44px;
     font-size: 34px;
-    lie-height: 44px;
     margin-bottom: 18px;
   }
   .termsTitle2 {
@@ -59,10 +55,8 @@
     margin-top: 35px;
   }
   #termsTitle {
-    height: 39px;
     margin-left: 0;
     font-size: 28px;
-    lie-height: 39px;
     margin-bottom: 14.4px;
   }
   #termsSummary {
