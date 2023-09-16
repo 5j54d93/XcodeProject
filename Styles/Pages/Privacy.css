@@ -8,7 +8,9 @@
   font-size: 42px;
   font-weight: 500;
   margin-top: 70px;
+  margin-left: auto;
   line-height: 52px;
+  margin-right: auto;
   margin-bottom: 21.6px;
   color: rgb(29, 29, 31);
 }
@@ -40,11 +42,13 @@
   }
   #privacyTitle {
     height: 39px;
+    margin-left: 0;
     font-size: 28px;
     margin-top: 35px;
     line-height: 39px;
   }
   .privacySummary {
+    margin-left: 0;
     font-size: 19px;
     margin-bottom: 19px;
   }
