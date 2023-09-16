@@ -9,16 +9,12 @@
   font-weight: 500;
   margin-top: 70px;
   line-height: 52px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 21.6px;
   color: rgb(29, 29, 31);
 }
 .privacySummary {
-  height: 29px;
   font-size: 18px;
   font-weight: 350;
-  line-height: 29px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21px;
@@ -44,16 +40,12 @@
   }
   #privacyTitle {
     height: 39px;
-    margin-left: 0;
     font-size: 28px;
     margin-top: 35px;
     line-height: 39px;
   }
   .privacySummary {
-    height: 27px;
-    margin-left: 0;
     font-size: 19px;
-    line-height: 27px;
     margin-bottom: 19px;
   }
 }
