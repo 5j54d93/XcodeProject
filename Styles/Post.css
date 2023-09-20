@@ -65,6 +65,7 @@ table {
 }
 .blogPostCaution {
   padding: 16px;
+  margin-bottom: 27px;
   border-radius: 15px;
   --bs-border-width: 0.87px;
   --bs-border-color: rgb(158,103,0);
@@ -237,7 +238,8 @@ table {
   }
   p,
   .blogPostImgContainer,
-  .codeBlock {
+  .codeBlock
+  .blogPostCaution {
     margin-bottom: 24px;
   }
   table {
