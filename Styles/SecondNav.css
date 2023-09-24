@@ -32,6 +32,10 @@
   z-index: 1022;
   background-color: rgb(245, 245, 245);
 }
+#hotTopicsContainer {
+  max-width: 1024px;
+  padding: 28px 22px 64px;
+}
 /* 上方導覽列二展開的熱門主題連結 */
 .hotTopicLink {
   font-size: 14px;
@@ -70,6 +74,9 @@
   /* 上方導覽列二容器左右間距變小 */
   #secondNavContainer {
     padding: 0px 16px;
+  }
+  #hotTopicsContainer {
+    padding: 4px 22px 64px;
   }
   /* 上方導覽列二展開的熱門主題連結字變大 */
   .hotTopicLink {
