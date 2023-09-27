@@ -67,6 +67,14 @@ table {
   margin-bottom: 27px;
   transition: all .35s ease;
 }
+.blogPostTableContainer {
+  padding: 0px;
+  font-size: 17px;
+  font-weight: 300;
+  max-width: 980px;
+  margin-bottom: 27px;
+  transition: all .35s ease;
+}
 .blogPostImg {
   border-radius: 10px;
 }
@@ -245,6 +253,7 @@ table {
   }
   p,
   .blogPostImgContainer,
+  .blogPostTableContainer,
   .codeBlock
   .blogPostCaution {
     margin-bottom: 24px;
@@ -253,7 +262,8 @@ table {
     font-size: 15px;
     margin-bottom: 24px !important;
   }
-  .blogPostImgContainer {
+  .blogPostImgContainer,
+  .blogPostTableContainer {
     max-width: 692px;
   }
   #blogPostShareTitle {
@@ -320,7 +330,8 @@ table {
   #blogPostBottomSection {
     max-width: 402px;
   }
-  .blogPostImgContainer {
+  .blogPostImgContainer,
+  .blogPostTableContainer {
     max-width: 454px;
   }
   #blogPostTitle {
