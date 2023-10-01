@@ -11,6 +11,11 @@
   max-width: 1024px;
   transition: all .35s ease;
 }
+/* 寬螢幕上方導覽列二右方的「XcodeProject 搜索框」 */
+#wideScreenSecondNavSearchForm {
+  width: 234px;
+  --bs-border-color: rgb(134, 134, 139);
+}
 /* 寬螢幕上方導覽列二右方的「XcodeProject 搜索」按鈕 */
 #wideScreenSecondNavSearchBtn {
   font-size: 11px;
@@ -91,5 +96,8 @@
     font-size: 17px;
     margin-top: 14px;
     padding-left: 34px;
+  }
+  #wideScreenSecondNavSearchBtn {
+    display: none;
   }
 }
