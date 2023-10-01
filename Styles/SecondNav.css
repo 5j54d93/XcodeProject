@@ -21,6 +21,10 @@
   font-size: 12px;
   font-weight: 300;
 }
+#wideScreenSecondNavSearchBar::-webkit-search-cancel-button,
+#wideScreenSecondNavSearchBar::-webkit-search-results-button {
+  -webkit-appearance: none;
+}
 /* 寬螢幕上方導覽列二右方的「XcodeProject 搜索」按鈕 */
 #wideScreenSecondNavSearchBtn {
   font-size: 11px;
