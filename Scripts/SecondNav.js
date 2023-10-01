@@ -1,3 +1,11 @@
+// XcodeProject 搜索框「開始出現」
+wideScreenSecondNavSearchForm.addEventListener('show.bs.collapse', event => {
+    wideScreenSecondNavSearchBtn.style.display = "none";
+})
+// XcodeProject 搜索框「開始隱藏」
+wideScreenSecondNavSearchForm.addEventListener('hide.bs.collapse', event => {
+    wideScreenSecondNavSearchBtn.style.display = "block";
+})
 // 熱門話題「開始出現」
 hotTopics.addEventListener('show.bs.collapse', event => {
     document.body.style.position = "fixed";
