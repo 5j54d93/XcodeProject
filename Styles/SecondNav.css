@@ -98,6 +98,6 @@
     padding-left: 34px;
   }
   #wideScreenSecondNavSearchBtn {
-    display: none;
+    display: none !important;
   }
 }
