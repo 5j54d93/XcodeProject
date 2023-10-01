@@ -2,12 +2,14 @@
 wideScreenSecondNavSearchForm.addEventListener('show.bs.collapse', event => {
     //wideScreenSecondNavSearchBtn.style.display = "none";
     wideScreenSecondNavSearchBtn.style.width = "0";
+    wideScreenSecondNavSearchBtn.style.height = "0";
     wideScreenSecondNavSearchBtn.style.opacity = "0";
 })
 // XcodeProject 搜索框「開始隱藏」
 wideScreenSecondNavSearchForm.addEventListener('hidden.bs.collapse', event => {
     //wideScreenSecondNavSearchBtn.style.display = "block";
     wideScreenSecondNavSearchBtn.style.width = "auto";
+    wideScreenSecondNavSearchBtn.style.height = "auto";
     wideScreenSecondNavSearchBtn.style.opacity = "1";
 })
 // 熱門話題「開始出現」
