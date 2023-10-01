@@ -1,6 +1,7 @@
 // XcodeProject 搜索框「開始出現」
 wideScreenSecondNavSearchForm.addEventListener('show.bs.collapse', event => {
     wideScreenSecondNavSearchBtn.style.display = "none";
+    wideScreenSecondNavSearchBar.focus();
 })
 // XcodeProject 搜索框「開始隱藏」
 wideScreenSecondNavSearchForm.addEventListener('hidden.bs.collapse', event => {
