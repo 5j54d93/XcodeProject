@@ -1,11 +1,19 @@
 body {
   background-color: rgb(245, 245, 247);
 }
+#homeTopAdContainer {
+  max-width: 980px;
+  padding: 16px 0 0;
+  transition: all .35s ease;
+}
+.homeTopAdImg {
+  border-radius: 10px;
+}
 /* 首頁容器 */
 #homeContainer {
   width: auto;
   max-width: 980px;
-  padding: 40px 0 80px;
+  padding: 24px 0 80px;
   transition: all .35s ease;
 }
 /* 標題「最新文章」*/
@@ -80,7 +88,7 @@ body {
   color: rgb(110, 110, 115);
 }
 #homeNewPost5, #homeNewPost8 {
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 24px;
 }
 #homeNewPost6, #homeNewPost9 {
@@ -89,7 +97,7 @@ body {
 }
 #homeNewPost7, #homeNewPost10 {
   margin-left: 24px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 .homeNewPost5-10ImgContainer {
   min-height: 170px;
@@ -98,7 +106,7 @@ body {
 #homePopularPostContainer {
   width: 87.5%;
   max-width: 980px;
-  padding: 80px 0px 80px;
+  padding: 80px 0 80px;
 }
 #homePopularPostTitle {
   font-size: 28px;
@@ -183,7 +191,7 @@ body {
     margin-top: 8px;
   }
   #homeNewPost5, #homeNewPost8 {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 16px;
   }
   #homeNewPost6, #homeNewPost9 {
@@ -192,11 +200,11 @@ body {
   }
   #homeNewPost7, #homeNewPost10 {
     margin-left: 16px;
-    margin-right: 0px;
+    margin-right: 0;
   }
   #homePopularPostContainer {
     max-width: 692px;
-    padding: 64px 0px 64px;
+    padding: 64px 0 64px;
   }
   #homePopularPostTitle {
     font-size: 25px;
@@ -213,12 +221,12 @@ body {
 /* 螢幕小於 991.98 */
 @media only screen and (max-width: 991.98px) {
   #homeNewPost5, #homeNewPost7, #homeNewPost9 {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 12px;
   }
   #homeNewPost6, #homeNewPost8, #homeNewPost10 {
     margin-left: 12px;
-    margin-right: 0px;
+    margin-right: 0;
   }
   .homeNewPost5-10ImgContainer {
     min-height: 187px;
@@ -227,19 +235,25 @@ body {
     --bs-border-width: 1px !important;
   }
   .homePopularPostImgContainer {
-    margin-left: 0px !important;
+    margin-left: 0 !important;
   }
   .homePopularPostTextContainer {
-    margin-right: 0px !important;
+    margin-right: 0 !important;
   }
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
+  #homeTopAdContainer {
+    width: 87.5%;
+  }
+  .homeTopAdImg {
+    border-radius: 12px;
+  }
   /* 首頁容器 */
   #homeContainer {
     width: 87.5%;
     max-width: 366px;
-    padding: 24px 0 40px;
+    padding: 12px 0 40px;
   }
   /* 標題「最新文章」*/
   #homeNewestPostTitle {
@@ -262,12 +276,12 @@ body {
   }
   #homeNewPost1, #homeNewPost3, #homeNewPost2, #homeNewPost4,
   #homeNewPost5, #homeNewPost6, #homeNewPost7, #homeNewPost8, #homeNewPost9, #homeNewPost10 {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
   #homePopularPostContainer {
     max-width: 366px;
-    padding: 40px 0px 52px;
+    padding: 40px 0 52px;
   }
   #homePopularPostTitle {
     font-size: 21px;
