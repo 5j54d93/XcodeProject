@@ -1,9 +1,17 @@
 body {
   background-color: rgb(245, 245, 247);
 }
+#labelPageTopAdContainer {
+  max-width: 980px;
+  padding: 16px 0 0;
+  transition: all .35s ease;
+}
+.labelPageTopAdImg {
+  border-radius: 10px;
+}
 #labelPageContainer {
   max-width: 1020px;
-  padding: 40px 20px 0px;
+  padding: 24px 20px 0px;
   transition: all .35s ease;
 }
 #labelPageTitle {
@@ -124,9 +132,16 @@ body {
 }
 /* 螢幕小於 767.98 */
 @media (max-width: 767.98px) {
+  #labelPageTopAdContainer {
+    width: 87.5%;
+    padding: 12px 0 0;
+  }
+  .labelPageTopAdImg {
+    border-radius: 12px;
+  }
   #labelPageContainer {
     max-width: 406px;
-    padding: 24px 20px 0px;
+    padding: 12px 20px 0px;
   }
   #labelPageTitle {
     font-size: 24px;
