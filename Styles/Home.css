@@ -103,6 +103,17 @@ body {
   min-height: 170px;
   background-color: rgb(250, 250, 250);
 }
+/* 首頁中間大廣告容器 */
+#homepageAdContainer {
+  width: 980px;
+  padding: 80px 0;
+}
+#homepageAdSubTitle {
+  font-size: 17px;
+  margin-top: 16px;
+  font-weight: 700;
+  line-height: 1.23536;
+}
 #homePopularPostContainer {
   width: 87.5%;
   max-width: 980px;
@@ -202,6 +213,16 @@ body {
     margin-left: 16px;
     margin-right: 0;
   }
+  /* 首頁中間大廣告容器 */
+  #homepageAdContainer {
+    width: 692px;
+    padding: 64px 0;
+  }
+  #homepageAdSubTitle {
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.28577;
+  }
   #homePopularPostContainer {
     max-width: 692px;
     padding: 64px 0 64px;
@@ -278,6 +299,14 @@ body {
   #homeNewPost5, #homeNewPost6, #homeNewPost7, #homeNewPost8, #homeNewPost9, #homeNewPost10 {
     margin-left: 0;
     margin-right: 0;
+  }
+  /* 首頁中間大廣告容器 */
+  #homepageAdContainer {
+    width: 87.5%;
+    padding: 40px 0;
+  }
+  #homepageAdSubTitle {
+    margin-top: 8px;
   }
   #homePopularPostContainer {
     max-width: 366px;
