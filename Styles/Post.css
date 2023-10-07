@@ -1,4 +1,4 @@
-#blogPostTopAd {
+#blogPostTopAdContainer {
   max-width: 980px;
   padding: 16px 0 0;
   transition: all .35s ease;
@@ -327,7 +327,7 @@ table {
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
-  #blogPostTopAd {
+  #blogPostTopAdContainer {
     width: 87.5%;
   }
   .blogPostTopAdImg {
