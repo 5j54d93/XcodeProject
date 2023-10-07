@@ -1,8 +1,10 @@
 #blogPostTopAd {
   max-width: 980px;
   padding: 16px 0 0;
-  border-radius: 10px;
   transition: all .35s ease;
+}
+.blogPostTopAdImg {
+  border-radius: 10px;
 }
 /* 文章頂部區塊 */
 #blogPostTopSection {
@@ -327,6 +329,8 @@ table {
 @media only screen and (max-width: 734px) {
   #blogPostTopAd {
     width: 87.5%;
+  }
+  .blogPostTopAdImg {
     border-radius: 12px;
   }
   #blogPostTopSection {
