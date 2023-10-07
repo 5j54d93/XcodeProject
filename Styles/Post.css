@@ -1,21 +1,27 @@
+#blogPostTopAd {
+  max-width: 980px;
+  padding: 16px 0 0;
+  border-radius: 10px;
+  transition: all .35s ease;
+}
 /* 文章頂部區塊 */
 #blogPostTopSection {
   max-width: 693px;
-  padding: 64px 20px 0px;
+  padding: 48px 20px 0;
   transition: all .35s ease;
 }
 .blogPostHeadline {
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
-  margin: 52px 0px 16px;
+  margin: 52px 0 16px;
 }
 .blogPost {
   font-size: 17px;
   font-weight: 300;
   max-width: 693px;
   line-height: 27px;
-  padding: 0px 20px 0px;
+  padding: 0 20px 0;
   transition: all .35s ease;
 }
 p {
@@ -62,13 +68,13 @@ table {
   background: rgb(0, 122, 255);
 }
 .blogPostImgContainer {
-  padding: 0px;
+  padding: 0;
   max-width: 980px;
   margin-bottom: 27px;
   transition: all .35s ease;
 }
 .blogPostTableContainer {
-  padding: 0px;
+  padding: 0;
   font-size: 17px;
   font-weight: 300;
   max-width: 980px;
@@ -96,7 +102,7 @@ table {
 }
 #blogPostBottomSection {
   max-width: 693px;
-  padding: 0px 20px;
+  padding: 0 20px;
   transition: all .35s ease;
 }
 #blogPostShareTitle {
@@ -116,13 +122,13 @@ table {
 #blogPostTitle {
   font-size: 45px;
   font-weight: 550;
-  margin: 20px 0px;
+  margin: 20px 0;
   line-height: 52px;
   color: rgb(29, 29, 31);
 }
 #blogPostTopic {
   padding: 36px;
-  margin: 44px 0px;
+  margin: 44px 0;
   border-radius: 10px;
   background-color: rgb(245, 245, 247);
 }
@@ -144,12 +150,12 @@ table {
   background-color: rgb(232, 232, 237) !important;
 }
 #blogPostBottomHr {
-  margin: 52px 0px;
+  margin: 52px 0;
   color: rgb(210, 210, 215);
 }
 #contactsContainer {
   max-width: 693px;
-  padding: 0px 20px;
+  padding: 0 20px;
   transition: all .35s ease;
 }
 #contactsTitle {
@@ -167,12 +173,12 @@ table {
   color: rgb(29, 29, 31);
 }
 #underContactsHr {
-  margin: 52px 0px;
+  margin: 52px 0;
   color: rgb(210, 210, 215);
 }
 #blogPostNewestPostContainer {
   max-width: 693px;
-  padding: 0px 20px;
+  padding: 0 20px;
   margin-bottom: 48px;
   transition: all .35s ease;
 }
@@ -183,7 +189,7 @@ table {
   color: rgb(29,29,31);
 }
 .blogPostNewestPost {
-  padding: 32px 0px;
+  padding: 32px 0;
 }
 .blogPostNewestPost:hover .blogPostNewestPostImg {
   transform: scale(1.03);
@@ -207,7 +213,7 @@ table {
   color: rgb(29, 29, 31);
 }
 #learnMore {
-  padding: 52px 0px;
+  padding: 52px 0;
   background-color: rgb(251 ,251, 253);
 }
 #learnMoreText {
@@ -237,19 +243,19 @@ table {
   #blogPostTitle {
     font-size: 37px;
     line-height: 44px;
-    margin: 20px 0px 16px;
+    margin: 20px 0 16px;
   }
   .blogPostHeadline {
     font-size: 21px;
     line-height: 25px;
-    margin: 48px 0px 16px;
+    margin: 48px 0 16px;
   }
   .blogPost {
     font-size: 15px;
     font-weight: 300;
     max-width: 616px;
     line-height: 24px;
-    padding: 0px 20px 0px;
+    padding: 0 20px 0;
   }
   p,
   .blogPostImgContainer,
@@ -271,7 +277,7 @@ table {
     margin-top: 36px;
   }
   #blogPostTopic {
-    margin: 36px 0px;
+    margin: 36px 0;
     padding: 32px;
   }
   #blogPostTopicTitle {
@@ -279,7 +285,7 @@ table {
     line-height: 21px;
   }
   #blogPostBottomHr {
-    margin: 48px 0px;
+    margin: 48px 0;
   }
   #contactsContainer {
     max-width: 616px;
@@ -294,7 +300,7 @@ table {
     line-height: 21px;
   }
   #underContactsHr {
-    margin: 48px 0px;
+    margin: 48px 0;
   }
   #blogPostNewestPostContainer {
     max-width: 616px;
@@ -309,7 +315,7 @@ table {
     line-height: 21px;
   }
   #learnMore {
-    padding: 48px 0px;
+    padding: 48px 0;
   }
   #learnMoreText {
     font-size: 15px;
@@ -319,12 +325,16 @@ table {
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
+  #blogPostTopAd {
+    width: 87.5%;
+    border-radius: 12px;
+  }
   #blogPostTopSection {
     max-width: 402px;
-    padding: 40px 20px 0px;
+    padding: 24px 20px 0;
   }
   .blogPostHeadline {
-    margin: 44px 0px 16px;
+    margin: 44px 0 16px;
   }
   .blogPost,
   #blogPostBottomSection {
@@ -342,25 +352,25 @@ table {
     margin-top: 32px;
   }
   #blogPostTopic {
-    margin: 32px 0px;
+    margin: 32px 0;
     padding: 24px;
   }
   #blogPostBottomHr {
-    margin: 44px 0px;
+    margin: 44px 0;
   }
   #contactsContainer {
     max-width: 402px;
     margin-bottom: 24px;
   }
   #underContactsHr {
-    margin: 44px 0px;
+    margin: 44px 0;
   }
   #blogPostNewestPostContainer {
     max-width: 402px;
     margin-bottom: 24px;
   }
   .blogPostNewestPost {
-    padding: 28px 0px;
+    padding: 28px 0;
   }
   .blogPostNewestPostImgContainer {
     min-width: 93px;
@@ -371,12 +381,12 @@ table {
     padding-left: 16px;
   }
   #learnMore {
-    padding: 44px 0px;
+    padding: 44px 0;
   }
 }
 /* 螢幕小於 454 */
 @media only screen and (max-width: 454px) {
   .blogPostImg {
-    border-radius: 0px;
+    border-radius: 0;
   }
 }
