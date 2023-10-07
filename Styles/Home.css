@@ -108,10 +108,15 @@ body {
   width: 980px;
   padding: 80px 0;
 }
+#homepageAdTitle {
+  font-size: 48px;
+  height: 37px;
+  line-height: 37px;
+}
 #homepageAdSubTitle {
-  font-size: 17px;
+  font-size: 15px;
   margin-top: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.23536;
 }
 #homePopularPostContainer {
@@ -218,8 +223,13 @@ body {
     width: 692px;
     padding: 64px 0;
   }
+  #homepageAdTitle {
+    font-size: 43px;
+    height: 34px;
+    line-height: 34px;
+  }
   #homepageAdSubTitle {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 12px;
     line-height: 1.28577;
   }
@@ -305,8 +315,13 @@ body {
     width: 87.5%;
     padding: 40px 0;
   }
-  #homepageAdSubTitle {
+  #homepageAdTitle {
     margin-top: 8px;
+  }
+  #homepageAdSubTitle {
+    font-size: 36px;
+    height: 28px;
+    line-height: 28px;
   }
   #homePopularPostContainer {
     max-width: 366px;
