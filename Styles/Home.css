@@ -316,12 +316,12 @@ body {
     padding: 40px 0;
   }
   #homepageAdTitle {
-    margin-top: 8px;
+    height: 28px;
+    font-size: 36px;
+    line-height: 28px;
   }
   #homepageAdSubTitle {
-    font-size: 36px;
-    height: 28px;
-    line-height: 28px;
+    margin-top: 8px;
   }
   #homePopularPostContainer {
     max-width: 366px;
