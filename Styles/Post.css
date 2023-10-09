@@ -12,7 +12,7 @@
   padding: 48px 20px 0;
   transition: all .35s ease;
 }
-.blogPostHeadline {
+h2 {
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
@@ -247,7 +247,7 @@ table {
     line-height: 44px;
     margin: 20px 0 16px;
   }
-  .blogPostHeadline {
+  h2 {
     font-size: 21px;
     line-height: 25px;
     margin: 48px 0 16px;
@@ -337,7 +337,7 @@ table {
     max-width: 402px;
     padding: 24px 20px 0;
   }
-  .blogPostHeadline {
+  h2 {
     margin: 44px 0 16px;
   }
   .blogPost,
