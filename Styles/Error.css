@@ -25,6 +25,15 @@
 #errorPageSearchInput::-webkit-search-results-button {
   -webkit-appearance: none;
 }
+#errorPageSitemapLink {
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(0, 102, 204);
+}
+#errorPageSitemapLink:hover {
+  text-decoration: underline;
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #errorPageContainer {
