@@ -36,6 +36,7 @@ p {
 table {
   font-size: 17px;
   margin-bottom: 27px !important;
+  --bs-table-border-color: rgb(210, 210, 215);
 }
 /* 文章中的程式碼區塊 */
 .codeBlock {
