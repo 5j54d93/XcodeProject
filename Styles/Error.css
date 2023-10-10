@@ -26,8 +26,8 @@
   -webkit-appearance: none;
 }
 #errorPageSitemapLink {
-  font-size: 17px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   text-decoration: none;
   color: rgb(0, 102, 204);
 }
