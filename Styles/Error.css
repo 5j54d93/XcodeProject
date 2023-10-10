@@ -13,12 +13,13 @@
   width: 490px;
   border-radius: 4px;
   margin-bottom: 24px;
+  --bs-body-bg: rgba(0, 0, 0, 0);
   border-color: rgb(214, 214, 214);
 }
 #errorPageSearchInput {
   font-size: 17px;
   color: rgb(51, 51, 51);
-  padding-top: 12px !important;
+  padding-top: 14px !important;
   padding-right: 16px !important;
 }
 #errorPageSearchInput::-webkit-search-cancel-button,
@@ -39,7 +40,7 @@
   #errorPageContainer {
     width: 692px;
     margin-top: 90px;
-  margin-bottom: 120px;
+    margin-bottom: 120px;
   }
   #errorPageTitle {
     font-size: 40px;
