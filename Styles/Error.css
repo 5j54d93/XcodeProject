@@ -18,14 +18,15 @@
 }
 #errorPageSearchInput {
   font-size: 17px;
+  padding-left: 3px;
   color: rgb(51, 51, 51);
-  padding-top: 14px !important;
-  padding-right: 16px !important;
 }
+/*
 #errorPageSearchInput::-webkit-search-cancel-button,
 #errorPageSearchInput::-webkit-search-results-button {
   -webkit-appearance: none;
 }
+*/
 #errorPageSitemapLink {
   font-size: 15px;
   font-weight: 300;
