@@ -1,5 +1,7 @@
 #errorPageContainer {
   width: 980px;
+  margin-top: 92px;
+  margin-bottom: 140px;
 }
 #errorPageTitle {
   font-size: 48px;
@@ -10,6 +12,7 @@
 #errorPageSearchForm {
   width: 490px;
   border-radius: 4px;
+  margin-bottom: 24px;
   border-color: rgb(214, 214, 214);
 }
 #errorPageSearchInput {
@@ -26,6 +29,8 @@
 @media only screen and (max-width: 1068px) {
   #errorPageContainer {
     width: 692px;
+    margin-top: 90px;
+  margin-bottom: 120px;
   }
   #errorPageTitle {
     font-size: 40px;
@@ -36,10 +41,15 @@
 @media only screen and (max-width: 735px) {
   #errorPageContainer {
     width: 87.5%;
+    margin-top: 45px;
+    margin-bottom: 60px;
   }
   #errorPageTitle {
     font-size: 32px;
     max-width: 330px;
     margin-bottom: 35px;
+  }
+  #errorPageSearchForm {
+    width: auto;
   }
 }
