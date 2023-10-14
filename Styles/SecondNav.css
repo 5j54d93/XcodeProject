@@ -11,6 +11,11 @@
   max-width: 1024px;
   transition: all .35s ease;
 }
+#secondNavTitle {
+  font-size: 19px;
+  font-weight: 500;
+  transition: all .35s ease;
+}
 /* 寬螢幕上方導覽列二右方的「XcodeProject 搜索」表單 */
 #wideScreenSecondNavSearchForm {
   width: 234px;
