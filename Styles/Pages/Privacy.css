@@ -34,6 +34,9 @@ h2 {
   margin-bottom: 17px;
   color: rgb(29, 29, 31);
 }
+.privacyTitleBtn:hover {
+  color: rgb(0, 102, 204);
+}
 #隱私權保護政策的適用範圍Ｘ {
   font-size: 27px;
   color: rgb(134, 134, 139);
