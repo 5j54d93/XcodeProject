@@ -3,13 +3,12 @@
   margin-bottom: 84px;
   transition: all .35s ease;
 }
-#privacyTitle {
+h1 {
   height: 52px;
   font-size: 42px;
   font-weight: 500;
   margin-top: 70px;
   margin-left: auto;
-  line-height: 52px;
   margin-right: auto;
   margin-bottom: 21.6px;
   color: rgb(29, 29, 31);
@@ -22,7 +21,7 @@
   margin-bottom: 21px;
   color: rgb(29, 29, 31);
 }
-.privacyTitle2 {
+h2 {
   font-size: 28px;
   font-weight: 500;
   margin-top: 32.93px;
@@ -35,19 +34,24 @@
   margin-bottom: 17px;
   color: rgb(29, 29, 31);
 }
+#隱私權保護政策的適用範圍Ｘ {
+  font-size: 27px;
+  color: rgb(134, 134, 139);
+  transition: transform .3s ease;
+}
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
   #PageContainer {
     width: 692px;
   }
-  #privacyTitle {
+  h1 {
     height: 25px;
     font-size: 34px;
     margin-top: 50px;
     line-height: 25px;
     margin-bottom: 18px;
   }
-  .privacyTitle2 {
+  h2 {
     font-size: 24px;
   }
 }
@@ -56,7 +60,7 @@
   #PageContainer {
     width: 90%;
   }
-  #privacyTitle {
+  h1 {
     height: 39px;
     margin-left: 0;
     font-size: 28px;
@@ -69,7 +73,7 @@
     font-weight: 300;
     margin-bottom: 19px;
   }
-  .privacyTitle2 {
+  h2 {
     font-size: 22px;
   }
 }
