@@ -34,16 +34,16 @@ h2 {
   margin-bottom: 17px;
   color: rgb(29, 29, 31);
 }
+#隱私權保護政策的適用範圍Ｘ {
+  font-size: 27px;
+  margin-top: 26.93px;
+  margin-bottom: 26.93px;
+  color: rgb(134, 134, 139);
+  transition: transform .3s ease;
+}
 .privacyTitleBtn:hover h2,
 .privacyTitleBtn:hover .bi {
   color: rgb(0, 102, 204);
-}
-#隱私權保護政策的適用範圍Ｘ {
-  font-size: 27px;
-  margin-top: 32.93px;
-  margin-bottom: 32.93px;
-  color: rgb(134, 134, 139);
-  transition: transform .3s ease;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
