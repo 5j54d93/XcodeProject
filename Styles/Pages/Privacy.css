@@ -43,7 +43,7 @@ h2 {
 }
 .privacyTitleBtn:hover h2,
 .privacyTitleBtn:hover .bi {
-  color: rgb(0, 102, 204);
+  color: rgb(0, 102, 204) !important;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
