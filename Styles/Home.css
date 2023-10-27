@@ -285,10 +285,10 @@ body {
 }
 /* 螢幕小於 767.98 */
 @media only screen and (max-width: 767.98px) {
-  #homeTopAdContainer {
+  #homeTopFollowAlertContainer {
     width: 87.5%;
   }
-  .homeTopAdImg {
+  #homeTopFollowAlert {
     border-radius: 12px;
   }
   /* 首頁容器 */
