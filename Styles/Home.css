@@ -12,7 +12,7 @@ body {
 #homeTopFollowAlertCloseBtn {
   margin: 0 22px;
   font-size: 13px;
-	--bs-btn-color: rgb(110, 110, 115);
+  --bs-btn-color: rgb(110, 110, 115);
   --bs-btn-hover-color: rgb(29, 29, 31);
 }
 #homeTopFollowAlertText {
