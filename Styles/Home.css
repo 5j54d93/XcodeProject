@@ -2,8 +2,8 @@ body {
   background-color: rgb(245, 245, 247);
 }
 #homeTopFollowAlertContainer {
-  max-width: 980px;
-  padding: 16px 0 0;
+  max-width: 1020px;
+  padding: 16px 20px 0;
   transition: all .35s ease;
 }
 #homeTopFollowAlert {
@@ -175,9 +175,6 @@ body {
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
-  #homeTopFollowAlertContainer {
-    max-width: 692px;
-  }
   /* 首頁容器 */
   #homeContainer {
     max-width: 692px;
@@ -291,7 +288,6 @@ body {
 @media only screen and (max-width: 767.98px) {
   #homeTopFollowAlertContainer {
     width: 87.5%;
-    max-width: 366px;
   }
   #homeTopFollowAlert {
     border-radius: 12px;
