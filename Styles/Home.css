@@ -7,6 +7,7 @@ body {
   transition: all .35s ease;
 }
 #homeTopFollowAlert {
+  display: flex;
   border-radius: 10px;
 }
 #homeTopFollowAlertCloseBtn {
@@ -174,6 +175,9 @@ body {
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
+  #homeTopFollowAlertContainer {
+    max-width: 692px;
+  }
   /* 首頁容器 */
   #homeContainer {
     max-width: 692px;
@@ -287,6 +291,7 @@ body {
 @media only screen and (max-width: 767.98px) {
   #homeTopFollowAlertContainer {
     width: 87.5%;
+    max-width: 366px;
   }
   #homeTopFollowAlert {
     border-radius: 12px;
