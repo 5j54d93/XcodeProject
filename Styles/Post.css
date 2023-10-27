@@ -5,6 +5,7 @@
 }
 #blogPostTopFollowAlert {
   border-radius: 10px;
+  background-color: rgb(245, 245, 247);
 }
 #blogPostTopFollowAlertCloseBtn {
   margin: 0 22px;
