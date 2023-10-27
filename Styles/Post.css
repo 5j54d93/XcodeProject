@@ -1,10 +1,21 @@
-#blogPostTopAdContainer {
+#blogPostTopFollowAlertContainer {
   max-width: 980px;
   padding: 16px 0 0;
   transition: all .35s ease;
 }
-.blogPostTopAdImg {
+#blogPostTopFollowAlert {
   border-radius: 10px;
+}
+#blogPostTopFollowAlertCloseBtn {
+  margin: 0 22px;
+  font-size: 13px;
+  --bs-btn-color: rgb(110, 110, 115);
+  --bs-btn-hover-color: rgb(29, 29, 31);
+}
+#blogPostTopFollowAlertText {
+  margin: 24px 0;
+  font-size: 12px;
+  color: rgb(29, 29, 31);
 }
 /* 文章頂部區塊 */
 #blogPostTopSection {
@@ -335,10 +346,10 @@ table {
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
-  #blogPostTopAdContainer {
+  #blogPostTopFollowAlertContainer {
     width: 87.5%;
   }
-  .blogPostTopAdImg {
+  #blogPostTopFollowAlert {
     border-radius: 12px;
   }
   #blogPostTopSection {
