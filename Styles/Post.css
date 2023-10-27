@@ -1,6 +1,6 @@
 #blogPostTopFollowAlertContainer {
-  max-width: 980px;
-  padding: 16px 0 0;
+  max-width: 1020px;
+  padding: 16px 20px 0;
   transition: all .35s ease;
 }
 #blogPostTopFollowAlert {
@@ -256,7 +256,6 @@ table {
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
-  #blogPostTopFollowAlertContainer,
   #blogPostTopSection,
   #blogPostBottomSection {
     max-width: 616px;
