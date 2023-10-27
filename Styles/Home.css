@@ -11,7 +11,7 @@ body {
   border-radius: 10px;
 }
 #homeTopFollowAlertCloseBtn {
-  margin: 0 22px;
+  margin-right: 20px;
   font-size: 13px;
   --bs-btn-color: rgb(110, 110, 115);
   --bs-btn-hover-color: rgb(29, 29, 31);
@@ -288,6 +288,7 @@ body {
 @media only screen and (max-width: 767.98px) {
   #homeTopFollowAlertContainer {
     width: 87.5%;
+    padding: 16px 0 0;
   }
   #homeTopFollowAlert {
     border-radius: 12px;
