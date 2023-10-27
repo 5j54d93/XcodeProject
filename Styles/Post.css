@@ -350,6 +350,7 @@ table {
 @media only screen and (max-width: 734px) {
   #blogPostTopFollowAlertContainer {
     width: 87.5%;
+    padding: 16px 0 0;
   }
   #blogPostTopFollowAlert {
     border-radius: 12px;
