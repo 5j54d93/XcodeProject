@@ -16,7 +16,7 @@ body {
   --bs-btn-hover-color: rgb(29, 29, 31);
 }
 #homeTopFollowAlertText {
-  margin: 24px 0;
+  margin: 24px;
   font-size: 12px;
   color: rgb(29, 29, 31);
 }
