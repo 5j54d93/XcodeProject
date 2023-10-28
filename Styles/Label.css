@@ -11,8 +11,9 @@ body {
   border-radius: 10px;
 }
 #labelPageTopFollowAlertCloseBtn {
-  margin-right: 20px;
   font-size: 13px;
+  margin-right: 20px;
+  -webkit-text-stroke: 1px;
   --bs-btn-color: rgb(110, 110, 115);
   --bs-btn-hover-color: rgb(29, 29, 31);
 }
