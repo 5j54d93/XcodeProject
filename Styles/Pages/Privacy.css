@@ -38,6 +38,7 @@ h2 {
   font-size: 27px;
   margin-top: 26.93px;
   margin-bottom: 26.93px;
+  -webkit-text-stroke: 1px;
   color: rgb(134, 134, 139);
   transition: transform .3s ease;
 }
