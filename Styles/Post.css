@@ -399,8 +399,11 @@ table {
   #blogPostShareTitle {
     margin-top: 32px;
   }
-  #blogPostTopic {
+  #blogPostTopicAndDonate {
     margin: 32px 0;
+  }
+  #blogPostTopic,
+  #blogPostDonate {
     padding: 24px;
   }
   #blogPostBottomHr {
