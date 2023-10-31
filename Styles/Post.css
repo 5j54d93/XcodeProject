@@ -177,6 +177,7 @@ table {
   padding: 8px 16px;
   border-radius: 30px;
   color: rgb(29, 29, 31);
+  transition: all .35s ease;
 }
 #blogPostTopicLink:hover {
   background: rgb(232, 232, 237) !important;
