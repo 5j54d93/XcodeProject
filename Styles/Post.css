@@ -147,11 +147,13 @@ table {
   line-height: 52px;
   color: rgb(29, 29, 31);
 }
-#blogPostTopic {
-  padding: 36px;
+#blogPostTopicAndDonate {
   margin: 44px 0;
   border-radius: 10px;
   background-color: rgb(245, 245, 247);
+}
+#blogPostTopic {
+  padding: 36px;
 }
 #blogPostTopicTitle {
   font-size: 17px;
@@ -300,8 +302,10 @@ table {
     font-size: 16px;
     margin-top: 36px;
   }
-  #blogPostTopic {
+  #blogPostTopicAndDonate {
     margin: 36px 0;
+  }
+  #blogPostTopic [
     padding: 32px;
   }
   #blogPostTopicTitle {
