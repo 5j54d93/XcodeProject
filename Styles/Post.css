@@ -182,7 +182,7 @@ table {
   box-shadow: unset !important;
 }
 .swg-button-v2-icon-dark, .swg-button-v2-icon-light {
-  margin-left: 0;
+  margin-left: 0 !important;;
 }
 #blogPostBottomHr {
   margin: 52px 0;
