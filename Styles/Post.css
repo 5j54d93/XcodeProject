@@ -162,6 +162,10 @@ table {
   color: rgb(29, 29, 31);
 }
 #blogPostTopicLink {
+  width: auto;
+  height: auto;
+  min-width: auto;
+  min-height: auto;
   font-size: 13px;
   font-weight: 500;
   line-height: 20px;
@@ -170,7 +174,11 @@ table {
   color: rgb(29, 29, 31);
 }
 #blogPostTopicLink:hover {
-  background-color: rgb(232, 232, 237) !important;
+  background: rgb(232, 232, 237) !important;
+  box-shadow: unset !important;
+}
+.swg-button-v2-icon-dark, .swg-button-v2-icon-light {
+  margin-left: 0;
 }
 #blogPostBottomHr {
   margin: 52px 0;
