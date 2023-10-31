@@ -153,7 +153,8 @@ table {
   background-color: rgb(245, 245, 247);
 }
 #blogPostTopicAndDonateHr {
-  padding: 0 36px;
+  color: white;
+  margin: 0 36px;
 }
 #blogPostTopic,
 #blogPostDonate {
@@ -318,7 +319,7 @@ table {
     margin: 36px 0;
   }
   #blogPostTopicAndDonateHr {
-    padding: 0 32px;
+    margin: 0 32px;
   }
   #blogPostTopic,
   #blogPostDonate {
