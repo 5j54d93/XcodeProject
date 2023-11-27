@@ -121,6 +121,22 @@ table {
   margin-bottom: 6.8px;
   color: rgb(158, 103, 0);
 }
+.blogPostNotice {
+  padding: 16px;
+  margin-bottom: 27px;
+  border-radius: 15px;
+  --bs-border-width: 0.87px;
+  --bs-border-color: rgb(105,105,105);
+  background-color: rgb(245, 245, 247);
+  box-shadow: 0 0 1px 0 rgb(105,105,105) inset, 0 0 1px 0 rgb(105,105,105);
+}
+.blogPostNoticeTitle {
+  height: 26px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 6.8px;
+  color: rgb(105,105,105);
+}
 #blogPostBottomSection {
   max-width: 693px;
   padding: 0 20px;
@@ -300,8 +316,9 @@ table {
   p,
   .blogPostImgContainer,
   .blogPostTableContainer,
-  .codeBlock
-  .blogPostCaution {
+  .codeBlock,
+  .blogPostCaution,
+  .blogPostNotice {
     margin-bottom: 24px;
   }
   table {
