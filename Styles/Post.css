@@ -65,6 +65,10 @@ table {
 .syntaxKeyword {
   color: rgb(173, 61, 164);
 }
+/* 文章中程式碼裡的文法預處理器（咖啡色）*/
+.syntaxPreprocessor {
+  color: rgb(120, 73, 43);
+}
 /* 文章中程式碼裡的文法標題（紫色）*/
 .syntaxTitle {
   color: rgb(112, 61, 170);
