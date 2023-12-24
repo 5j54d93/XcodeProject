@@ -63,9 +63,10 @@ table {
   background-color: rgb(245, 245, 247);
 }
 /* 文章中程式碼裡的文法關鍵字（粉色）*/
-.syntaxKeyword {
+.syntaxKeywords {
   color: rgb(173, 61, 164);
 }
+
 /* 文章中程式碼裡的文法預處理器（咖啡色）*/
 .syntaxPreprocessor {
   color: rgb(120, 73, 43);
