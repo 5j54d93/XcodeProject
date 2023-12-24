@@ -74,6 +74,10 @@ table {
 .syntaxOtherDeclarations {
   color: rgb(5, 124, 175);
 }
+/* 文章中程式碼裡的參數名稱（淺一點的深綠色）*/
+.syntaxProjectFunctionAndMethodNames {
+  color: rgb(62, 128, 135);
+}
 /* 文章中程式碼裡的內建型別（深紫色）*/
 .syntaxOtherTypeNames {
   color: rgb(75, 34, 176);
