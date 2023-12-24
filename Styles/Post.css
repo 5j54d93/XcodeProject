@@ -66,13 +66,17 @@ table {
 .syntaxKeywords {
   color: rgb(173, 61, 164);
 }
-/* 文章中程式碼裡的型別名稱（深藍色）*/
+/* 文章中程式碼裡的自定義型別（深藍色）*/
 .syntaxTypeDeclarations {
   color: rgb(1, 99, 140);
 }
 /* 文章中程式碼裡的變數名稱（淺一點的深藍色）*/
 .syntaxOtherDeclarations {
   color: rgb(5, 124, 175);
+}
+/* 文章中程式碼裡的內建型別（深紫色）*/
+.syntaxOtherTypeNames {
+  color: rgb(75, 34, 176);
 }
 
 /* 文章中程式碼裡的文法預處理器（咖啡色）*/
