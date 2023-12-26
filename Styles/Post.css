@@ -62,6 +62,10 @@ table {
   border-radius: 15px;
   background-color: rgb(245, 245, 247);
 }
+/* 文章中程式碼裡的數字（藍色）*/
+.syntaxNumbers {
+  color: rgb(39, 41, 216);
+}
 /* 文章中程式碼裡的文法關鍵字（粉色）*/
 .syntaxKeywords {
   color: rgb(173, 61, 164);
@@ -94,10 +98,6 @@ table {
 /* 文章中程式碼裡的字串（橘色）*/
 .syntaxString {
   color: rgb(209, 47, 27);
-}
-/* 文章中程式碼裡的數字（藍色）*/
-.syntaxInt {
-  color: rgb(39, 42, 216);
 }
 /* 文章中程式碼裡的註解（灰色）*/
 .syntaxComment {
