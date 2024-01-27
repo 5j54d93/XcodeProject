@@ -87,7 +87,10 @@ table {
 .syntaxOtherTypeNames {
   color: rgb(75, 34, 176);
 }
-
+/* 文章中程式碼裡的方法（紫色）*/
+.syntaxOtherFunctionAndMethodNames {
+  color: rgb(128, 79, 184);
+}
 /* 文章中程式碼裡的文法預處理器（咖啡色）*/
 .syntaxPreprocessor {
   color: rgb(120, 73, 43);
