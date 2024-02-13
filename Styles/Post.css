@@ -83,6 +83,10 @@ table {
 .syntaxProjectPropertiesAndGlobals {
   color: rgb(62, 128, 135);
 }
+/* 文章中程式碼裡的型別名稱（深綠色）*/
+.syntaxProjectTypeNames {
+  color: rgb(35, 87, 92);
+}
 /* 文章中程式碼裡的內建型別（深紫色）*/
 .syntaxOtherTypeNames {
   color: rgb(75, 34, 176);
