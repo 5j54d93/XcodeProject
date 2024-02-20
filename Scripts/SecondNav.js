@@ -12,7 +12,7 @@ wideScreenSecondNavSearchForm.addEventListener('hidden.bs.collapse', event => {
 })
 // 熱門話題「開始出現」
 hotTopics.addEventListener('show.bs.collapse', event => {
-    document.body.style.overflow = "hidden";
+    document.body.style.position = "fixed";
     document.body.style.width = "100%";
     mainNav.style.display = "none";
     secondNav.style.backgroundColor = "rgb(245, 245, 245)";
@@ -31,7 +31,7 @@ hotTopics.addEventListener('shown.bs.collapse', event => {
 })
 // 熱門話題「開始隱藏」
 hotTopics.addEventListener('hide.bs.collapse', event => {
-    document.body.style.overflow = "";
+    document.body.style.position = "";
     document.body.style.width = "auto";
     mainNav.style.display = "";
     secondNav.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
