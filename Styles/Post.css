@@ -93,6 +93,7 @@ table {
   color: rgb(75, 34, 176);
 }
 /* 文章中程式碼裡的方法（紫色）*/
+.syntaxOtherPropertiesAndGlobals,
 .syntaxOtherFunctionAndMethodNames {
   color: rgb(128, 79, 184);
 }
