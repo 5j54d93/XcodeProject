@@ -88,6 +88,7 @@ table {
   color: rgb(35, 87, 92);
 }
 /* 文章中程式碼裡的內建型別（深紫色）*/
+.syntaxOtherClassNames,
 .syntaxOtherTypeNames {
   color: rgb(75, 34, 176);
 }
