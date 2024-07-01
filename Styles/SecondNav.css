@@ -35,16 +35,22 @@
 #wideScreenSecondNavSearchBtn {
   font-size: 11px;
   font-weight: 300;
-  padding: 2px 0px;
+  border-radius: 30px;
+  padding: 5px 12px 4px;
+  transition: all .3s ease;
   --bs-btn-color: rgb(29, 29, 31);
-  --bs-btn-hover-color: rgb(0, 102, 204);
+  --bs-btn-hover-color: rgb(29, 29, 31);
+  background-color: rgb(232, 232, 237);
+}
+#wideScreenSecondNavSearchBtn:hover {
+  background-color: rgb(210, 210, 215);
 }
 /* 寬螢幕上方導覽列二右方的「熱門主題」按鈕 */
 #wideScreenHotTopicBtn {
   font-size: 11px;
   font-weight: 300;
   padding: 2px 0px;
-  margin-left: 52px;
+  margin-left: 24px;
   --bs-btn-color: rgb(29, 29, 31);
   --bs-btn-hover-color: rgb(0, 102, 204);
 }
