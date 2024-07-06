@@ -24,5 +24,5 @@ hotTopics.addEventListener('hide.bs.collapse', event => {
     mainNav.style.display = "";
     secondNav.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
     hotTopicsDimBackground.style.display = "none";
-    secondNavSearchBtn.innerHTML = "<i class='bi bi-search' style='font-size: 10px; margin-right: 3.6px;'></i>搜尋 XcodeProject";
+    secondNavSearchBtn.innerHTML = "<i class='bi bi-search' style='font-size: 10px; margin-right: 3.6px;'></i>搜尋<span class='d-none d-md-inline'> XcodeProject</span>";
 })
