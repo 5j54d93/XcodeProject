@@ -1,3 +1,6 @@
+window.addEventListener("DOMContentLoaded", () => {
+    blogPostTopFollowAlert.style.display = sessionStorage.getItem("isCloseFollowAlert") ? "none" : "";
+});
 function copyPostUrl(id) {
     navigator.clipboard.writeText(location.protocol + '//' + location.host + location.pathname);
     const obj = document.getElementById(String(id));
