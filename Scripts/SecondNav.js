@@ -1,5 +1,6 @@
 // 熱門話題「開始出現」
 hotTopics.addEventListener('show.bs.collapse', event => {
+    hotTopics.style.zIndex = "1022";
     document.body.style.position = "fixed";
     document.body.style.width = "100%";
     mainNav.style.display = "none";
@@ -21,6 +22,7 @@ hotTopics.addEventListener('shown.bs.collapse', event => {
 // 熱門話題「開始隱藏」
 hotTopics.addEventListener('hide.bs.collapse', event => {
     hotTopicsSearchForm.style.opacity = "0";
+    hotTopics.style.zIndex = "1021";
     secondNav.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
     document.body.style.position = "";
     document.body.style.width = "auto";
