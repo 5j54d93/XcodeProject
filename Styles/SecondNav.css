@@ -15,51 +15,25 @@
 #secondNavTitle {
   font-size: 19px;
   font-weight: 500;
-  transition: all .35s ease;
 }
-/* 寬螢幕上方導覽列二右方的「XcodeProject 搜索」表單 */
-#wideScreenSecondNavSearchForm {
-  width: 234px;
-  --bs-border-color: rgb(134, 134, 139);
-}
-/* 寬螢幕上方導覽列二右方的「XcodeProject 搜索」框 */
-#wideScreenSecondNavSearchBar {
-  font-size: 12px;
-  font-weight: 300;
-}
-#wideScreenSecondNavSearchBar::-webkit-search-cancel-button,
-#wideScreenSecondNavSearchBar::-webkit-search-results-button {
-  -webkit-appearance: none;
-}
-/* 寬螢幕上方導覽列二右方的「XcodeProject 搜索」按鈕 */
-#wideScreenSecondNavSearchBtn {
+/* 寬螢幕上方導覽列二，右方的「搜尋 XcodeProject」按鈕 */
+#secondNavSearchBtn {
   font-size: 11px;
   font-weight: 300;
   border-radius: 30px;
   padding: 5px 12px 4px;
   transition: all .3s ease;
   --bs-btn-color: rgb(29, 29, 31);
-  --bs-btn-hover-color: rgb(29, 29, 31);
   background-color: rgb(232, 232, 237);
+  --bs-btn-hover-color: rgb(29, 29, 31);
 }
-#wideScreenSecondNavSearchBtn:hover {
+#secondNavSearchBtn:hover {
   background-color: rgb(210, 210, 215);
 }
-/* 寬螢幕上方導覽列二右方的「熱門主題」按鈕 */
-#wideScreenHotTopicBtn {
-  font-size: 11px;
-  font-weight: 300;
-  padding: 2px 0px;
-  margin-left: 24px;
-  --bs-btn-color: rgb(29, 29, 31);
-  --bs-btn-hover-color: rgb(0, 102, 204);
-}
-/* 小螢幕上方導覽列二右方的「熱門主題」按鈕 */
-#smallScreenHotTopicBtn {
-  font-size: 21px;
-  padding: 2px 0px;
-  --bs-btn-color: rgb(29, 29, 31);
-  --bs-btn-hover-color: rgb(0, 102, 204);
+/* 上方導覽列二展開的熱門主題區塊裡的搜尋框 */
+#hotTopicsSearchBar {
+  font-size: 19px;
+  font-weight: 600;
 }
 /* 上方導覽列二展開的熱門主題區塊 */
 #hotTopics {
@@ -68,12 +42,12 @@
 }
 #hotTopicsContainer {
   max-width: 1024px;
-  padding: 28px 22px 64px;
+  padding: 33px 22px 64px;
 }
 /* 上方導覽列二展開的熱門主題連結 */
 .hotTopicLink {
   font-size: 14px;
-  font-weight: 350;
+  font-weight: 600;
   margin-top: 12px;
   padding-left: 0px;
   color: rgb(29, 29, 31);
@@ -86,7 +60,9 @@
   display: none;
   z-index: 1021;
   position: absolute;
+  backdrop-filter: blur(20px);
   background-color: rgba(0, 0, 0, 0.485);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 /* 螢幕大於 768 */
 @media only screen and (min-width: 768px) {
@@ -117,8 +93,5 @@
     font-size: 17px;
     margin-top: 14px;
     padding-left: 34px;
-  }
-  #wideScreenSecondNavSearchBtn {
-    display: none !important;
   }
 }
