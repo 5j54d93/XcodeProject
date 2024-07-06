@@ -22,7 +22,7 @@ hotTopics.addEventListener('shown.bs.collapse', event => {
 // 熱門話題「開始隱藏」
 hotTopics.addEventListener('hide.bs.collapse', event => {
     hotTopicsSearchForm.style.opacity = "0";
-    hotTopics.style.zIndex = "1021";
+    hotTopics.style.zIndex = "0";
     secondNav.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
     document.body.style.position = "";
     document.body.style.width = "auto";
