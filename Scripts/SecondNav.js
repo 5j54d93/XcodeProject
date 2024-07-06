@@ -3,7 +3,7 @@ hotTopics.addEventListener('show.bs.collapse', event => {
     document.body.style.position = "fixed";
     document.body.style.width = "100%";
     mainNav.style.display = "none";
-    secondNav.style.backgroundColor = "rgb(245, 245, 245)";
+    secondNav.style.backgroundColor = "rgb(255, 255, 255, 0.9)";
     hotTopicsDimBackground.style.display = "block";
     secondNavSearchBtn.innerHTML = "<i class='bi bi-x-lg' style='font-size: 10px; margin-right: 3.6px; -webkit-text-stroke: 0.5px;'></i>Close";
     hotTopics.style.top = "";
