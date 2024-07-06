@@ -6,7 +6,7 @@ hotTopics.addEventListener('show.bs.collapse', event => {
     secondNav.style.backgroundColor = "rgb(255, 255, 255, 0.9)";
     hotTopicsDimBackground.style.display = "block";
     secondNavSearchBtn.innerHTML = "<i class='bi bi-x-lg' style='font-size: 10px; margin-right: 3.6px; -webkit-text-stroke: 0.5px;'></i>Close";
-    hotTopicsSearchBar.style.display = "";
+    hotTopicsSearchBar.style.opacity = "1";
     hotTopics.style.top = "";
     hotTopics.style.bottom = "";
 })
@@ -20,7 +20,7 @@ hotTopics.addEventListener('shown.bs.collapse', event => {
 })
 // 熱門話題「開始隱藏」
 hotTopics.addEventListener('hide.bs.collapse', event => {
-    hotTopicsSearchBar.style.display = "none";
+    hotTopicsSearchBar.style.opacity = "0";
     document.body.style.position = "";
     document.body.style.width = "auto";
     mainNav.style.display = "";
