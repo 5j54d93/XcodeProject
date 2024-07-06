@@ -38,7 +38,7 @@
 /* 上方導覽列二展開的熱門主題區塊 */
 #hotTopics {
   z-index: 1022;
-  background-color: rgb(245, 245, 245);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 #hotTopicsContainer {
   max-width: 1024px;
