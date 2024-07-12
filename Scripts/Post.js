@@ -8,9 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 lazyImage.src = lazyImage.dataset.src;
                 lazyImage.dataset.src = "";
                 lazyImage.onload = function () {
-                    lazyImage.parentElement.background = "";
-                    lazyImage.parentElement.aspectRatio = "";
-                    lazyImage.parentElement.borderRadius = "";
+                    lazyImage.parentElement.classList.remove("blogPostLaodingImgContainer");
                 }
                 lazyImageObserver.unobserve(lazyImage);
             }
