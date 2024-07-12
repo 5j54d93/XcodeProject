@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (entry.intersectionRatio > 0) {
                 let lazyImage = entry.target;
                 lazyImage.src = lazyImage.dataset.src;
+                lazyImage.dataset.src = "";
                 lazyImage.onload = function () {
                     lazyImage.parentElement.background = "";
                     lazyImage.parentElement.aspectRatio = "";
