@@ -127,10 +127,16 @@ table {
   margin-bottom: 27px;
   transition: all .35s ease;
 }
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
 .blogPostLaodingImgContainer {
   aspect-ratio: 16/9;
   border-radius: 10px;
-  background: rgb(250, 250, 250);
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+  background: #fafafa linear-gradient(to right, #fafafa 0%, #e8e8ed 20%, #fafafa 40%, #fafafa 100%);
 }
 .blogPostTableContainer {
   padding: 0;
