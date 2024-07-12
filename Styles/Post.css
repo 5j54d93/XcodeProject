@@ -124,8 +124,11 @@ table {
 .blogPostImgContainer {
   padding: 0;
   max-width: 980px;
+  aspect-ratio: 16/9;
   margin-bottom: 27px;
+  border-radius: 10px;
   transition: all .35s ease;
+  background: rgb(250, 250, 250);
 }
 .blogPostTableContainer {
   padding: 0;
