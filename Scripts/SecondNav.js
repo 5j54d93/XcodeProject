@@ -16,7 +16,6 @@ hotTopics.addEventListener('shown.bs.collapse', event => {
         hotTopics.style.top = secondNav.offsetHeight + "px";
         hotTopics.style.bottom = "0";
     }
-    hotTopicsSearchBar.focus();
 })
 // 熱門話題「開始隱藏」
 hotTopics.addEventListener('hide.bs.collapse', event => {
