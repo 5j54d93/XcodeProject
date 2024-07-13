@@ -3,12 +3,12 @@ wideScreenNavLinks.addEventListener('hidden.bs.collapse', event => {
     // 暗掉背景
     wideScreenSearchDimBackground.style.display = "block";
     // 寬螢幕導覽列變深灰
-    mainNav.style.backgroundColor = "rgb(219, 219, 219)";
+    mainNav.style.backgroundColor = "#dbdbdb";
     // 寬螢幕導覽列中的搜尋表單出現
     wideScreenSearchForm.style.display = "flex";
     // 寬螢幕導覽列右邊的放大鏡變叉叉
     wideScreenSearchBtn.innerHTML = "<i class='bi bi-x-lg'/>";
-    wideScreenSearchBtn.style.color = "rgb(43, 43, 43)";
+    wideScreenSearchBtn.style.color = "#2b2b2b";
     // focus 寬螢幕導覽列的搜尋框
     wideScreenSearchBar.focus();
     // 固定網頁不可滑
@@ -24,12 +24,12 @@ wideScreenNavLinks.addEventListener('show.bs.collapse', event => {
     // 暗背景消失
     wideScreenSearchDimBackground.style.display = "none";
     // 寬螢幕導覽列恢復顏色
-    mainNav.style.backgroundColor = "rgb(243, 243, 243)";
+    mainNav.style.backgroundColor = "#f3f3f3";
     // 寬螢幕導覽列中的搜尋表單消失
     wideScreenSearchForm.style.display = "none";
     // 寬螢幕導覽列右邊的叉叉變回放大鏡
     wideScreenSearchBtn.innerHTML = "<i class='bi bi-search'/>";
-    wideScreenSearchBtn.style.color = "rgb(130, 130, 130)";
+    wideScreenSearchBtn.style.color = "#828282";
     // 網頁復原
     document.body.style.position = "";
     document.body.style.width = "auto";
@@ -40,7 +40,7 @@ wideScreenNavLinks.addEventListener('show.bs.collapse', event => {
 function toggleFullScreenNav() {
     if (hamburgerBtn.ariaExpanded === "false") { // 全螢幕導覽列「展開」中，收起來
         hamburgerBtn.innerHTML = "<i class='bi bi-list'/>";
-        mainNav.style.backgroundColor = "rgb(243, 243, 243)";
+        mainNav.style.backgroundColor = "#f3f3f3";
         document.body.style.overflow = "visible";
     } else { // 全螢幕導覽列「收合」中，展開來
         hamburgerBtn.innerHTML = "<i class='bi bi-x'/>";
@@ -56,7 +56,7 @@ function smallScreenSearchBarOnfocus() {
     // 小螢幕展開全螢幕導覽列的搜尋表單
     smallScreenSearchForm.style.paddingTop = "16px";
     // 小螢幕展開全螢幕導覽列的搜尋放大鏡
-    smallScreenSearchIcon.style.color = "rgb(125, 125, 125)";
+    smallScreenSearchIcon.style.color = "#7d7d7d";
     // 小螢幕展開全螢幕導覽列搜尋中的取消按鈕
     smallScreenSearchCancelBtn.style.visibility = "visible";
     smallScreenSearchCancelBtn.style.width = "auto";
@@ -77,7 +77,7 @@ function smallScreenSearchBarOnfocus() {
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
     for (let i=0; i<quickLinkHrs.length; i++) {
-        quickLinkHrs[i].style.color = "rgb(66, 66, 69)";
+        quickLinkHrs[i].style.color = "#424245";
     }
 }
 // 小螢幕展開全螢幕導覽列的搜尋框 unfocus
@@ -88,7 +88,7 @@ function smallScreenSearchBarOnBlur() {
     // 小螢幕展開全螢幕導覽列的搜尋表單
     smallScreenSearchForm.style.paddingTop = "0";
     // 小螢幕展開全螢幕導覽列的搜尋放大鏡
-    smallScreenSearchIcon.style.color = "rgb(165, 165, 165)";
+    smallScreenSearchIcon.style.color = "#a5a5a5";
     // 小螢幕展開全螢幕導覽列搜尋中的取消按鈕
     smallScreenSearchCancelBtn.style.visibility = "hidden";
     smallScreenSearchCancelBtn.style.width = "0";
@@ -109,6 +109,6 @@ function smallScreenSearchBarOnBlur() {
     // 小螢幕展開全螢幕導覽列下方快速連結的分隔線
     const quickLinkHrs = document.getElementsByClassName("quickLinkHr");
     for (let i=0; i<quickLinkHrs.length; i++) {
-        quickLinkHrs[i].style.color = "rgb(215, 215, 215)";
+        quickLinkHrs[i].style.color = "#d7d7d7";
     }
 }
