@@ -1,27 +1,17 @@
-window.addEventListener("DOMContentLoaded", () => {
-    const homeNewPosts = document.querySelectorAll(".homeNewPost");
-    homeNewPosts[0].classList.add('show');
-    homeNewPosts.forEach(homeNewPost => {
-        var position = homeNewPost.getBoundingClientRect().top / window.innerHeight;
-        if (position >= 0 && position <= 1) {
-            homeNewPost.classList.add('show');
-        }
-    });
+document.addEventListener("DOMContentLoaded", () => {
     homeTopFollowAlert.style.display = sessionStorage.getItem("isCloseFollowAlert") ? "none" : "";
-});
-window.addEventListener("scroll", () => {
     const homeNewPosts = document.querySelectorAll(".homeNewPost");
-    homeNewPosts.forEach(homeNewPost => {
-        var position = homeNewPost.getBoundingClientRect().top / window.innerHeight;
-        if (position >= 0 && position <= 1) {
-            homeNewPost.classList.add('show');
-        }
+    let intersectionObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.intersectionRatio > 0) {
+                let homeNewPost = entry.target;
+                homeNewPost.classList.add('show');
+                intersectionObserver.unobserve(homeNewPost);
+            }
+        });
     });
-    const homePopularPosts = document.querySelectorAll(".homePopularPost");
-    homePopularPosts.forEach(homePopularPost => {
-        var position = homePopularPost.getBoundingClientRect().top / window.innerHeight;
-        if (position >= 0 && position <= 1) {
-            homePopularPost.classList.add('show');
-        }
+    
+    homeNewPosts.forEach(function(homeNewPost) {
+        intersectionObserver.observe(homeNewPost);
     });
 });
