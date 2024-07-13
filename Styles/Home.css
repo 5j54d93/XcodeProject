@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(245, 245, 247);
+  background-color: #f5f5f7;
 }
 #homeTopFollowAlertContainer {
   max-width: 1020px;
@@ -13,14 +13,14 @@ body {
 #homeTopFollowAlertCloseBtn {
   font-size: 13px;
   margin-right: 20px;
+  --bs-btn-color: #6e6e73;
   -webkit-text-stroke: 1px;
-  --bs-btn-color: rgb(110, 110, 115);
-  --bs-btn-hover-color: rgb(29, 29, 31);
+  --bs-btn-hover-color: #1d1d1f;
 }
 #homeTopFollowAlertText {
   margin: 24px;
+  color: #1d1d1f;
   font-size: 12px;
-  color: rgb(29, 29, 31);
 }
 /* 首頁容器 */
 #homeContainer {
@@ -31,10 +31,10 @@ body {
 }
 /* 標題「最新文章」*/
 #homeNewestPostTitle {
+  color: #1d1d1f;
   font-size: 28px;
   font-weight: 450;
   margin-bottom: 24px;
-  color: rgb(29, 29, 31);
 }
 /* 最新文章 */
 .homeNewPost {
@@ -56,7 +56,7 @@ body {
 /* 最新文章的圖片容器 */
 #homeNewestPostImgContainer {
   min-height: 362px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
 }
 /* 最新文章的文字容器 */
 #homeNewestPostTextContainer {
@@ -65,10 +65,10 @@ body {
 }
 /* 最新文章的文字標題 */
 #homeNewestPostTextTitle {
+	color: #1d1d1f;
   font-size: 28px;
   font-weight: 550;
   line-height: 36px;
-  color: rgb(29, 29, 31);
 }
 /* 最新文章（1～10）*/
 .homeNewPostCol {
@@ -82,23 +82,23 @@ body {
 }
 .homeNewPost1-4ImgContainer {
   min-height: 266px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
 }
 .homeNewPost1-4TextContainer {
   padding: 32px;
 }
 .homeNewPost1-4Title {
+	color: #1d1d1f;
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
-  color: rgb(29, 29, 31);
 }
 .homeNewPost1-4Date {
+	color: #6e6e73;
   font-size: 14px;
   font-weight: 450;
   margin-top: 12px;
   line-height: 18px;
-  color: rgb(110, 110, 115);
 }
 #homeNewPost5, #homeNewPost8 {
   margin-left: 0;
@@ -114,7 +114,7 @@ body {
 }
 .homeNewPost5-10ImgContainer {
   min-height: 170px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
 }
 /* 首頁中間大廣告容器 */
 #homepageAdContainer {
@@ -138,10 +138,10 @@ body {
   padding: 80px 0 80px;
 }
 #homePopularPostTitle {
+	color: #1d1d1f;
   font-size: 28px;
   line-height: 36px;
   margin-bottom: 8px;
-  color: rgb(29, 29, 31);
 }
 .homePopularPost {
   opacity: 0;
@@ -161,18 +161,18 @@ body {
   padding-left: 24px;
 }
 #homeReadHistoryPostBtn {
+	color: #1d1d1f;
   font-size: 15px;
   margin-top: 40px;
   padding-top: 10px;
   border-radius: 30px;
   padding-bottom: 9px;
-  color: rgb(29, 29, 31);
   transition: all .3s ease;
-  border: 2px solid rgb(29, 29, 31);
+  border: 2px solid #1d1d1f;
 }
 #homeReadHistoryPostBtn:hover {
-  color: rgb(245, 245, 247);
-  background-color: rgb(29, 29, 31);
+  color: #f5f5f7;
+  background-color: #1d1d1f;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
