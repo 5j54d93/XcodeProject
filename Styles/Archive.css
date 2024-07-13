@@ -4,7 +4,7 @@
 }
 #archivePageContainer {
   width: 980px;
-  --bs-border-color: rgb(210, 210, 215);
+  --bs-border-color: #d2d2d7;
 }
 #archiveFilterYearBtn {
   height: 40px;
@@ -20,8 +20,8 @@
 }
 #archiveFilterYearBtnIcon,
 #archiveFilterMonthBtnIcon {
+  color: #86868b;
   font-size: 10px;
-  color: rgb(134, 134, 139);
 }
 #archiveFilterYearList,
 #archiveFilterMonthList {
@@ -29,68 +29,68 @@
   padding: 8px;
   overflow: scroll;
   max-height: 334px;
+  --bs-border-color: #f5f5f7;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  --bs-border-color: rgb(245,245,247);
-  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 20px 20px 0 #00000033;
 }
 .archiveFilterLink {
   padding: 8px;
-  color: rgb(29, 29, 31);
+  color: #1d1d1f;
 }
 .archiveFilterLink:hover {
-  color: rgb(0, 102, 204);
+  color: #0066cc;
 }
 .archivePagePostDateTitle {
+  color: #1d1d1f;
   font-size: 26px;
   font-weight: 600;
   line-height: 32px;
   margin: 52px 0 16px;
-  color: rgb(29, 29, 31);
 }
 .archivePagePost {
   padding: 32px 0px;
-  --bs-border-color: rgb(210, 210, 215);
+  --bs-border-color: #d2d2d7;
 }
 .archivePagePostImg {
   width: 295px;
   height: 166px;
   border-radius: 16px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
 }
 .archivePagePostTextContainer {
   margin-left: 32px;
 }
 .archivePagePostTitle {
+  color: #1d1d1f;
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
   margin: 8px 0px 12px;
-  color: rgb(29, 29, 31);
 }
 .archivePagePostDate {
+  color: #6e6e73;
   font-size: 13px;
   font-weight: 450;
   line-height: 20px;
-  color: rgb(110, 110, 115);
 }
 #archivePageResultEndText {
+  color: #1d1d1f;
   font-size: 17px;
   margin: 60px 0px;
   font-weight: 400;
   line-height: 25px;
-  color: rgb(29, 29, 31);
 }
 #archivePageProgressView {
   z-index: 1022;
-  color: rgb(0, 102, 204);
-  background-color: rgba(255, 255, 255, 0.8);
+  color: #0066cc;
+  background-color: #ffffffcc;
 }
 #archivePageResultNone {
+  color: #1d1d1f;
   font-size: 35px;
   font-weight: 400;
   line-height: 48px;
-  color: rgb(29, 29, 31);
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
