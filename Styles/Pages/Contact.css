@@ -5,6 +5,7 @@
 }
 #contactTitle {
   height: 68px;
+  color: #1d1d1f;
   font-size: 56px;
   font-weight: 600;
   margin-top: 80px;
@@ -12,23 +13,22 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
-  color: rgb(29, 29, 31);
 }
 #contactTitle2 {
   height: 44px;
+  color: #1d1d1f;
   font-size: 34px;
   font-weight: 500;
   line-height: 44px;
-  color: rgb(29, 29, 31);
 }
 .contactTitle3 {
   height: 32px;
+  color: #1d1d1f;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
   margin-top: 33.6px;
   margin-bottom: 11.2px;
-  color: rgb(29, 29, 31);
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
