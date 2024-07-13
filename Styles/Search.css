@@ -2,11 +2,11 @@
   width: 980px;
 }
 #searchPageResultCountText {
+  color: #6e6e73;
   font-size: 11px;
   font-weight: 500;
   line-height: 16px;
   margin: 40px 0px 32px;
-  color: rgb(110, 110, 115);
 }
 .searchPagePost {
   padding: 32px 0px;
@@ -15,36 +15,36 @@
   width: 295px;
   height: 166px;
   border-radius: 16px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
 }
 .searchPagePostTextContainer {
   margin-left: 32px;
 }
 .searchPagePostTitle {
+  color: #1d1d1f;
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
   margin: 8px 0px 12px;
-  color: rgb(29, 29, 31);
 }
 .searchPagePostDate {
+  color: #6e6e73;
   font-size: 13px;
   font-weight: 450;
   line-height: 20px;
-  color: rgb(110, 110, 115);
 }
 #searchPageResultEndText {
+  color: #1d1d1f;
   font-size: 17px;
   margin: 60px 0px;
   font-weight: 400;
   line-height: 25px;
-  color: rgb(29, 29, 31);
 }
 #searchPageResultNone {
+  color: #1d1d1f;
   font-size: 35px;
   font-weight: 400;
   line-height: 48px;
-  color: rgb(29, 29, 31);
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
