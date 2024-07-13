@@ -5,46 +5,46 @@
 }
 h1 {
   height: 52px;
+  color: #1d1d1f;
   font-size: 42px;
   font-weight: 500;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21.6px;
-  color: rgb(29, 29, 31);
 }
 .privacySummary {
+  color: #1d1d1f;
   font-size: 18px;
   font-weight: 400;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21px;
-  color: rgb(29, 29, 31);
 }
 h2 {
+  color: #1d1d1f;
   font-size: 28px;
   font-weight: 500;
   margin-top: 32.93px;
   margin-bottom: 32.93px;
-  color: rgb(29, 29, 31);
 }
 .privacyContext {
+  color: #1d1d1f;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 17px;
-  color: rgb(29, 29, 31);
 }
 #Privacy1Ｘ, #Privacy2Ｘ, #Privacy3Ｘ, #Privacy4Ｘ, #Privacy5Ｘ, #Privacy6Ｘ, #Privacy7Ｘ {
+  color: #86868b;
   font-size: 27px;
   margin-top: 26.93px;
   margin-bottom: 26.93px;
   -webkit-text-stroke: 1px;
-  color: rgb(134, 134, 139);
   transition: transform .3s ease;
 }
 .privacyTitleBtn:hover h2,
 .privacyTitleBtn:hover .bi {
-  color: rgb(0, 102, 204) !important;
+  color: #0066cc !important;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
