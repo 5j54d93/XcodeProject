@@ -1,20 +1,17 @@
-window.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     const labelPagePosts = document.querySelectorAll(".labelPagePost");
-    labelPagePosts[0].classList.add('show');
-    labelPagePosts.forEach(labelPagePost => {
-        var position = labelPagePost.getBoundingClientRect().top / window.innerHeight;
-        if (position >= 0 && position <= 1) {
-            labelPagePost.classList.add('show');
-        }
+    
+    let intersectionObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.intersectionRatio > 0) {
+                let target = entry.target;
+                target.classList.add('show');
+                intersectionObserver.unobserve(target);
+            }
+        });
     });
-    labelPageTopFollowAlert.style.display = sessionStorage.getItem("isCloseFollowAlert") ? "none" : "";
-});
-window.addEventListener("scroll", () => {
-    const labelPagePosts = document.querySelectorAll(".labelPagePost");
-    labelPagePosts.forEach(labelPagePost => {
-        var position = labelPagePost.getBoundingClientRect().top / window.innerHeight;
-        if (position >= 0 && position <= 1) {
-            labelPagePost.classList.add('show');
-        }
+    
+    labelPagePosts.forEach(function(labelPagePost) {
+        intersectionObserver.observe(labelPagePost);
     });
 });
