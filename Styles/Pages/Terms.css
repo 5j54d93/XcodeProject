@@ -5,33 +5,33 @@
   transition: all .35s ease;
 }
 #termsTitle {
+  color: #1d1d1f;
   font-size: 42px;
   font-weight: 500;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 21.6px;
-  color: rgb(29, 29, 31);
 }
 #termsSummary {
+  color: #1d1d1f;
   font-size: 18px;
   font-weight: 300;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 43px;
-  color: rgb(29, 29, 31);
 }
 .termsTitle2 {
+  color: #1d1d1f;
   font-size: 21px;
   font-weight: 500;
   margin-top: 50px;
   margin-bottom: 10.8px;
-  color: rgb(29, 29, 31);
 }
 .termsContext {
+  color: #1d1d1f;
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 17px;
-  color: rgb(29, 29, 31);
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
