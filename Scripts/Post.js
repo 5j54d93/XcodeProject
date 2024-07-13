@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio > 0) {
                 let lazyImage = entry.target;
-                lazyImage.src = lazyImage.dataset.src;
-                lazyImage.dataset.src = "";
                 lazyImage.onload = function () {
+                    lazyImage.dataset.src = "";
                     lazyImage.parentElement.classList.remove("blogPostLaodingImgContainer");
                 }
+                lazyImage.src = lazyImage.dataset.src;
                 lazyImageObserver.unobserve(lazyImage);
             }
         });
