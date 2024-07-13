@@ -3,7 +3,7 @@ window.addEventListener('resize', () => {
         var 全螢幕導覽列收合元件 = new bootstrap.Collapse(fullScreenNav);
         全螢幕導覽列收合元件.hide();
         hamburgerBtn.innerHTML = "<i class='bi bi-list'/>";
-        mainNav.style.backgroundColor = "rgb(243, 243, 243)";
+        mainNav.style.backgroundColor = "#f3f3f3";
         document.body.style.overflow = "visible";
         mainNav.style.height = "44px";
         mainNav.style.visibility = "visible";
@@ -12,10 +12,10 @@ window.addEventListener('resize', () => {
         var 寬螢幕導覽列連結收合元件 = new bootstrap.Collapse(wideScreenNavLinks);
         寬螢幕導覽列連結收合元件.show();
         wideScreenSearchDimBackground.style.display = "none";
-        mainNav.style.backgroundColor = "rgb(243, 243, 243)";
+        mainNav.style.backgroundColor = "#f3f3f3";
         wideScreenSearchForm.style.display = "none";
         wideScreenSearchBtn.innerHTML = "<i class='bi bi-search'/>";
-        wideScreenSearchBtn.style.color = "rgb(130, 130, 130)";
+        wideScreenSearchBtn.style.color = "#828282";
         document.body.style.position = "";
         document.body.style.width = "auto";
     } else if (window.innerWidth < 768 && wideScreenSecondNavSearchBtn && wideScreenSecondNavSearchBtn.ariaExpanded === "true") { // 寬螢幕導覽列二正在搜尋
