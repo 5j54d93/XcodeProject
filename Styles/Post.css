@@ -6,19 +6,19 @@
 #blogPostTopFollowAlert {
   display: flex;
   border-radius: 10px;
-  background-color: rgb(245, 245, 247);
+  background-color: #f5f5f7;
 }
 #blogPostTopFollowAlertCloseBtn {
   font-size: 13px;
   margin-right: 20px;
+  --bs-btn-color: #6e6e73;
   -webkit-text-stroke: 1px;
-  --bs-btn-color: rgb(110, 110, 115);
-  --bs-btn-hover-color: rgb(29, 29, 31);
+  --bs-btn-hover-color: #1d1d1f;
 }
 #blogPostTopFollowAlertText {
   margin: 24px;
+  color: #1d1d1f;
   font-size: 12px;
-  color: rgb(29, 29, 31);
 }
 /* 文章頂部區塊 */
 #blogPostTopSection {
@@ -51,7 +51,7 @@ p {
 table {
   font-size: 17px;
   margin-bottom: 27px !important;
-  --bs-table-border-color: rgb(210, 210, 215);
+  --bs-table-border-color: #d2d2d7;
 }
 /* 文章中的程式碼區塊 */
 .codeBlock {
@@ -60,66 +60,66 @@ table {
   line-height: 24px;
   margin-bottom: 27px;
   border-radius: 15px;
-  background-color: rgb(245, 245, 247);
+  background-color: #f5f5f7;
 }
 /* 文章中程式碼裡的數字（藍色）*/
 .syntaxNumbers {
-  color: rgb(39, 41, 216);
+  color: #2729d8;
 }
 /* 文章中程式碼裡的文法關鍵字（粉色）*/
 .syntaxKeywords {
-  color: rgb(173, 61, 164);
+  color: #ad3da4;
 }
 /* 文章中程式碼裡的自定義型別（深藍色）*/
 .syntaxTypeDeclarations {
-  color: rgb(1, 99, 140);
+  color: #01638c;
 }
 /* 文章中程式碼裡的變數名稱（淺一點的深藍色）*/
 .syntaxOtherDeclarations {
-  color: rgb(5, 124, 175);
+  color: #057caf;
 }
 /* 文章中程式碼裡的參數名稱（淺一點的深綠色）*/
 .syntaxProjectFunctionAndMethodNames,
 .syntaxProjectPropertiesAndGlobals {
-  color: rgb(62, 128, 135);
+  color: #3e8087;
 }
 /* 文章中程式碼裡的型別名稱（深綠色）*/
 .syntaxProjectTypeNames {
-  color: rgb(35, 87, 92);
+  color: #23575c;
 }
 /* 文章中程式碼裡的內建型別（深紫色）*/
 .syntaxOtherClassNames,
 .syntaxOtherTypeNames {
-  color: rgb(75, 34, 176);
+  color: #4b22b0;
 }
 /* 文章中程式碼裡的方法（紫色）*/
 .syntaxOtherPropertiesAndGlobals,
 .syntaxOtherFunctionAndMethodNames,
 .syntaxOtherConstants {
-  color: rgb(128, 79, 184);
+  color: #804fb8;
 }
 /* 文章中程式碼裡的文法預處理器（咖啡色）*/
 .syntaxPreprocessor {
-  color: rgb(120, 73, 43);
+  color: #78492b;
 }
 /* 文章中程式碼裡的文法標題（紫色）*/
 .syntaxTitle {
-  color: rgb(112, 61, 170);
+  color: #703daa;
 }
 /* 文章中程式碼裡的字串（橘色）*/
 .syntaxString {
-  color: rgb(209, 47, 27);
+  color: #d12f1b;
 }
 /* 文章中程式碼裡的註解（灰色）*/
 .syntaxComment {
-  color: rgb(112, 127, 140);
+  color: #707f8c;
 }
 /* 文章中程式碼裡的待輸入提示（藍底白字）*/
 .syntaxPlaceholder {
   color: white;
   padding: 0 2px;
   border-radius: 5px;
-  background: rgb(0, 122, 255);
+  background: #007aff;
 }
 .blogPostImgContainer {
   padding: 0;
@@ -154,32 +154,32 @@ table {
   margin-bottom: 27px;
   border-radius: 15px;
   --bs-border-width: 0.87px;
-  --bs-border-color: rgb(158,103,0);
-  background-color: rgb(255, 251, 242);
-  box-shadow: 0 0 1px 0 rgb(158,103,0) inset, 0 0 1px 0 rgb(158,103,0);
+  background-color: #fffbf2;
+  --bs-border-color: #9e6700;
+  box-shadow: 0 0 1px 0 #9e6700 inset, 0 0 1px 0 #9e6700;
 }
 .blogPostCautionTitle {
   height: 26px;
+  color: #9e6700;
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 6.8px;
-  color: rgb(158, 103, 0);
 }
 .blogPostNotice {
   padding: 16px;
   margin-bottom: 27px;
   border-radius: 15px;
   --bs-border-width: 0.87px;
-  --bs-border-color: rgb(105,105,105);
-  background-color: rgb(245, 245, 247);
-  box-shadow: 0 0 1px 0 rgb(105,105,105) inset, 0 0 1px 0 rgb(105,105,105);
+  background-color: #f5f5f7;
+  --bs-border-color: #696969;
+  box-shadow: 0 0 1px 0 #696969 inset, 0 0 1px 0 #696969;
 }
 .blogPostNoticeTitle {
   height: 26px;
+  color: #696969;
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 6.8px;
-  color: rgb(105,105,105);
 }
 #blogPostBottomSection {
   max-width: 693px;
@@ -187,30 +187,30 @@ table {
   transition: all .35s ease;
 }
 #blogPostShareTitle {
+  color: #1d1d1f;
   font-size: 18px;
   font-weight: 450;
   margin-top: 44px;
   line-height: 23px;
   margin-bottom: 8px;
-  color: rgb(29, 29, 31);
 }
 .blogPostShareBtn {
-  color: rgb(110, 110, 115);
+  color: #6e6e73;
 }
 .blogPostShareBtn:hover {
-  color: rgb(29, 29, 31);
+  color: #1d1d1f;
 }
 #blogPostTitle {
+  margin: 20px 0;
+  color: #1d1d1f;
   font-size: 45px;
   font-weight: 550;
-  margin: 20px 0;
   line-height: 52px;
-  color: rgb(29, 29, 31);
 }
 #blogPostTopicAndDonate {
   margin: 44px 0;
   border-radius: 10px;
-  background-color: rgb(245, 245, 247);
+  background-color: #f5f5f7;
 }
 #blogPostTopicAndDonateHr {
   color: white;
@@ -221,14 +221,15 @@ table {
   padding: 36px;
 }
 #blogPostTopicTitle {
+  color: #1d1d1f;
   font-size: 17px;
   font-weight: 500;
   line-height: 23px;
-  color: rgb(29, 29, 31);
 }
 #blogPostTopicLink {
   width: auto;
   height: auto;
+  color: #1d1d1f;
   min-width: auto;
   min-height: auto;
   font-size: 13px;
@@ -236,19 +237,18 @@ table {
   line-height: 20px;
   padding: 8px 16px;
   border-radius: 30px;
-  color: rgb(29, 29, 31);
   transition: all .35s ease;
 }
 #blogPostTopicLink:hover {
-  background: rgb(232, 232, 237) !important;
   box-shadow: unset !important;
+  background: #e8e8ed !important;
 }
 .swg-button-v2-icon-dark, .swg-button-v2-icon-light {
   margin-left: 0 !important;;
 }
 #blogPostBottomHr {
   margin: 52px 0;
-  color: rgb(210, 210, 215);
+  color: #d2d2d7;
 }
 #contactsContainer {
   max-width: 693px;
@@ -256,22 +256,22 @@ table {
   transition: all .35s ease;
 }
 #contactsTitle {
+  color: #1d1d1f;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
   margin-bottom: 28px;
-  color: rgb(29, 29, 31);
 }
 .contactsName {
+  color: #1d1d1f;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
   margin-bottom: 4px;
-  color: rgb(29, 29, 31);
 }
 #underContactsHr {
   margin: 52px 0;
-  color: rgb(210, 210, 215);
+  color: #d2d2d7;
 }
 #blogPostNewestPostContainer {
   max-width: 693px;
@@ -280,10 +280,10 @@ table {
   transition: all .35s ease;
 }
 #blogPostNewestPostTitle {
+  color: #1d1d1f;
   font-size: 21px;
   font-weight: 450;
   line-height: 28px;
-  color: rgb(29,29,31);
 }
 .blogPostNewestPost {
   padding: 32px 0;
@@ -292,44 +292,44 @@ table {
   transform: scale(1.03);
 }
 .blogPostNewestPost:hover .blogPostNewestPostImgContainer {
-  background-color: rgb(213,213,213);
+  background-color: #d5d5d5;
 }
 .blogPostNewestPostImgContainer {
   height: 96px;
   min-width: 171px;
   border-radius: 10px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
 }
 .blogPostNewestPostTextContainer {
   padding-left: 24px;
 }
 .blogPostNewestPostTextTitle {
+  color: #1d1d1f;
   font-size: 17px;
   font-weight: 550;
   line-height: 23px;
-  color: rgb(29, 29, 31);
 }
 #learnMore {
   padding: 52px 0;
-  background-color: rgb(251 ,251, 253);
+  background-color: #1d1d1f;
 }
 #learnMoreText {
+  color: #6e6e73;
   font-size: 17px;
   font-weight: 450;
   line-height: 23px;
   margin-bottom: 18px;
-  color: rgb(110, 110, 115);
 }
 #learnMoreBtn {
+  color: #161617;
   font-size: 14px;
   font-weight: 450;
   border-radius: 30px;
-  color: rgb(22, 22, 23);
   transition: all .3s ease;
-  background-color: rgb(232, 232, 237);
+  background-color: #e8e8ed;
 }
 #learnMoreBtn:hover {
-  background-color: rgb(210, 210, 215);
+  background-color: #d2d2d7;
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
