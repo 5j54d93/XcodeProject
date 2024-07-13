@@ -4,28 +4,28 @@
   margin-bottom: 140px;
 }
 #errorPageTitle {
+  color: #1d1d1f;
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 54px;
-  color: rgb(29, 29, 31);
 }
 #errorPageSearchForm {
   width: 490px;
   border-radius: 4px;
   margin-bottom: 24px;
-  --bs-body-bg: rgba(0, 0, 0, 0);
-  border-color: rgb(214, 214, 214);
+  border-color: #d6d6d6;
+  --bs-body-bg: #00000000;
 }
 #errorPageSearchInput {
+  color: #333333;
   font-size: 17px;
   padding-left: 3px;
-  color: rgb(51, 51, 51);
 }
 #errorPageSitemapLink {
+  color: #0066cc;
   font-size: 15px;
   font-weight: 300;
   text-decoration: none;
-  color: rgb(0, 102, 204);
 }
 #errorPageSitemapLink:hover {
   text-decoration: underline;
