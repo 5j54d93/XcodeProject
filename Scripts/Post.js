@@ -19,6 +19,26 @@ document.addEventListener("DOMContentLoaded", () => {
         lazyImageObserver.observe(lazyImage);
     });
 });
+function reloadImage(reloadButton) {
+    reloadButton.disabled = true;
+    const targetImage = element.parentElement.previousElementSibling;
+    var imageSrc = "";
+    if (targetImage.src.length !== 0) {
+      	imageSrc = targetImage.src;
+    } else if (targetImage.dataset.src.length !== 0) {
+      	imageSrc = targetImage.dataset.src;
+    }
+    targetImage.removeAttribute('src');
+    targetImage.classList.add('blogPostLaodingImgContainer');
+    targetImage.onload = () => {
+        targetImage.dataset.src = "";
+        targetImage.classList.remove('blogPostLaodingImgContainer');
+    }
+    setTimeout(() => {
+  		targetImage.src = imageSrc;
+        reloadButton.disabled = false;
+	}, 800);
+}
 function copyPostUrl(id) {
     navigator.clipboard.writeText(location.protocol + '//' + location.host + location.pathname);
     const obj = document.getElementById(String(id));
