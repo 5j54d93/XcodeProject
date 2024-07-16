@@ -162,6 +162,9 @@ table {
   background-color: #f5f5f7;
   -webkit-text-stroke: 0.6px;
 }
+.reloadImageBtn:hover {
+  background-color: #e8e8e8;
+}
 .blogPostTableContainer {
   padding: 0;
   font-size: 17px;
