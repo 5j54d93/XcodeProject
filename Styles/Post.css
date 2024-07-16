@@ -124,6 +124,11 @@ table {
 .blogPostImgContainer {
   padding: 0;
   max-width: 980px;
+  transition: all .35s ease;
+}
+.blogPostCaptionContainer {
+  max-width: 693px;
+  padding: 0 20px 0;
   margin-bottom: 27px;
   transition: all .35s ease;
 }
@@ -371,10 +376,12 @@ table {
     font-weight: 300;
     max-width: 616px;
     line-height: 24px;
-    padding: 0 20px 0;
+  }
+  .blogPostCaptionContainer {
+    max-width: 616px;
   }
   p,
-  .blogPostImgContainer,
+  .blogPostCaptionContainer,
   .blogPostTableContainer,
   .codeBlock,
   .blogPostCaution,
@@ -463,6 +470,7 @@ table {
     margin: 44px 0 16px;
   }
   .blogPost,
+  .blogPostCaptionContainer,
   #blogPostBottomSection {
     max-width: 402px;
   }
