@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function reloadImage(reloadButton) {
     reloadButton.disabled = true;
-    const targetImage = reloadButton.parentElement.previousElementSibling;
+    const targetImage = reloadButton.parentElement.previousElementSibling.firstElementChild;
     var imageSrc = "";
     if (targetImage.src.length !== 0) {
       	imageSrc = targetImage.src;
