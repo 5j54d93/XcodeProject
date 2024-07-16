@@ -21,10 +21,10 @@
   font-size: 11px;
   font-weight: 300;
   border-radius: 30px;
+  --bs-btn-bg: #e8e8ed;
   padding: 5px 12px 4px;
   --bs-btn-color: #1d1d1f;
   transition: all .3s ease;
-  background-color: #e8e8ed;
   --bs-btn-hover-bg: #d2d2d7;
   --bs-btn-hover-color: #1d1d1f;
 }
@@ -49,9 +49,7 @@
   font-weight: 600;
   margin-top: 16px;
   padding-left: 0px;
-}
-.hotTopicLink:hover {
-  color: #0066cc;
+  --bs-link-hover-color-rgb: 0, 102, 204;
 }
 /* 熱門話題展開時的暗掉背景 */
 #hotTopicsDimBackground {
