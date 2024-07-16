@@ -25,10 +25,8 @@
   --bs-btn-color: #1d1d1f;
   transition: all .3s ease;
   background-color: #e8e8ed;
+  --bs-btn-hover-bg: #d2d2d7;
   --bs-btn-hover-color: #1d1d1f;
-}
-#secondNavSearchBtn:hover {
-  background-color: #d2d2d7;
 }
 /* 上方導覽列二展開的熱門主題區塊裡的搜尋框 */
 #hotTopicsSearchBar {
