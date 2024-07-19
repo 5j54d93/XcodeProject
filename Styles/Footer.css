@@ -1,9 +1,7 @@
 #footerBrand {
-  color: #515154;
   font-size: 14px;
-}
-#footerBrand:hover {
-  color: #1d1d1f;
+  --bs-link-color-rgb: 81, 81, 84;
+  --bs-link-hover-color-rgb: 29, 29, 31;
 }
 .breadcrumbItem {
   color: #424245;
@@ -14,18 +12,16 @@
   line-height: 16px;
 }
 .wideScreenFooterLink {
-  color: #424245;
+  color: #000000b8;
   font-weight: 350;
   margin-bottom: 9.6px;
-  --bs-link-hover-color-rgb: 66, 66, 69;
 }
 #smallScreenFooter {
   display: none;
 }
 .smallScreenFooterLink {
-  color: #424245;
+  color: #000000b8;
   padding: 6px 14px;
-  --bs-link-hover-color-rgb: 66, 66, 69;
 }
 #bottomFooter {
   padding-top: 34px;
@@ -49,11 +45,10 @@
   margin: 12px 0px;
 }
 .bottomFooterLink {
-  color: #424245;
+  color: #000000b8;
   margin-right: 7px;
   padding-right: 10px;
   --bs-border-color: #86868b;
-  --bs-link-hover-color-rgb: 66, 66, 69;
 }
 /* 螢幕小於 833 */
 @media only screen and (max-width: 833px) {
