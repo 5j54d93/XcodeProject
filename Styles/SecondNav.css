@@ -31,9 +31,9 @@
 .secondNavLink {
   font-size: 12px;
   font-weight: 400;
-  color: #1d1d1f;
   margin-right: 24px;
   transition: all .35s ease;
+  --bs-link-color-rgb: 29, 29, 31;
   --bs-link-hover-color-rgb: 0, 102, 204;
 }
 /* 上方導覽列二展開的熱門主題區塊裡的搜尋框 */
@@ -52,11 +52,11 @@
 }
 /* 上方導覽列二展開的熱門主題連結 */
 .hotTopicLink {
-  color: #1d1d1f;
   font-size: 14px;
   font-weight: 600;
   margin-top: 16px;
   padding-left: 0px;
+  --bs-link-color-rgb: 29, 29, 31;
   --bs-link-hover-color-rgb: 0, 102, 204;
 }
 /* 熱門話題展開時的暗掉背景 */
