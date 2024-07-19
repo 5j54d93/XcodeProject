@@ -36,10 +36,8 @@
 }
 .archiveFilterLink {
   padding: 8px;
-  color: #1d1d1f;
-}
-.archiveFilterLink:hover {
-  color: #0066cc;
+  --bs-link-color-rgb: 29, 29, 31;
+  --bs-link-hover-color-rgb: 0, 102, 204;
 }
 .archivePagePostDateTitle {
   color: #1d1d1f;
