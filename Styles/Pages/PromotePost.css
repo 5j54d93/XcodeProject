@@ -38,7 +38,7 @@ img {
   background: #fafafa linear-gradient(to right, #fafafa 0%, #e8e8ed 20%, #fafafa 40%, #fafafa 100%);
 }
 .imgCaptionContainer {
-  max-width: 693px;
+  max-width: 653px;
   padding: 0 20px 0;
   margin-bottom: 27px;
   transition: all .35s ease;
@@ -93,7 +93,7 @@ img {
     line-height: 52px;
   }
   #subTitleContainer {
-    width: 692px;
+    width: 576px;
   }
   #subTitle {
     font-size: 19px;
@@ -120,7 +120,8 @@ img {
     margin-top: 60px;
     margin-bottom: 24px;
   }
-  #titleContainer {
+  #titleContainer,
+  .imgCaptionContainer {
     width: 87.5%;
   }
   #title {
@@ -134,9 +135,6 @@ img {
   #subTitle {
     width: 87.5%;
     margin-bottom: 52px;
-  }
-  .imgCaptionContainer {
-    max-width: 402px;
   }
   #learnMore {
     padding: 44px 0;
