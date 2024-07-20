@@ -1,8 +1,9 @@
 #smallLogo {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   margin-top: 80px;
   margin-bottom: 24px;
+  transition: all .3s ease;
 }
 #learnMore {
   padding: 52px 0;
