@@ -218,6 +218,9 @@ table {
   margin-bottom: 8px;
 }
 .blogPostShareBtn {
+  cursor: pointer;
+  --bs-btn-color: #6e6e73;
+  --bs-btn-hover-color: #1d1d1f;
   --bs-link-color-rgb: 110, 110, 115;
   --bs-link-hover-color-rgb: 29, 29, 31;
 }
