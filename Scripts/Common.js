@@ -18,9 +18,6 @@ window.addEventListener('resize', () => {
         wideScreenSearchBtn.style.color = "#828282";
         document.body.style.position = "";
         document.body.style.width = "auto";
-    } else if (window.innerWidth < 768 && wideScreenSecondNavSearchBtn && wideScreenSecondNavSearchBtn.ariaExpanded === "true") { // 寬螢幕導覽列二正在搜尋
-        var 寬螢幕導覽列二搜尋框收合元件 = new bootstrap.Collapse(wideScreenSecondNavSearchForm);
-        寬螢幕導覽列二搜尋框收合元件.hide();
     }
     
     if (wideScreenSearchForm.offsetHeight + wideScreenSearchQuickLinks.offsetHeight + 16 > window.innerHeight) {
