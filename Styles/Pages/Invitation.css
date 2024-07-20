@@ -57,8 +57,9 @@
     margin-top: 60px;
   }
   #title {
-    width: 414px;
-    font-size: 22px;
+    width: 87.5%;
+    max-width: 414px;
+    font-size: 26px;
     line-height: 36px;
     margin-bottom: 16px;
   }
