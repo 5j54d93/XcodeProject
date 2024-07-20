@@ -1,0 +1,39 @@
+#learnMore {
+  padding: 52px 0;
+  background-color: #fbfbfd;
+}
+#learnMoreText {
+  color: #6e6e73;
+  font-size: 17px;
+  font-weight: 450;
+  line-height: 23px;
+  margin-bottom: 18px;
+}
+#learnMoreBtn {
+  color: #161617;
+  font-size: 14px;
+  font-weight: 450;
+  border-radius: 30px;
+  transition: all .3s ease;
+  background-color: #e8e8ed;
+}
+#learnMoreBtn:hover {
+  background-color: #d2d2d7;
+}
+/* 螢幕小於 1068 */
+@media only screen and (max-width: 1068px) {
+  #learnMore {
+    padding: 48px 0;
+  }
+  #learnMoreText {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 14px;
+  }
+}
+/* 螢幕小於 734 */
+@media only screen and (max-width: 734px) {
+  #learnMore {
+    padding: 44px 0;
+  }
+}
