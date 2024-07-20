@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 let lazyImage = entry.target;
                 lazyImage.onload = function () {
                     lazyImage.dataset.src = "";
-                    lazyImage.parentElement.classList.remove("laodingImgContainer");
+                    lazyImage.parentElement.classList.remove("loadingImgContainer");
                 }
                 lazyImage.src = lazyImage.dataset.src;
                 lazyImageObserver.unobserve(lazyImage);
@@ -28,10 +28,10 @@ function reloadImage(reloadButton) {
       	imageSrc = targetImage.dataset.src;
     }
     targetImage.removeAttribute('src');
-    targetImage.classList.add('laodingImgContainer');
+    targetImage.classList.add('loadingImgContainer');
     targetImage.onload = () => {
         targetImage.dataset.src = "";
-        targetImage.classList.remove('laodingImgContainer');
+        targetImage.classList.remove('loadingImgContainer');
     }
     setTimeout(() => {
   		targetImage.src = imageSrc;
