@@ -28,7 +28,7 @@
   from { background-position: 200% 0; }
   to { background-position: -200% 0; }
 }
-.blogPostLaodingImgContainer {
+.loadingImgContainer {
   aspect-ratio: 16/9;
   background-size: 200% 100% !important;
   animation: shimmer 2s linear infinite;
