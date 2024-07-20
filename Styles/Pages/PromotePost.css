@@ -2,6 +2,17 @@
   margin-top: 80px;
   margin-bottom: 24px;
 }
+#titleContainer {
+  width: 980px;
+}
+#title {
+  width: 83.33%;
+  color: #1d1d1f;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -26,6 +37,14 @@
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
+  #titleContainer {
+    width: 692px;
+  }
+  #title {
+    width: 100%;
+    font-size: 48px;
+    line-height: 52px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -40,6 +59,14 @@
   #smallLogoContainer {
     margin-top: 60px;
     margin-bottom: 24px;
+  }
+  #titleContainer {
+    max-width: 414px;
+  }
+  #title {
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 16px;
   }
   #learnMore {
     padding: 44px 0;
