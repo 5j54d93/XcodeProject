@@ -7,6 +7,11 @@
   color: #424245;
   font-size: 12px;
 }
+.breadcrumbItemLink {
+  font-size: 12px;
+  --bs-link-color-rgb: 81, 81, 84;
+  --bs-link-hover-color-rgb: 29, 29, 31;
+}
 #wideScreenFooter {
   font-size: 12px;
   line-height: 16px;
