@@ -19,11 +19,11 @@ footerCopyright.innerText = "Copyright © " + footerDate.getFullYear() + " Xcode
 社群平台.addEventListener('hide.bs.collapse', event => {
     社群平台x.style.transform = "rotate(0) scale(1)";
 })
-主題＆技術.addEventListener('show.bs.collapse', event => {
-    主題＆技術x.style.transform = "rotate(45deg) scale(1.08)";
+主題技術.addEventListener('show.bs.collapse', event => {
+    主題技術x.style.transform = "rotate(45deg) scale(1.08)";
 })
-主題＆技術.addEventListener('hide.bs.collapse', event => {
-    主題＆技術x.style.transform = "rotate(0) scale(1)";
+主題技術.addEventListener('hide.bs.collapse', event => {
+    主題技術x.style.transform = "rotate(0) scale(1)";
 })
 理念價值.addEventListener('show.bs.collapse', event => {
     理念價值x.style.transform = "rotate(45deg) scale(1.08)";
