@@ -145,6 +145,7 @@ table {
 }
 .blogPostImg {
   border-radius: 10px;
+  pointer-events: none;
 }
 .blogPostImgCaption {
   color: #6e6e73;
