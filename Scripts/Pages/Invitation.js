@@ -21,9 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let floatCapsuleObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio == 1) {
+                floatCapsuleLink.style.scale = "0";
                 floatCapsuleTextCollapse.show();
             } else {
                 floatCapsuleTextCollapse.hide();
+                floatCapsuleLink.style.scale = "1";
             }
         });
     }, { threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1] });
