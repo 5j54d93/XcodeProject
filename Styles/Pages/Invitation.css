@@ -25,6 +25,7 @@ img {
   margin-bottom: 80px;
 }
 #copyButton {
+  cursor: pointer;
   margin-left: 5px;
   line-height: 18px;
   --bs-btn-color: #26A862;
