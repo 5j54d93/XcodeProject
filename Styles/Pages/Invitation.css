@@ -225,6 +225,7 @@ ul {
   line-height: 21px;
   padding-left: 14px;
   color: rgb(29,29,31);
+  transition: all .3s ease;
 }
 #floatCapsuleIcon {
   font-size: 20px;
