@@ -67,6 +67,9 @@ p, ul {
   animation: shimmer 2s linear infinite;
   background: #fafafa linear-gradient(to right, #fafafa 0%, #e8e8ed 20%, #fafafa 40%, #fafafa 100%);
 }
+.imgContainer {
+  width: 980px;
+}
 .imgCaptionContainer {
   gap: 24px;
   max-width: 653px;
@@ -279,6 +282,9 @@ p, ul {
   #invitationTopSectionHr {
     margin: 36px 0;
   }
+  .imgContainer {
+    width: 692px;
+  }
   #shareTitle {
     font-size: 16px;
     margin-top: 36px;
@@ -361,6 +367,9 @@ p, ul {
   #invitationTopSectionHr {
     margin: 32px 0;
   }
+  .imgContainer {
+    max-width: 414px;
+  }
   #shareTitle {
     margin-top: 32px;
   }
@@ -380,5 +389,10 @@ p, ul {
   }
   #learnMore {
     padding: 44px 0;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .invitaionImg {
+    border-radius: 0 !important;
   }
 }
