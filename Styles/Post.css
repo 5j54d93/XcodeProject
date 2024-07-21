@@ -244,13 +244,13 @@ table {
 #blogPostDonate {
   padding: 36px;
 }
-#blogPostTopicTitle {
+.blogPostTopicAndDonateTitle {
   color: #1d1d1f;
   font-size: 17px;
   font-weight: 500;
   line-height: 23px;
 }
-#blogPostTopicLink {
+.blogPostTopicAndDonateLink {
   width: auto;
   height: auto;
   color: #1d1d1f;
@@ -263,7 +263,7 @@ table {
   border-radius: 30px;
   transition: all .35s ease;
 }
-#blogPostTopicLink:hover {
+.blogPostTopicAndDonateLink:hover {
   box-shadow: unset !important;
   background: #e8e8ed !important;
 }
@@ -413,7 +413,7 @@ table {
   #blogPostDonate {
     padding: 32px;
   }
-  #blogPostTopicTitle {
+  .blogPostTopicAndDonateTitle {
     font-size: 15px;
     line-height: 21px;
   }
