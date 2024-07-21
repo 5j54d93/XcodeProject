@@ -1,3 +1,6 @@
+img {
+  pointer-events: none;
+}
 #smallLogo {
   font-size: 19px;
   font-weight: 500;
@@ -16,7 +19,7 @@
 #subTitle {
   width: 653px;
   color: #1d1d1f;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: 500;
   line-height: 31px;
   margin-bottom: 80px;
@@ -52,7 +55,7 @@
   }
   #subTitle {
     width: 576px;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     margin-bottom: 64px;
