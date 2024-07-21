@@ -18,14 +18,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 	var floatCapsuleTextCollapse = new bootstrap.Collapse(floatCapsuleText);
-	let floatCapsuleObserver = new IntersectionObserver(function(entry, observer) {
-		if (entry.intersectionRatio > 0.99) {
+	window.addEventListener('scroll', () => {
+	    var floatCapsuleBottom = parseInt(floatCapsuleLink.parentElement.style.bottom, 10);
+		if (floatCapsuleBottom == 30) {
 			floatCapsuleTextCollapse.show();
 		} else {
 			floatCapsuleTextCollapse.hide();
 		}
-    });
-	floatCapsuleObserver.observe(floatCapsuleLink);
+	});
 	floatCapsuleText.addEventListener('shown.bs.collapse', event => {
 		floatCapsuleText.classList.remove("text-nowrap");
 	});
