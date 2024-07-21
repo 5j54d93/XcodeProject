@@ -18,11 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
         lazyImageObserver.observe(lazyImage);
     });
 });
-function onCopy(text) {
+function onCopy(text, id) {
     navigator.clipboard.writeText(text);
-    hadCopyTip.style.opacity = "1";
+    const tip = document.getElementById(id);
+    tip.style.opacity = "1";
     setTimeout( () => {
-        hadCopyTip.style.opacity = "0";
+        tip.style.opacity = "0";
     }, 1000);
 }
 function reloadImage(reloadButton) {
