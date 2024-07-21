@@ -368,7 +368,8 @@ p, ul {
     margin: 32px 0;
   }
   .imgContainer {
-    max-width: 414px;
+    width: 100%;
+    border-radius: 0 !important;
   }
   #shareTitle {
     margin-top: 32px;
@@ -389,10 +390,5 @@ p, ul {
   }
   #learnMore {
     padding: 44px 0;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .invitaionImg {
-    border-radius: 0 !important;
   }
 }
