@@ -18,11 +18,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 	let floatCapsuleObserver = new IntersectionObserver(function(entry, observer) {
-		new bootstrap.Collapse(floatCapsuleText, {
-			toggle: entry.intersectionRatio > 0
-		})
+		if (entry.intersectionRatio === 1 || entry.intersectionRatio < 0.8) {
+			new bootstrap.Collapse(floatCapsuleText)
+		}
     });
 	floatCapsuleObserver.observe(floatCapsuleText);
+	floatCapsuleText.addEventListener('shown.bs.collapse', event => {
+		floatCapsuleText.classList.remove("text-nowrap");
+	})
+	floatCapsuleText.addEventListener('hide.bs.collapse', event => {
+		floatCapsuleText.classList.add("text-nowrap");
+	})
 });
 function onCopy(text, id) {
     navigator.clipboard.writeText(text);
