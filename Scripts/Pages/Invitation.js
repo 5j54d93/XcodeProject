@@ -25,15 +25,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 floatCapsuleLink.style.scale = "1";
                 setTimeout(() => {
                     floatCapsuleTextCollapse.show();
-                    floatCapsuleObserver.observe(floatCapsuleLink);
                 }, 800);
+                setTimeout(() => {
+                    floatCapsuleObserver.observe(floatCapsuleLink);
+                }, 2000);
             } else {
                 floatCapsuleObserver.unobserve(entry.target);
                 floatCapsuleTextCollapse.hide();
                 setTimeout(() => {
                     floatCapsuleLink.style.scale = "0";
-                    floatCapsuleObserver.observe(floatCapsuleLink);
                 }, 800);
+                setTimeout(() => {
+                    floatCapsuleObserver.observe(floatCapsuleLink);
+                }, 2000);
             }
         });
     }, { threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1] });
