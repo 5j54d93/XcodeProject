@@ -21,9 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let floatCapsuleObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio == 1) {
-                setTimeout( () => {
-                    floatCapsuleTextCollapse.show();
-                }, 1000);
+                floatCapsuleTextCollapse.show();
             } else {
                 floatCapsuleTextCollapse.hide();
             }
