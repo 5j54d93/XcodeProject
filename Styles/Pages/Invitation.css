@@ -73,6 +73,7 @@ img {
   --bs-btn-hover-bg: #e8e8e8;
 }
 #topSectionContainer {
+  gap: 24px;
   max-width: 653px;
   margin-top: 80px;
   margin-bottom: 44px;
@@ -101,6 +102,16 @@ img {
   --bs-btn-hover-color: #1d1d1f;
   --bs-link-color-rgb: 110, 110, 115;
   --bs-link-hover-color-rgb: 29, 29, 31;
+}
+.invitationContainer {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 653px;
+  transition: all .35s ease;
+}
+.invitationHr {
+  color: #d7d7d7;
+  margin: 44px 0;
 }
 #learnMore {
   padding: 52px 0;
@@ -159,6 +170,12 @@ img {
     margin-left: 8px;
     line-height: 19px;
   }
+  .invitationContainer {
+    max-width: 576px;
+  }
+  .invitationHr {
+    margin: 36px 0;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -191,9 +208,14 @@ img {
   }
   #topSectionContainer {
     width: 87.5%;
-    max-width: 362px;
     margin-top: 52px;
     margin-bottom: 32px;
+  }
+  .invitationContainer {
+    width: 87.5%;
+  }
+  .invitationHr {
+    margin: 32px 0;
   }
   #learnMore {
     padding: 44px 0;
