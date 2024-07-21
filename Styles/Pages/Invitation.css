@@ -7,6 +7,11 @@ h2 {
   line-height: 28px;
   margin: 52px 0 16px;
 }
+h3 {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
 p, ul {
   color: #1d1d1f;
   font-size: 18px;
@@ -226,6 +231,9 @@ p, ul {
     font-size: 21px;
     line-height: 25px;
     margin: 48px 0 16px;
+  }
+  h3 {
+    font-size: 19px;
   }
   p, ul {
     font-size: 16px;
