@@ -211,6 +211,7 @@ ul {
   gap: 16px;
   max-width: 87.5%;
   border-radius: 32px;
+  backdrop-filter: blur(7px);
   background-color: #e8e8edb3;
   padding: 10px 10px 10px 24px;
   -webkit-backdrop-filter: blur(7px);
