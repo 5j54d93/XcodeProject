@@ -207,6 +207,29 @@ ul {
   line-height: 23px;
   margin-bottom: 4px;
 }
+#floatCapsuleLink {
+  gap: 16px;
+  border-radius: 32px;
+  background-color: #e8e8edb3;
+  padding: 10px 10px 10px 24px;
+  -webkit-backdrop-filter: blur(7px);
+}
+#floatCapsuleLink:hover #floatCapsuleIcon {
+  color: #ffffff;
+}
+#floatCapsuleText {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgb(29,29,31);
+}
+#floatCapsuleIcon {
+  font-size: 20px;
+  color: #ffffffcc;
+  border-radius: 50px;
+  -webkit-text-stroke: 2px;
+  padding: 3px 6.8px 3px 9.2px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -375,6 +398,10 @@ ul {
   }
   .invitaionImg {
     border-radius: 0 !important;
+  }
+  #floatCapsuleText {
+    font-size: 13px;
+    line-height: 16px;
   }
   #shareTitle {
     margin-top: 32px;
