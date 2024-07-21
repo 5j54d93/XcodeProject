@@ -8,6 +8,7 @@
 }
 /* 上方導覽列二容器 */
 #secondNavContainer {
+  gap: 24px;
   padding: 0px 19px;
   max-width: 1024px;
   transition: all .35s ease;
@@ -31,7 +32,6 @@
 .secondNavLink {
   font-size: 12px;
   font-weight: 400;
-  margin-right: 24px;
   transition: all .35s ease;
   --bs-link-color-rgb: 29, 29, 31;
   --bs-link-hover-color-rgb: 0, 102, 204;
