@@ -165,6 +165,10 @@ img {
 .swg-button-v2-icon-dark, .swg-button-v2-icon-light {
   margin-left: 0 !important;
 }
+#underTopicAndDonateHr {
+  color: #d7d7d7;
+  margin: 52px 0;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -240,7 +244,7 @@ img {
   }
   #invitationTopicContainer,
   #invitationDonateContainer {
-      padding: 32px;
+    padding: 32px;
   }
   .invitationTopicAndDonateTitle {
     font-size: 15px;
@@ -248,6 +252,9 @@ img {
   }
   #invitationTopicAndDonateHr {
     margin: 0 32px;
+  }
+  #underTopicAndDonateHr {
+    margin: 48px 0;
   }
   #learnMore {
     padding: 48px 0;
@@ -301,7 +308,10 @@ img {
   }
   #invitationTopicContainer,
   #invitationDonateContainer {
-      padding: 24px;
+    padding: 24px;
+  }
+  #underTopicAndDonateHr {
+    margin: 44px 0;
   }
   #learnMore {
     padding: 44px 0;
