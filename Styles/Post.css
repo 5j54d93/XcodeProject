@@ -251,17 +251,17 @@ table {
   line-height: 23px;
 }
 .blogPostTopicAndDonateLink {
-  width: auto;
-  height: auto;
-  color: #1d1d1f;
-  min-width: auto;
-  min-height: auto;
-  font-size: 13px;
-  font-weight: 500;
   line-height: 20px;
   padding: 8px 16px;
-  border-radius: 30px;
+  width: auto !important;
+  height: auto !important;
   transition: all .35s ease;
+  color: #1d1d1f !important;
+  min-width: auto !important;
+  font-size: 13px !important;
+  min-height: auto !important;
+  font-weight: 500 !important;
+  border-radius: 30px !important;
 }
 .blogPostTopicAndDonateLink:hover {
   box-shadow: unset !important;
