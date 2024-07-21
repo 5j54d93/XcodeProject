@@ -1,3 +1,6 @@
+#SecondNav {
+  z-index: 1021;
+}
 /* 上方導覽列二 */
 #secondNav {
   height: 50px;
