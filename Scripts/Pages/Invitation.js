@@ -17,23 +17,25 @@ document.addEventListener("DOMContentLoaded", () => {
         lazyImageObserver.observe(lazyImage);
     });
 
-	var floatCapsuleTextCollapse = new bootstrap.Collapse(floatCapsuleText);
-	let floatCapsuleObserver = new IntersectionObserver(function(entries, observer) {
+    var floatCapsuleTextCollapse = new bootstrap.Collapse(floatCapsuleText);
+    let floatCapsuleObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
-            if (entry.intersectionRatio == 0) {
-                floatCapsuleTextCollapse.show();
+            if (entry.intersectionRatio == 1) {
+                setTimeout( () => {
+                    floatCapsuleTextCollapse.show();
+                }, 1000);
             } else {
-				floatCapsuleTextCollapse.hide();
-			}
+                floatCapsuleTextCollapse.hide();
+            }
         });
     });
-	floatCapsuleObserver.observe(floatCapsuleIcon);
-	floatCapsuleText.addEventListener('shown.bs.collapse', event => {
-		floatCapsuleText.classList.remove("text-nowrap");
-	});
-	floatCapsuleText.addEventListener('hide.bs.collapse', event => {
-		floatCapsuleText.classList.add("text-nowrap");
-	});
+    floatCapsuleObserver.observe(floatCapsuleIcon);
+    floatCapsuleText.addEventListener('shown.bs.collapse', event => {
+        floatCapsuleText.classList.remove("text-nowrap");
+    });
+    floatCapsuleText.addEventListener('hide.bs.collapse', event => {
+        floatCapsuleText.classList.add("text-nowrap");
+    });
 });
 function onCopy(text, id) {
     navigator.clipboard.writeText(text);
@@ -60,7 +62,7 @@ function reloadImage(reloadButton) {
         targetImageContainer.classList.remove('loadingImgContainer');
     }
     setTimeout(() => {
-  		targetImage.src = imageSrc;
+        targetImage.src = imageSrc;
         reloadButton.disabled = false;
-	}, 800);
+    }, 800);
 }
