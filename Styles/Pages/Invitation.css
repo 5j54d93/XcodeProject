@@ -169,6 +169,16 @@ img {
   color: #d7d7d7;
   margin: 52px 0;
 }
+#contactsContainer {
+  margin: 52px 0;
+}
+.contactsName {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 4px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -253,8 +263,13 @@ img {
   #invitationTopicAndDonateHr {
     margin: 0 32px;
   }
-  #underTopicAndDonateHr {
+  #underTopicAndDonateHr,
+  #contactsContainer {
     margin: 48px 0;
+  }
+  .contactsName {
+    font-size: 16px;
+    line-height: 21px;
   }
   #learnMore {
     padding: 48px 0;
@@ -310,7 +325,8 @@ img {
   #invitationDonateContainer {
     padding: 24px;
   }
-  #underTopicAndDonateHr {
+  #underTopicAndDonateHr,
+  #contactsContainer {
     margin: 44px 0;
   }
   #learnMore {
