@@ -213,7 +213,7 @@ ul {
   border-radius: 32px;
   backdrop-filter: blur(7px);
   background-color: #e8e8edb3;
-  padding: 10px 10px 10px 24px;
+  padding: 10px;
   -webkit-backdrop-filter: blur(7px);
 }
 #floatCapsuleLink:hover #floatCapsuleIcon {
@@ -223,6 +223,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 21px;
+  padding-left: 14px;
   color: rgb(29,29,31);
 }
 #floatCapsuleIcon {
