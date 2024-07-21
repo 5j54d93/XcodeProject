@@ -21,14 +21,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let floatCapsuleObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio == 1) {
+                floatCapsuleObserver.unobserve(entry.target);
+                floatCapsuleLink.style.scale = "1";
                 setTimeout(() => {
-                    floatCapsuleLink.style.scale = "1";
+                    floatCapsuleTextCollapse.show();
+                    floatCapsuleObserver.observe(floatCapsuleLink);
                 }, 800);
-                floatCapsuleTextCollapse.show();
             } else {
+                floatCapsuleObserver.unobserve(entry.target);
                 floatCapsuleTextCollapse.hide();
                 setTimeout(() => {
                     floatCapsuleLink.style.scale = "0";
+                    floatCapsuleObserver.observe(floatCapsuleLink);
                 }, 800);
             }
         });
