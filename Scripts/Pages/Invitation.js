@@ -13,10 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-    
     lazyImages.forEach(function(lazyImage) {
         lazyImageObserver.observe(lazyImage);
     });
+
+	let floatCapsuleObserver = new IntersectionObserver(function(entry, observer) {
+		new bootstrap.Collapse(floatCapsuleText, {
+			toggle: entry.intersectionRatio > 0
+		})
+    });
+	floatCapsuleObserver.observe(floatCapsuleText);
 });
 function onCopy(text, id) {
     navigator.clipboard.writeText(text);
