@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	var floatCapsuleTextCollapse = new bootstrap.Collapse(floatCapsuleText);
 	let floatCapsuleObserver = new IntersectionObserver(function(entry, observer) {
-		if (entry.intersectionRatio > 0.99) {
+		if (entry.target.intersectionRatio > 0.99) {
 			setTimeout( () => {
 		        floatCapsuleTextCollapse.show();
 		    }, 1000);
