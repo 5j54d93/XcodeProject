@@ -17,18 +17,21 @@ document.addEventListener("DOMContentLoaded", () => {
         lazyImageObserver.observe(lazyImage);
     });
 
+	var floatCapsuleTextCollapse = new bootstrap.Collapse(floatCapsuleText);
 	let floatCapsuleObserver = new IntersectionObserver(function(entry, observer) {
-		if (entry.intersectionRatio === 1 || entry.intersectionRatio < 0.8) {
-			new bootstrap.Collapse(floatCapsuleText)
+		if (entry.intersectionRatio > 0.99) {
+			floatCapsuleTextCollapse.show();
+		} else if (entry.intersectionRatio < 0.7) {
+			floatCapsuleTextCollapse.hide();
 		}
     });
-	floatCapsuleObserver.observe(floatCapsuleText);
+	floatCapsuleObserver.observe(floatCapsuleLink);
 	floatCapsuleText.addEventListener('shown.bs.collapse', event => {
 		floatCapsuleText.classList.remove("text-nowrap");
-	})
+	});
 	floatCapsuleText.addEventListener('hide.bs.collapse', event => {
 		floatCapsuleText.classList.add("text-nowrap");
-	})
+	});
 });
 function onCopy(text, id) {
     navigator.clipboard.writeText(text);
