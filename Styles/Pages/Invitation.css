@@ -24,6 +24,30 @@ img {
   line-height: 31px;
   margin-bottom: 80px;
 }
+#copyButton {
+  margin-left: 5px;
+  line-height: 18px;
+  --bs-btn-color: #26A862;
+  -webkit-text-stroke: 1px;
+  --bs-btn-hover-color: #0F8144;
+}
+#hadCopyTip {
+  opacity: 0;
+  bottom: -30px;
+  border-radius: 3px;
+  background-color: #1d1d1f;
+  transition: all 0.3s ease 0s;
+}
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+.loadingImgContainer {
+  aspect-ratio: 16/9;
+  background-size: 200% 100% !important;
+  animation: shimmer 2s linear infinite;
+  background: #fafafa linear-gradient(to right, #fafafa 0%, #e8e8ed 20%, #fafafa 40%, #fafafa 100%);
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
