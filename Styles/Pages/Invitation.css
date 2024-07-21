@@ -125,6 +125,45 @@ img {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+#invitationTopicAndDonate {
+  margin: 44px 0;
+  border-radius: 10px;
+  background-color: #f5f5f7;
+}
+#invitationTopicContainer,
+#invitationDonateContainer {
+    padding: 36px;
+}
+.invitationTopicAndDonateTitle {
+  color: #1d1d1f;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.invitationTopicLink {
+  line-height: 20px;
+  padding: 8px 16px;
+  width: auto !important;
+  height: auto !important;
+  transition: all .35s ease;
+  color: #1d1d1f !important;
+  min-width: auto !important;
+  font-size: 13px !important;
+  min-height: auto !important;
+  font-weight: 500 !important;
+  border-radius: 30px !important;
+}
+.invitationTopicLink:hover {
+  box-shadow: unset !important;
+  background: #e8e8ed !important;
+}
+#invitationTopicAndDonateHr {
+  color: white;
+  margin: 0 36px;
+}
+.swg-button-v2-icon-dark, .swg-button-v2-icon-light {
+  margin-left: 0 !important;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -195,6 +234,20 @@ img {
   #shareBtnsBottomContainer {
     margin-bottom: 36px;
   }
+  #invitationTopicAndDonate {
+    margin: 36px 0;
+  }
+  #invitationTopicContainer,
+  #invitationDonateContainer {
+      padding: 32px;
+  }
+  .invitationTopicAndDonateTitle {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  #invitationTopicAndDonateHr {
+    margin: 0 32px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -241,6 +294,13 @@ img {
   }
   #shareBtnsBottomContainer {
     margin-bottom: 32px;
+  }
+  #invitationTopicAndDonate {
+    margin: 32px 0;
+  }
+  #invitationTopicContainer,
+  #invitationDonateContainer {
+      padding: 24px;
   }
   #learnMore {
     padding: 44px 0;
