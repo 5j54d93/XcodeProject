@@ -109,7 +109,7 @@ img {
   max-width: 653px;
   transition: all .35s ease;
 }
-.invitationTopSectionHr {
+#invitationTopSectionHr {
   color: #d7d7d7;
   margin: 44px 0;
 }
@@ -181,7 +181,7 @@ img {
   .invitationContainer {
     max-width: 576px;
   }
-  .invitationTopSectionHr {
+  #invitationTopSectionHr {
     margin: 36px 0;
   }
   #shareTitle {
@@ -226,7 +226,7 @@ img {
   .invitationContainer {
     width: 87.5%;
   }
-  .invitationTopSectionHr {
+  #invitationTopSectionHr {
     margin: 32px 0;
   }
   #shareTitle {
