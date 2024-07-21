@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 setTimeout(() => {
                     floatCapsuleObserver.observe(floatCapsuleLink);
                 }, 2000);
-            } else {
+            } else if (entry.intersectionRatio < 0.8) {
                 floatCapsuleObserver.unobserve(entry.target);
                 floatCapsuleTextCollapse.hide();
                 setTimeout(() => {
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }, 2000);
             }
         });
-    }, { threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1] });
+    }, { threshold: [0, 0.1, 0.2, 0.8, 0.9, 1] });
     floatCapsuleObserver.observe(floatCapsuleLink);
     floatCapsuleText.addEventListener('show.bs.collapse', event => {
         floatCapsuleText.style.paddingLeft = "14px";
