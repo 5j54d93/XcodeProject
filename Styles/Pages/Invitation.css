@@ -132,7 +132,8 @@ img {
 }
 #invitationTopicContainer,
 #invitationDonateContainer {
-    padding: 36px;
+  gap: 12px;
+  padding: 36px;
 }
 .invitationTopicAndDonateTitle {
   color: #1d1d1f;
