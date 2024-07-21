@@ -22,22 +22,22 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio == 1) {
                 floatCapsuleObserver.unobserve(entry.target);
-                floatCapsuleLink.style.scale = "1";
+                floatCapsuleLink.style.transform = "translateY(-30px) scale(1, 1)";
                 setTimeout(() => {
                     floatCapsuleTextCollapse.show();
-                }, 800);
+                }, 500);
                 setTimeout(() => {
                     floatCapsuleObserver.observe(floatCapsuleLink);
-                }, 2000);
-            } else if (entry.intersectionRatio < 0.8) {
+                }, 500);
+            } else if (entry.intersectionRatio < 0.99) {
                 floatCapsuleObserver.unobserve(entry.target);
                 floatCapsuleTextCollapse.hide();
                 setTimeout(() => {
-                    floatCapsuleLink.style.scale = "0";
-                }, 800);
+                    floatCapsuleLink.style.transform = "translateY(0) scale(0, 0)";
+                }, 500);
                 setTimeout(() => {
                     floatCapsuleObserver.observe(floatCapsuleLink);
-                }, 2000);
+                }, 500);
             }
         });
     }, { threshold: [0, 0.1, 0.2, 0.8, 0.9, 1] });
