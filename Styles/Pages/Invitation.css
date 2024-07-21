@@ -36,6 +36,7 @@ img {
   opacity: 0;
   bottom: -30px;
   border-radius: 3px;
+  pointer-events: none;
   background-color: #1d1d1f;
   transition: all 0.3s ease 0s;
 }
