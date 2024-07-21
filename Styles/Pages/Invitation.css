@@ -1,6 +1,12 @@
 img {
   pointer-events: none;
 }
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 52px 0 16px;
+}
 p {
   color: #1d1d1f;
   font-size: 18px;
@@ -216,6 +222,11 @@ p {
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
+  h2 {
+    font-size: 21px;
+    line-height: 25px;
+    margin: 48px 0 16px;
+  }
   p {
     font-size: 16px;
     line-height: 25px;
@@ -304,6 +315,9 @@ p {
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
+  h2 {
+    margin: 44px 0 16px;
+  }
   p {
     font-size: 16px;
     line-height: 25px;
