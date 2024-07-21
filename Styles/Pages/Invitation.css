@@ -369,6 +369,8 @@ p, ul {
   }
   .imgContainer {
     width: 100%;
+  }
+  .invitaionImg {
     border-radius: 0 !important;
   }
   #shareTitle {
