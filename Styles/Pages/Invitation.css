@@ -52,7 +52,8 @@ img {
 }
 .imgCaptionContainer {
   max-width: 653px;
-  margin: 16px 0 44px;
+  margin-top: 16px;
+  margin-bottom: 44px;
   transition: all .35s ease;
 }
 .imgCaption {
@@ -110,7 +111,8 @@ img {
   }
   .imgCaptionContainer {
     max-width: 576px;
-    margin: 12px 0 36px;
+    margin-top: 12px;
+    margin-bottom: 36px;
   }
   #learnMore {
     padding: 48px 0;
@@ -140,7 +142,7 @@ img {
   }
   .imgCaptionContainer {
     width: 87.5%;
-    margin: 12px 0 32px;
+    margin-bottom: 32px;
   }
   #learnMore {
     padding: 44px 0;
