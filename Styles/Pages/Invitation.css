@@ -172,6 +172,13 @@ img {
 #contactsContainer {
   margin: 52px 0;
 }
+#contactsTitle {
+  color: #1d1d1f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 28px;
+}
 .contactsName {
   color: #1d1d1f;
   font-size: 18px;
@@ -266,6 +273,10 @@ img {
   #underTopicAndDonateHr,
   #contactsContainer {
     margin: 48px 0;
+  }
+  #contactsTitle {
+    font-size: 21px;
+    line-height: 25px;
   }
   .contactsName {
     font-size: 16px;
