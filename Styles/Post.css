@@ -242,6 +242,7 @@ table {
 }
 #blogPostTopic,
 #blogPostDonate {
+  gap: 12px;
   padding: 36px;
 }
 .blogPostTopicAndDonateTitle {
