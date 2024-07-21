@@ -13,6 +13,14 @@
   line-height: 60px;
   margin-bottom: 20px;
 }
+#subTitle {
+  width: 653px;
+  color: #1d1d1f;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  margin-bottom: 80px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -42,6 +50,13 @@
     font-size: 38px;
     line-height: 52px;
   }
+  #subTitle {
+    width: 576px;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 64px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -62,6 +77,11 @@
     font-size: 26px;
     line-height: 36px;
     margin-bottom: 16px;
+  }
+  #subTitle {
+    width: 87.5%;
+    max-width: 414px;
+    margin-bottom: 52px;
   }
   #learnMore {
     padding: 44px 0;
