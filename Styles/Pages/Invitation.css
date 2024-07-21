@@ -121,6 +121,10 @@ img {
   line-height: 23px;
   margin-bottom: 8px;
 }
+#shareBtnsBottomContainer {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -188,6 +192,9 @@ img {
     font-size: 16px;
     margin-top: 36px;
   }
+  #shareBtnsBottomContainer {
+    margin-bottom: 36px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -231,6 +238,9 @@ img {
   }
   #shareTitle {
     margin-top: 32px;
+  }
+  #shareBtnsBottomContainer {
+    margin-bottom: 32px;
   }
   #learnMore {
     padding: 44px 0;
