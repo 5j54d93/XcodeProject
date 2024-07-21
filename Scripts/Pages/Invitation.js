@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    var lazyImages = document.querySelectorAll("img");
+    var lazyImages = document.querySelectorAll(".invitaionImg");
     let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio > 0) {
@@ -18,9 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
         lazyImageObserver.observe(lazyImage);
     });
 });
-function onCopy(hadCopyTipId, text) {
+function onCopy(text) {
     navigator.clipboard.writeText(text);
-    const hadCopyTip = document.getElementById(hadCopyTipId);
     hadCopyTip.style.opacity = "1";
     setTimeout( () => {
         hadCopyTip.style.opacity = "0";
