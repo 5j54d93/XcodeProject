@@ -109,9 +109,17 @@ img {
   max-width: 653px;
   transition: all .35s ease;
 }
-.invitationHr {
+.invitationTopSectionHr {
   color: #d7d7d7;
   margin: 44px 0;
+}
+#shareTitle {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 450;
+  margin-top: 44px;
+  line-height: 23px;
+  margin-bottom: 8px;
 }
 #learnMore {
   padding: 52px 0;
@@ -173,8 +181,12 @@ img {
   .invitationContainer {
     max-width: 576px;
   }
-  .invitationHr {
+  .invitationTopSectionHr {
     margin: 36px 0;
+  }
+  #shareTitle {
+    font-size: 16px;
+    margin-top: 36px;
   }
   #learnMore {
     padding: 48px 0;
@@ -214,8 +226,11 @@ img {
   .invitationContainer {
     width: 87.5%;
   }
-  .invitationHr {
+  .invitationTopSectionHr {
     margin: 32px 0;
+  }
+  #shareTitle {
+    margin-top: 32px;
   }
   #learnMore {
     padding: 44px 0;
