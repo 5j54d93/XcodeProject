@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio > 0) {
                 let lazyImage = entry.target;
-                if (lazyImage.parentElement.classList.contains("loadingImgContainer") && lazyImage.dataset.src != "") {
+                if (lazyImage.parentElement.classList.contains("blogPostLaodingImgContainer") && lazyImage.dataset.src != "") {
                     lazyImage.onload = function () {
                         lazyImage.dataset.src = "";
                         lazyImage.parentElement.classList.remove("blogPostLaodingImgContainer");
