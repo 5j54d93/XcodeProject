@@ -20,6 +20,11 @@ ul {
   line-height: 27px;
   margin-bottom: 27px;
 }
+table {
+  font-size: 17px;
+  margin-bottom: 27px !important;
+  --bs-table-border-color: #d2d2d7;
+}
 #smallLogo {
   font-size: 19px;
   font-weight: 500;
@@ -149,6 +154,14 @@ ul {
   font-weight: 500;
   line-height: 26px;
   margin-bottom: 6.8px;
+}
+.invitationTableContainer {
+  padding: 0;
+  font-size: 17px;
+  font-weight: 300;
+  max-width: 980px;
+  margin-bottom: 27px;
+  transition: all .35s ease;
 }
 #shareTitle {
   color: #1d1d1f;
@@ -291,6 +304,10 @@ ul {
     line-height: 25px;
     margin-bottom: 24px;
   }
+  table {
+    font-size: 15px;
+    margin-bottom: 24px !important;
+  }
   #title {
     width: 692px;
     font-size: 38px;
@@ -334,6 +351,10 @@ ul {
     width: 692px;
   }
   .invitationNotice {
+    margin-bottom: 24px;
+  }
+  .invitationTableContainer {
+    max-width: 692px;
     margin-bottom: 24px;
   }
   #shareTitle {
@@ -428,6 +449,9 @@ ul {
   #floatCapsuleText {
     font-size: 13px;
     line-height: 16px;
+  }
+  .invitaionTableContainer {
+    max-width: 454px;
   }
   #shareTitle {
     margin-top: 32px;
