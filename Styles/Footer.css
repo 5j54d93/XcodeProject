@@ -1,7 +1,9 @@
 #footerBrand {
   font-size: 14px;
-  --bs-link-color-rgb: 81, 81, 84;
-  --bs-link-hover-color-rgb: 29, 29, 31;
+  color: #515154;
+}
+#footerBrand:hover {
+  color: #1d1d1f;
 }
 .breadcrumbItem {
   color: #424245;
@@ -9,8 +11,10 @@
 }
 .breadcrumbItemLink {
   font-size: 12px;
-  --bs-link-color-rgb: 81, 81, 84;
-  --bs-link-hover-color-rgb: 29, 29, 31;
+  color: #515154;
+}
+.breadcrumbItemLink:hover {
+  color: #1d1d1f;
 }
 #wideScreenFooter {
   font-size: 12px;
