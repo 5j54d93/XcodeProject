@@ -1,3 +1,15 @@
+#bigLogo {
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 64px;
+  margin-top: 120px;
+  margin-bottom: 24px;
+  transition: all .3s ease;
+}
+#bigLogoImage {
+  width: 64px;
+  height: 64px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -22,6 +34,16 @@
 }
 /* 螢幕小於 1068 */
 @media only screen and (max-width: 1068px) {
+  #bigLogo {
+    font-size: 50px;
+    line-height: 49px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  #bigLogoImage {
+    width: 49px;
+    height: 49px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -33,6 +55,16 @@
 }
 /* 螢幕小於 734 */
 @media only screen and (max-width: 734px) {
+  #bigLogo {
+    font-size: 42px;
+    line-height: 45px;
+    margin-top: 80px;
+    margin-bottom: 16px;
+  }
+  #bigLogoImage {
+    width: 45px;
+    height: 45px;
+  }
   #learnMore {
     padding: 44px 0;
   }
