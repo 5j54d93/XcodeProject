@@ -134,6 +134,22 @@ ul {
   color: #d7d7d7;
   margin: 44px 0;
 }
+.invitationNotice {
+  padding: 16px;
+  margin-bottom: 27px;
+  border-radius: 15px;
+  --bs-border-width: 0.87px;
+  background-color: #f5f5f7;
+  --bs-border-color: #696969;
+  box-shadow: 0 0 1px 0 #696969 inset, 0 0 1px 0 #696969;
+}
+.invitationNoticeTitle {
+  height: 26px;
+  color: #696969;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 6.8px;
+}
 #shareTitle {
   color: #1d1d1f;
   font-size: 18px;
@@ -316,6 +332,9 @@ ul {
   }
   .imgContainer {
     width: 692px;
+  }
+  .invitationNotice {
+    margin-bottom: 24px;
   }
   #shareTitle {
     font-size: 16px;
