@@ -69,6 +69,7 @@ table {
 }
 .loadingImgContainer {
   aspect-ratio: 16/9;
+  border-radius: 10px;
   background-size: 200% 100% !important;
   animation: shimmer 2s linear infinite;
   background: #fafafa linear-gradient(to right, #fafafa 0%, #e8e8ed 20%, #fafafa 40%, #fafafa 100%);
@@ -443,6 +444,7 @@ table {
   .imgContainer {
     width: 100%;
   }
+  .loadingImgContainer,
   .invitaionImg {
     border-radius: 0 !important;
   }
