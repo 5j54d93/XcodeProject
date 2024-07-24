@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 intersectionObserver.unobserve(target);
             }
         });
-    });
+    }, { threshold: [0, 0.1, 0.2, 0.8, 0.9, 1] });
     
     homeNewPosts.forEach(function(homeNewPost) {
         intersectionObserver.observe(homeNewPost);
