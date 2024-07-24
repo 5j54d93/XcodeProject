@@ -52,9 +52,7 @@ table {
   cursor: pointer;
   margin-left: 5px;
   line-height: 18px;
-  --bs-btn-color: #26A862;
   -webkit-text-stroke: 1px;
-  --bs-btn-hover-color: #0F8144;
 }
 .hadCopyTip {
   opacity: 0;
