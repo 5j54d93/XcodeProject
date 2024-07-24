@@ -1,4 +1,5 @@
 #bigLogo {
+  color: #1d1d1f;
   font-size: 66px;
   font-weight: 500;
   line-height: 64px;
@@ -9,6 +10,13 @@
 #bigLogoImage {
   width: 64px;
   height: 64px;
+}
+#subTitle {
+  color: #1d1d1f;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 31px;
+  margin-bottom: 120px;
 }
 #learnMore {
   padding: 52px 0;
@@ -44,6 +52,11 @@
     width: 49px;
     height: 49px;
   }
+  #subTitle {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 100px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -64,6 +77,11 @@
   #bigLogoImage {
     width: 45px;
     height: 45px;
+  }
+  #subTitle {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 80px;
   }
   #learnMore {
     padding: 44px 0;
