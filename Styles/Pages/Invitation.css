@@ -53,6 +53,7 @@ table {
   margin-left: 5px;
   line-height: 18px;
   -webkit-text-stroke: 1px;
+  transition: all 0.3s ease 0s;
 }
 .hadCopyTip {
   opacity: 0;
