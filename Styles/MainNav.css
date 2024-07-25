@@ -1,7 +1,7 @@
 /* 最上方導覽列 */
 #mainNav {
   height: 44px;
-  z-index: 1022;
+  z-index: 1023;
   line-height: 44px;
   background-color: #f3f3f3;
   transition: all .35s ease, visibility 0s ease;
@@ -83,7 +83,7 @@
 /* 寬螢幕搜尋時的暗掉背景 */
 #wideScreenSearchDimBackground {
   display: none;
-  z-index: 1021;
+  z-index: 1022;
   position: absolute;
   background-color: #0000007c;
 }
