@@ -28,6 +28,10 @@
   transition: transform .3s ease;
   background-size: cover !important;
 }
+.promotePageLink:hover .smallPromoteImg,
+.promotePageLink:hover .bigPromoteImg {
+  background-size: 103% !important;
+}
 .bigPromoteInfoContainer {
   width: 980px;
   margin-top: 28px;
