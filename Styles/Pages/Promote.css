@@ -30,7 +30,7 @@
 }
 .promotePageLink:hover .smallPromoteImg,
 .promotePageLink:hover .bigPromoteImg {
-  background-size: 103% !important;
+  transform: scale(1.03);
 }
 .bigPromoteInfoContainer {
   width: 980px;
