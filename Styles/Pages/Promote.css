@@ -22,7 +22,10 @@
   width: calc(100% - 160px);
 }
 .bigPromoteImg {
+  aspect-ratio: 16/9;
   border-radius: 24px;
+  background-size: cover;
+  transition: transform .3s ease;
 }
 .bigPromoteInfoContainer {
   width: 980px;
