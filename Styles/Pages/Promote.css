@@ -82,6 +82,7 @@
 }
 #learnMore {
   padding: 52px 0;
+  margin-top: 120px;
   background-color: #fbfbfd;
 }
 #learnMoreText {
@@ -152,6 +153,7 @@
   }
   #learnMore {
     padding: 48px 0;
+    margin-top: 100px;
   }
   #learnMoreText {
     font-size: 15px;
@@ -205,6 +207,7 @@
   }
   #learnMore {
     padding: 44px 0;
+    margin-top: 80px;
   }
 }
 @media only screen and (max-width: 692px) {
