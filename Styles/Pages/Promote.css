@@ -53,6 +53,11 @@
   margin-top: 12px;
   line-height: 19px;
 }
+.smallPromoteContainer {
+  width: 980px;
+  margin-top: 120px;
+  transition: transform .3s ease;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -107,6 +112,10 @@
     font-size: 28px;
     line-height: 39px;
   }
+  .smallPromoteContainer {
+    width: 692px;
+    margin-top: 100px;
+  }
   #learnMore {
     padding: 48px 0;
   }
@@ -150,6 +159,11 @@
   }
   .bigPromoteDate {
     margin-top: 8px;
+  }
+  .smallPromoteContainer {
+    width: 87.5%;
+    max-width: 414px;
+    margin-top: 56px;
   }
   #learnMore {
     padding: 44px 0;
