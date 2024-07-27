@@ -152,7 +152,7 @@
     padding: 44px 0;
   }
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 692px) {
   .bigPromoteImg {
     border-radius: 0;
   }
