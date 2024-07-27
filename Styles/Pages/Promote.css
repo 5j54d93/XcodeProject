@@ -66,6 +66,20 @@
 .smallPromoteInfoContainer {
   padding: 20px 24px;
 }
+.smallPromoteTitle {
+  color: #1d1d1f;
+  font-size: 22px;
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 31px;
+}
+.smallPromoteDate {
+  color: #6e6e73;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 12px;
+  line-height: 19px;
+}
 #learnMore {
   padding: 52px 0;
   background-color: #fbfbfd;
@@ -123,6 +137,9 @@
   .smallPromoteContainer {
     width: 692px;
     margin-top: 100px;
+  }
+  .smallPromoteDate {
+    margin-top: 8px;
   }
   #learnMore {
     padding: 48px 0;
