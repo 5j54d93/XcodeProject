@@ -21,11 +21,12 @@
 .bigPromoteContainer {
   width: calc(100% - 160px);
 }
-.bigPromoteImg {
+.bigPromoteImg,
+.smallPromoteImg {
   aspect-ratio: 16/9;
   border-radius: 24px;
-  background-size: cover !important;
   transition: transform .3s ease;
+  background-size: cover !important;
 }
 .bigPromoteInfoContainer {
   width: 980px;
@@ -54,9 +55,12 @@
   line-height: 19px;
 }
 .smallPromoteContainer {
-  width: 980px;
+  width: 1020px;
   margin-top: 120px;
   transition: transform .3s ease;
+}
+.smallPromoteCol {
+  padding: 0 20px;
 }
 #learnMore {
   padding: 52px 0;
