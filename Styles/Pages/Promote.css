@@ -60,7 +60,11 @@
   transition: transform .3s ease;
 }
 .smallPromoteCol {
+  margin-top: 60px;
   padding: 0 20px;
+}
+.smallPromoteInfoContainer {
+  padding: 20px 24px;
 }
 #learnMore {
   padding: 52px 0;
