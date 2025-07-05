@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
         entries.forEach(function(entry) {
             if (entry.intersectionRatio > 0) {
                 let lazyImage = entry.target;
-                if (lazyImage.parentElement.classList.contains("blogPostLaodingImgContainer") && lazyImage.dataset.src != "") {
+                if (lazyImage.parentElement.classList.contains("blogPostLoadingImgContainer") && lazyImage.dataset.src != "") {
                     lazyImage.onload = function () {
                         lazyImage.dataset.src = "";
-                        lazyImage.parentElement.classList.remove("blogPostLaodingImgContainer");
+                        lazyImage.parentElement.classList.remove("blogPostLoadingImgContainer");
                     }
                     lazyImage.src = lazyImage.dataset.src;
                 }
@@ -31,10 +31,10 @@ function reloadImage(reloadButton) {
       	imageSrc = targetImage.dataset.src;
     }
     targetImage.removeAttribute('src');
-    targetImage.classList.add('blogPostLaodingImgContainer');
+    targetImage.classList.add('blogPostLoadingImgContainer');
     targetImage.onload = () => {
         targetImage.dataset.src = "";
-        targetImage.classList.remove('blogPostLaodingImgContainer');
+        targetImage.classList.remove('blogPostLoadingImgContainer');
     }
     setTimeout(() => {
   		targetImage.src = imageSrc;
