@@ -137,7 +137,7 @@ table {
   from { background-position: 200% 0; }
   to { background-position: -200% 0; }
 }
-.blogPostLaodingImgContainer {
+.blogPostLoadingImgContainer {
   aspect-ratio: 16/9;
   border-radius: 10px;
   background-size: 200% 100% !important;
@@ -527,7 +527,7 @@ table {
 }
 /* 螢幕小於 454 */
 @media only screen and (max-width: 454px) {
-  .blogPostLaodingImgContainer,
+  .blogPostLoadingImgContainer,
   .blogPostImg {
     border-radius: 0;
   }
