@@ -87,6 +87,7 @@ table {
   color: #3e8087;
 }
 /* 文章中程式碼裡的型別名稱（深綠色）*/
+.syntaxProjectClassNames,
 .syntaxProjectTypeNames {
   color: #23575c;
 }
