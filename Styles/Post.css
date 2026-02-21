@@ -208,6 +208,22 @@ table {
   line-height: 26px;
   margin-bottom: 6.8px;
 }
+.blogPostTip {
+  padding: 16px;
+  margin-bottom: 27px;
+  border-radius: 15px;
+  --bs-border-width: 0.87px;
+  background-color: #faffff;
+  --bs-border-color: #3d777d;
+  box-shadow: 0 0 1px 0 #3d777d inset, 0 0 1px 0 #3d777d;
+}
+.blogPostTipTitle {
+  height: 26px;
+  color: #3d777d;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 6.8px;
+}
 #blogPostBottomSection {
   max-width: 693px;
   padding: 0 20px;
