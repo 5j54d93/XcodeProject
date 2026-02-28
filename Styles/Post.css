@@ -56,7 +56,6 @@ table {
   margin-bottom: 27px !important;
   --bs-table-border-color: #d2d2d7;
 }
-/* 文章中的程式碼區塊 */
 .codeBlock {
   color: black;
   padding: 8px 14px; 
@@ -65,60 +64,48 @@ table {
   border-radius: 15px;
   background-color: #f5f5f7;
 }
-/* 文章中程式碼裡的數字（藍色）*/
 .syntaxNumbers {
   color: #2729d8;
 }
-/* 文章中程式碼裡的文法關鍵字（粉色）*/
 .syntaxKeywords {
   color: #ad3da4;
 }
-/* 文章中程式碼裡的自定義型別（深藍色）*/
 .syntaxTypeDeclarations {
   color: #01638c;
 }
-/* 文章中程式碼裡的變數名稱（淺一點的深藍色）*/
 .syntaxOtherDeclarations {
   color: #057caf;
 }
-/* 文章中程式碼裡的參數名稱（淺一點的深綠色）*/
-.syntaxProjectFunctionAndMethodNames,
-.syntaxProjectPropertiesAndGlobals {
+.syntaxProjectConstants,
+.syntaxProjectPropertiesAndGlobals,
+.syntaxProjectFunctionAndMethodNames {
   color: #3e8087;
 }
-/* 文章中程式碼裡的型別名稱（深綠色）*/
 .syntaxProjectClassNames,
 .syntaxProjectTypeNames {
   color: #23575c;
 }
-/* 文章中程式碼裡的內建型別（深紫色）*/
 .syntaxOtherClassNames,
 .syntaxOtherTypeNames {
   color: #4b22b0;
 }
-/* 文章中程式碼裡的方法（紫色）*/
 .syntaxOtherPropertiesAndGlobals,
 .syntaxOtherFunctionAndMethodNames,
 .syntaxOtherConstants {
   color: #804fb8;
 }
-/* 文章中程式碼裡的文法預處理器（咖啡色）*/
 .syntaxPreprocessor {
   color: #78492b;
 }
-/* 文章中程式碼裡的文法標題（紫色）*/
 .syntaxTitle {
   color: #703daa;
 }
-/* 文章中程式碼裡的字串（橘色）*/
 .syntaxString {
   color: #d12f1b;
 }
-/* 文章中程式碼裡的註解（灰色）*/
 .syntaxComment {
   color: #707f8c;
 }
-/* 文章中程式碼裡的待輸入提示（藍底白字）*/
 .syntaxPlaceholder {
   color: white;
   padding: 0 2px;
