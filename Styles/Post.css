@@ -33,6 +33,7 @@
   padding: 4px 9px;
   line-height: 16px;
   border-radius: 5px;
+  transition: all .3s ease;
   background-color: #e8e8ed;
 }
 .blogPostLabelLink:hover {
