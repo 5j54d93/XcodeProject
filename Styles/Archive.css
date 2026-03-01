@@ -56,6 +56,15 @@
   border-radius: 16px;
   background-color: #fafafa;
 }
+.archivePagePostLabel {
+  color: #6e6e73;
+  font-size: 12px;
+  padding: 2px 8px;
+  line-height: 16px;
+  border-radius: 4px;
+  transition: all .3s ease;
+  background-color: #e8e8ed;
+}
 .archivePagePostTextContainer {
   margin-left: 32px;
 }
