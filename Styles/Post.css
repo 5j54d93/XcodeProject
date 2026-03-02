@@ -110,6 +110,9 @@ table {
 .syntaxPreprocessor {
   color: #78492b;
 }
+.syntaxOtherPreprocessorMacros {
+  color: #78492a;
+}
 .syntaxTitle {
   color: #703daa;
 }
