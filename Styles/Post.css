@@ -83,6 +83,9 @@ table {
 .syntaxKeywords {
   color: #ad3da4;
 }
+.syntaxAttributes {
+  color: #947100;
+}
 .syntaxTypeDeclarations {
   color: #01638c;
 }
