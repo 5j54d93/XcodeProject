@@ -147,6 +147,7 @@
   .archivePagePostImg {
     width: 106px;
     height: 60px;
+    margin-top: 18px;
     border-radius: 7px;
   }
   .archivePagePostTitle {
