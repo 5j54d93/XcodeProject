@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const { $ } = window.xcp;
+    const blogPostTopFollowAlert = $("blogPostTopFollowAlert");
+    const blogPostTopFollowAlertCloseBtn = $("blogPostTopFollowAlertCloseBtn");
     blogPostTopFollowAlert.style.display = sessionStorage.getItem("isCloseFollowAlert") ? "none" : "";
+    blogPostTopFollowAlertCloseBtn.addEventListener("click", () => {
+        window.xcp.closeFollowAlert("blogPostTopFollowAlert");
+    });
+
+    document.querySelectorAll("[data-copy-current-url]").forEach((button) => {
+        button.addEventListener("click", () => copyCurrentPageUrl(button.nextElementSibling));
+    });
+
     var lazyImages = document.querySelectorAll(".blogPostImg");
     let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
@@ -42,10 +53,24 @@ function reloadImage(reloadButton) {
 	}, 800);
 }
 function copyPostUrl(id) {
-    navigator.clipboard.writeText(location.protocol + '//' + location.host + location.pathname);
-    const obj = document.getElementById(String(id));
+    copyCurrentPageUrl(id);
+}
+function copyCurrentPageUrl(tip) {
+    copyText(location.protocol + '//' + location.host + location.pathname, tip);
+}
+function copyText(text, tip) {
+    navigator.clipboard.writeText(text);
+    const obj = typeof tip === "string" ? document.getElementById(String(tip)) : tip;
+
+    if (!obj) {
+        return;
+    }
+
     obj.style.opacity = "1";
     setTimeout( () => {
         obj.style.opacity = "0";
     }, 1000);
+}
+function onCopy(text, id) {
+    copyText(text, id);
 }
