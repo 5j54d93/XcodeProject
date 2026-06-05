@@ -6,7 +6,7 @@
   height: 50px;
   transition: all .4s ease;
   backdrop-filter: blur(20px);
-  background-color: #ffffffb3;
+  background-color: rgba(255, 255, 255, 0.7);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 /* 上方導覽列二容器 */
@@ -27,16 +27,16 @@
   border-radius: 30px;
   --bs-btn-bg: #e8e8ed;
   padding: 5px 12px 4px;
-  --bs-btn-color: #1d1d1f;
+  --bs-btn-color: var(--xcp-text);
   transition: all .3s ease;
   --bs-btn-hover-bg: #d2d2d7;
-  --bs-btn-hover-color: #1d1d1f;
+  --bs-btn-hover-color: var(--xcp-text);
 }
 .secondNavLink {
   font-size: 12px;
   font-weight: 400;
   transition: all .35s ease;
-  --bs-link-color-rgb: 29, 29, 31;
+  color: var(--xcp-text);
   --bs-link-hover-color-rgb: 0, 102, 204;
 }
 /* 上方導覽列二展開的熱門主題區塊裡的搜尋框 */
@@ -59,7 +59,7 @@
   font-weight: 600;
   margin-top: 16px;
   padding-left: 0px;
-  --bs-link-color-rgb: 29, 29, 31;
+  color: var(--xcp-text);
   --bs-link-hover-color-rgb: 0, 102, 204;
 }
 /* 熱門話題展開時的暗掉背景 */
