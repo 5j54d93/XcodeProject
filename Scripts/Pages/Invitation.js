@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const { $ } = window.xcp;
+    const floatCapsuleLink = $("floatCapsuleLink");
+    const floatCapsuleText = $("floatCapsuleText");
+
     var lazyImages = document.querySelectorAll(".invitaionImg");
     let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
         entries.forEach(function(entry) {
