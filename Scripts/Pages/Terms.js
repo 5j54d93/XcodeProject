@@ -1,2 +1,2 @@
 const termsDate = new Date();
-termsCurrentYear.innerHTML = termsDate.getFullYear();
+window.xcp.$("termsCurrentYear").innerHTML = termsDate.getFullYear();
