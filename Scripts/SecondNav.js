@@ -7,7 +7,7 @@ hotTopics.addEventListener('show.bs.collapse', event => {
     document.body.style.top = `-${hotTopicsScrollY}px`;
     document.body.style.width = "100%";
     mainNav.style.display = "none";
-    secondNav.style.backgroundColor = "#ffffffe6";
+    secondNav.style.backgroundColor = "#ffffff";
     hotTopicsDimBackground.style.display = "block";
     secondNavSearchBtn.innerHTML = "<i class='bi bi-x-lg' style='font-size: 10px; margin-right: 3.6px; -webkit-text-stroke: 0.5px;'></i>Close";
     hotTopicsSearchForm.style.opacity = "1";
@@ -25,7 +25,7 @@ hotTopics.addEventListener('shown.bs.collapse', event => {
 // 熱門話題「開始隱藏」
 hotTopics.addEventListener('hide.bs.collapse', event => {
     hotTopicsSearchForm.style.opacity = "0";
-    secondNav.style.backgroundColor = "#ffffffb3";
+    secondNav.style.backgroundColor = "";
     mainNav.style.display = "";
     hotTopicsDimBackground.style.display = "none";
     secondNavSearchBtn.innerHTML = "<i class='bi bi-search' style='font-size: 10px; margin-right: 3.6px;'></i>搜尋<span class='d-none d-md-inline'> XcodeProject</span>";
