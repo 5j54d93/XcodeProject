@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const { $ } = window.xcp;
+    const homeTopFollowAlert = $("homeTopFollowAlert");
+    const homeTopFollowAlertCloseBtn = $("homeTopFollowAlertCloseBtn");
+
     homeTopFollowAlert.style.display = sessionStorage.getItem("isCloseFollowAlert") ? "none" : "";
+    homeTopFollowAlertCloseBtn.addEventListener("click", () => {
+        window.xcp.closeFollowAlert("homeTopFollowAlert");
+    });
     
     const homeNewPosts = document.querySelectorAll(".homeNewPost");
     const homePopularPosts = document.querySelectorAll(".homePopularPost");
