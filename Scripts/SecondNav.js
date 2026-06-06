@@ -1,26 +1,19 @@
 (() => {
     const { $, lockBodyScroll, unlockBodyScroll } = window.xcp;
-    const mainNav = $("mainNav");
+    const body = document.body;
     const secondNav = $("secondNav");
-    const secondNavPromoteLink = $("secondNavPromoteLink");
-    const secondNavSearchBtn = $("secondNavSearchBtn");
     const hotTopics = $("hotTopics");
-    const hotTopicsDimBackground = $("hotTopicsDimBackground");
-    const hotTopicsSearchForm = $("hotTopicsSearchForm");
     const hotTopicsSearchBar = $("hotTopicsSearchBar");
 
     hotTopics.addEventListener("show.bs.collapse", () => {
+        body.classList.add("xcp-hot-topics");
         lockBodyScroll();
-        mainNav.style.display = "none";
-        secondNav.style.backgroundColor = "#ffffff";
-        hotTopicsDimBackground.style.display = "block";
-        secondNavSearchBtn.innerHTML = "<i class='bi bi-x-lg' style='font-size: 10px; margin-right: 3.6px; -webkit-text-stroke: 0.5px;'></i>Close";
-        hotTopicsSearchForm.style.opacity = "1";
         hotTopics.style.top = "";
         hotTopics.style.bottom = "";
     });
 
     hotTopics.addEventListener("shown.bs.collapse", () => {
+        // 內容比視窗高時，改為貼齊導覽列下緣到底部（依視窗高度動態計算，留在 JS）
         if (secondNav.offsetHeight + hotTopics.offsetHeight > window.innerHeight) {
             hotTopics.style.top = secondNav.offsetHeight + "px";
             hotTopics.style.bottom = "0";
@@ -30,11 +23,7 @@
     });
 
     hotTopics.addEventListener("hide.bs.collapse", () => {
-        hotTopicsSearchForm.style.opacity = "0";
-        secondNav.style.backgroundColor = "";
-        mainNav.style.display = "";
-        hotTopicsDimBackground.style.display = "none";
-        secondNavSearchBtn.innerHTML = "<i class='bi bi-search' style='font-size: 10px; margin-right: 3.6px;'></i>搜尋<span class='d-none d-md-inline'> XcodeProject</span>";
+        body.classList.remove("xcp-hot-topics");
     });
 
     hotTopics.addEventListener("hidden.bs.collapse", () => {
@@ -42,10 +31,10 @@
     });
 
     hotTopicsSearchBar.addEventListener("focus", () => {
-        secondNavPromoteLink.style.opacity = "0";
+        body.classList.add("xcp-hot-topics-search");
     });
 
     hotTopicsSearchBar.addEventListener("blur", () => {
-        secondNavPromoteLink.style.opacity = "1";
+        body.classList.remove("xcp-hot-topics-search");
     });
 })();

@@ -53,6 +53,11 @@
   max-width: 1024px;
   padding: 33px 22px 64px;
 }
+.hotTopicGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 24px;
+}
 /* 上方導覽列二展開的熱門主題連結 */
 .hotTopicLink {
   font-size: 14px;
@@ -70,6 +75,44 @@
   backdrop-filter: blur(20px);
   background-color: #ffffffcc;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+/* 搜尋表單預設淡出，展開時才顯示（見下方互動狀態）*/
+#hotTopicsSearchForm {
+  opacity: 0;
+}
+/* ===== 互動狀態：熱門話題展開（改由 body 類別驅動，取代 JS 行內樣式）===== */
+body.xcp-hot-topics #mainNav {
+  display: none;
+}
+body.xcp-hot-topics #secondNav {
+  background-color: #ffffff;
+}
+body.xcp-hot-topics #hotTopicsDimBackground {
+  display: block;
+}
+body.xcp-hot-topics #hotTopicsSearchForm {
+  opacity: 1;
+}
+/* 熱門話題搜尋框聚焦時，淡出 Promote 連結 */
+body.xcp-hot-topics-search #secondNavPromoteLink {
+  opacity: 0;
+}
+/* 搜尋按鈕「搜尋 XcodeProject ／ Close」切換 */
+#secondNavSearchBtn .bi {
+  font-size: 10px;
+  margin-right: 3.6px;
+}
+#secondNavSearchBtn .bi-x-lg {
+  -webkit-text-stroke: 0.5px;
+}
+#secondNavSearchBtn .secondNavSearchBtnClose {
+  display: none;
+}
+body.xcp-hot-topics #secondNavSearchBtn .secondNavSearchBtnDefault {
+  display: none;
+}
+body.xcp-hot-topics #secondNavSearchBtn .secondNavSearchBtnClose {
+  display: inline;
 }
 /* 螢幕大於 768 */
 @media only screen and (min-width: 768px) {
@@ -94,6 +137,9 @@
   }
   #hotTopicsContainer {
     padding: 4px 22px 64px;
+  }
+  .hotTopicGrid {
+    grid-template-columns: 1fr;
   }
   /* 上方導覽列二展開的熱門主題連結字變大 */
   .hotTopicLink {

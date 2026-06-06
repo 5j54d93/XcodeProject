@@ -26,6 +26,7 @@
 #archiveFilterYearList,
 #archiveFilterMonthList {
   top: 40px;
+  display: none;
   padding: 8px;
   overflow: scroll;
   max-height: 334px;
@@ -34,10 +35,26 @@
   border-bottom-right-radius: 7px;
   box-shadow: 0 20px 20px 0 #00000033;
 }
+/* 年份／月份篩選下拉展開時：按鈕去掉下緣圓角、加陰影，並顯示清單 */
+#archiveFilterYearBtn.is-open,
+#archiveFilterMonthBtn.is-open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#archiveFilterYearBtn.is-open #archiveFilterYearList,
+#archiveFilterMonthBtn.is-open #archiveFilterMonthList {
+  display: block;
+}
 .archiveFilterLink {
   padding: 8px;
   --bs-link-color-rgb: 29, 29, 31;
   --bs-link-hover-color-rgb: 0, 102, 204;
+}
+/* 目前選定的年份／月份 */
+.archiveFilterLink.is-current {
+  border-radius: 4px;
+  background-color: #f5f5f7;
 }
 .archivePagePostDateTitle {
   color: #1d1d1f;
@@ -55,6 +72,11 @@
   height: 166px;
   border-radius: 16px;
   background-color: #fafafa;
+  overflow: hidden;
+  background-image: var(--post-image, none);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .archivePagePostLabel {
   color: #6e6e73;

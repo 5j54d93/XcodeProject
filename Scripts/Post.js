@@ -1,11 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const { $ } = window.xcp;
-    const blogPostTopFollowAlert = $("blogPostTopFollowAlert");
-    const blogPostTopFollowAlertCloseBtn = $("blogPostTopFollowAlertCloseBtn");
-    blogPostTopFollowAlert.style.display = sessionStorage.getItem("isCloseFollowAlert") ? "none" : "";
-    blogPostTopFollowAlertCloseBtn.addEventListener("click", () => {
-        window.xcp.closeFollowAlert("blogPostTopFollowAlert");
-    });
+    window.xcp.initFollowAlerts();
 
     document.querySelectorAll("[data-copy-current-url]").forEach((button) => {
         button.addEventListener("click", () => copyCurrentPageUrl(button.nextElementSibling));

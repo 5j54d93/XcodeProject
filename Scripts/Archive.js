@@ -11,44 +11,75 @@
 
     secondNav?.classList.remove("sticky-top");
 
-    const hideArchiveFilterYear = () => {
-        archiveFilterYearList.style.display = "none";
-        archiveFilterYearBtn.style.borderBottomLeftRadius = "7px";
-        archiveFilterYearBtn.style.borderBottomRightRadius = "7px";
-        archiveFilterYearBtn.style.boxShadow = "0 0 0 rgba(0,0,0,0.2)";
-        archiveFilterYearBtnIcon.classList.remove("bi-chevron-up");
-        archiveFilterYearBtnIcon.classList.add("bi-chevron-down");
+    if (!archiveFilterYearBtn || !archiveFilterMonthBtn || !archiveFilterYearList || !archiveFilterMonthList) {
+        return;
+    }
+
+    const renderArchiveYearFilter = () => {
+        if (!archiveFilterYearList) {
+            return;
+        }
+
+        const yearList = archiveFilterYearList.querySelector(".d-flex");
+        const startYear = Number(archiveFilterYearList.dataset.archiveStartYear || 2023);
+        const currentYear = new Date().getFullYear();
+        const selectedYear = archiveFilterYearList.dataset.currentArchiveYear;
+
+        if (!yearList || Number.isNaN(startYear)) {
+            return;
+        }
+
+        for (let year = currentYear; year >= startYear; year--) {
+            const yearLink = document.createElement("a");
+            yearLink.className = "archiveFilterLink text-decoration-none";
+            yearLink.href = "/" + year;
+            yearLink.textContent = year;
+
+            if (String(year) === selectedYear) {
+                yearLink.classList.add("is-current");
+            }
+
+            yearList.appendChild(yearLink);
+        }
     };
 
-    const hideArchiveFilterMonth = () => {
-        archiveFilterMonthList.style.display = "none";
-        archiveFilterMonthBtn.style.borderBottomLeftRadius = "7px";
-        archiveFilterMonthBtn.style.borderBottomRightRadius = "7px";
-        archiveFilterMonthBtn.style.boxShadow = "0 0 0 rgba(0,0,0,0.2)";
-        archiveFilterMonthBtnIcon.classList.remove("bi-chevron-up");
-        archiveFilterMonthBtnIcon.classList.add("bi-chevron-down");
+    const renderArchiveMonthFilter = () => {
+        if (!archiveFilterMonthList) {
+            return;
+        }
+
+        const selectedYear = archiveFilterYearList?.dataset.currentArchiveYear;
+        const targetYear = selectedYear || String(new Date().getFullYear());
+
+        archiveFilterMonthList.querySelectorAll("[data-archive-month]").forEach((monthLink) => {
+            const month = monthLink.dataset.archiveMonth;
+
+            if (month) {
+                monthLink.href = "/" + targetYear + "/" + month;
+            } else if (selectedYear) {
+                monthLink.href = "/" + targetYear;
+            } else {
+                monthLink.href = "/search";
+            }
+        });
     };
 
-    const showArchiveFilterYear = () => {
-        archiveFilterYearList.style.display = "block";
-        archiveFilterYearBtn.style.borderBottomLeftRadius = "0";
-        archiveFilterYearBtn.style.borderBottomRightRadius = "0";
-        archiveFilterYearBtn.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
-        archiveFilterYearBtnIcon.classList.remove("bi-chevron-down");
-        archiveFilterYearBtnIcon.classList.add("bi-chevron-up");
+    // 展開狀態交給 CSS（.is-open）；JS 只負責切 class 與箭頭方向。
+    const setArchiveFilterOpen = (button, icon, isOpen) => {
+        button.classList.toggle("is-open", isOpen);
+        icon.classList.toggle("bi-chevron-up", isOpen);
+        icon.classList.toggle("bi-chevron-down", !isOpen);
     };
 
-    const showArchiveFilterMonth = () => {
-        archiveFilterMonthList.style.display = "block";
-        archiveFilterMonthBtn.style.borderBottomLeftRadius = "0";
-        archiveFilterMonthBtn.style.borderBottomRightRadius = "0";
-        archiveFilterMonthBtn.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
-        archiveFilterMonthBtnIcon.classList.remove("bi-chevron-down");
-        archiveFilterMonthBtnIcon.classList.add("bi-chevron-up");
-    };
+    const hideArchiveFilterYear = () => setArchiveFilterOpen(archiveFilterYearBtn, archiveFilterYearBtnIcon, false);
+    const hideArchiveFilterMonth = () => setArchiveFilterOpen(archiveFilterMonthBtn, archiveFilterMonthBtnIcon, false);
+    const showArchiveFilterYear = () => setArchiveFilterOpen(archiveFilterYearBtn, archiveFilterYearBtnIcon, true);
+    const showArchiveFilterMonth = () => setArchiveFilterOpen(archiveFilterMonthBtn, archiveFilterMonthBtnIcon, true);
 
     const showArchiveProgressView = () => {
-        archivePageProgressView.style.display = "block";
+        if (archivePageProgressView) {
+            archivePageProgressView.style.display = "block";
+        }
         hideArchiveFilterYear();
         hideArchiveFilterMonth();
     };
@@ -62,10 +93,10 @@
         event.stopPropagation();
         hideArchiveFilterMonth();
 
-        if (archiveFilterYearList.style.display === "none") {
-            showArchiveFilterYear();
-        } else {
+        if (archiveFilterYearBtn.classList.contains("is-open")) {
             hideArchiveFilterYear();
+        } else {
+            showArchiveFilterYear();
         }
     });
 
@@ -73,10 +104,10 @@
         event.stopPropagation();
         hideArchiveFilterYear();
 
-        if (archiveFilterMonthList.style.display === "none") {
-            showArchiveFilterMonth();
-        } else {
+        if (archiveFilterMonthBtn.classList.contains("is-open")) {
             hideArchiveFilterMonth();
+        } else {
+            showArchiveFilterMonth();
         }
     });
 
@@ -87,6 +118,9 @@
     archiveFilterMonthList.addEventListener("click", (event) => {
         event.stopPropagation();
     });
+
+    renderArchiveYearFilter();
+    renderArchiveMonthFilter();
 
     document.querySelectorAll(".archiveFilterLink, [data-archive-reset]").forEach((link) => {
         link.addEventListener("click", showArchiveProgressView);

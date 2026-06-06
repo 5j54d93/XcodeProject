@@ -164,16 +164,86 @@
   line-height: 45px;
   transition: all .25s ease;
 }
-.smallScreenSearchQuickLink.hoverBlack:hover {
+.smallScreenSearchQuickLink:hover {
   color: black;
 }
-.smallScreenSearchQuickLink.hoverBlue:hover {
+body.xcp-mobile-search .smallScreenSearchQuickLink:hover {
   color: #2897ff;
 }
 /* 小螢幕展開全螢幕導覽列的快速連結分隔線 */
 .quickLinkHr {
   color: #d7d7d7;
   transition: all .35s ease;
+}
+/* ===== 互動狀態：改由 body 類別驅動，取代過去散在 JS 的行內樣式 ===== */
+/* 寬螢幕搜尋展開 */
+body.xcp-wide-search #mainNav {
+  background-color: #dbdbdb;
+}
+body.xcp-wide-search #wideScreenSearchForm {
+  display: flex;
+}
+body.xcp-wide-search #wideScreenSearchDimBackground {
+  display: block;
+}
+body.xcp-wide-search #wideScreenSearchBtn {
+  color: #2b2b2b;
+}
+/* 寬螢幕搜尋按鈕的放大鏡／叉叉切換 */
+#wideScreenSearchBtn .wideScreenSearchBtnIconClose {
+  display: none;
+}
+body.xcp-wide-search #wideScreenSearchBtn .wideScreenSearchBtnIconOpen {
+  display: none;
+}
+body.xcp-wide-search #wideScreenSearchBtn .wideScreenSearchBtnIconClose {
+  display: inline;
+}
+/* 小螢幕全螢幕選單展開（漢堡選單）*/
+body.xcp-fullscreen-nav {
+  overflow: hidden;
+}
+body.xcp-fullscreen-nav #mainNav {
+  background-color: white;
+}
+#hamburgerBtn .hamburgerBtnIconClose {
+  display: none;
+}
+body.xcp-fullscreen-nav #hamburgerBtn .hamburgerBtnIconOpen {
+  display: none;
+}
+body.xcp-fullscreen-nav #hamburgerBtn .hamburgerBtnIconClose {
+  display: inline;
+}
+/* 小螢幕搜尋框聚焦中 */
+body.xcp-mobile-search #mainNav {
+  height: 0;
+  visibility: hidden;
+}
+body.xcp-mobile-search #smallScreenSearchForm {
+  padding-top: 16px;
+}
+body.xcp-mobile-search #smallScreenSearchIcon {
+  color: #7d7d7d;
+}
+body.xcp-mobile-search #smallScreenSearchCancelBtn {
+  width: auto;
+  padding: 0 8px;
+  margin-left: 10px;
+  visibility: visible;
+}
+body.xcp-mobile-search #smallScreenSearchQuickLinksTitle {
+  height: auto;
+  margin: 21px 0 5px;
+  visibility: visible;
+}
+body.xcp-mobile-search .smallScreenSearchQuickLink {
+  height: 43px;
+  font-size: 14px;
+  line-height: 43px;
+}
+body.xcp-mobile-search .quickLinkHr {
+  color: #424245;
 }
 /* 螢幕大於 768：寬螢幕導覽連結顯示 */
 @media only screen and (min-width: 768px) {

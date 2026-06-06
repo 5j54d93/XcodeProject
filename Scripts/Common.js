@@ -37,19 +37,40 @@ window.xcp = window.xcp || {};
         bodyScrollLock.isLocked = false;
     };
 
-    xcp.closeFollowAlert = (alertId) => {
-        const alert = xcp.$(alertId);
+    xcp.closeFollowAlert = (alertTarget) => {
+        const alert = typeof alertTarget === "string" ? xcp.$(alertTarget) : alertTarget;
 
         if (alert) {
+            alert.hidden = true;
             alert.style.display = "none";
         }
 
         sessionStorage.setItem("isCloseFollowAlert", "true");
     };
 
-    xcp.bindCollapseIcon = (collapseId, iconId) => {
-        const collapse = xcp.$(collapseId);
-        const icon = xcp.$(iconId);
+    xcp.initFollowAlerts = (root = document) => {
+        const isClosed = sessionStorage.getItem("isCloseFollowAlert");
+
+        root.querySelectorAll("[data-follow-alert]").forEach((alert) => {
+            alert.hidden = Boolean(isClosed);
+            alert.style.display = "";
+
+            const closeButton = alert.querySelector("[data-follow-alert-close]");
+
+            if (!closeButton || closeButton.dataset.followAlertBound === "true") {
+                return;
+            }
+
+            closeButton.dataset.followAlertBound = "true";
+            closeButton.addEventListener("click", () => {
+                xcp.closeFollowAlert(alert);
+            });
+        });
+    };
+
+    xcp.bindCollapseIcon = (collapseRef, iconRef) => {
+        const collapse = typeof collapseRef === "string" ? xcp.$(collapseRef) : collapseRef;
+        const icon = typeof iconRef === "string" ? xcp.$(iconRef) : iconRef;
 
         if (!collapse || !icon) {
             return;
@@ -76,29 +97,19 @@ window.xcp = window.xcp || {};
     window.addEventListener("resize", () => {
         const hamburgerBtn = xcp.$("hamburgerBtn");
         const fullScreenNav = xcp.$("fullScreenNav");
-        const mainNav = xcp.$("mainNav");
-        const smallScreenSearchForm = xcp.$("smallScreenSearchForm");
         const wideScreenNavLinks = xcp.$("wideScreenNavLinks");
         const wideScreenSearchBtn = xcp.$("wideScreenSearchBtn");
-        const wideScreenSearchDimBackground = xcp.$("wideScreenSearchDimBackground");
         const wideScreenSearchForm = xcp.$("wideScreenSearchForm");
         const wideScreenSearchQuickLinks = xcp.$("wideScreenSearchQuickLinks");
 
-        if (window.innerWidth > 768 && hamburgerBtn?.getAttribute("aria-expanded") === "true") {
-            bootstrap.Collapse.getOrCreateInstance(fullScreenNav, { toggle: false }).hide();
-            hamburgerBtn.innerHTML = "<i class='bi bi-list'/>";
-            mainNav.style.backgroundColor = "var(--xcp-nav-surface)";
-            document.body.style.overflow = "visible";
-            mainNav.style.height = "44px";
-            mainNav.style.visibility = "visible";
-            smallScreenSearchForm.style.paddingTop = "0";
+        // 跨越斷點時關閉開啟中的選單／搜尋；視覺重置由對應的 collapse 事件與 CSS 狀態類別處理。
+        if (window.innerWidth > 768) {
+            if (hamburgerBtn?.getAttribute("aria-expanded") === "true") {
+                bootstrap.Collapse.getOrCreateInstance(fullScreenNav, { toggle: false }).hide();
+            }
+            document.body.classList.remove("xcp-mobile-search");
         } else if (window.innerWidth < 768 && wideScreenSearchBtn?.getAttribute("aria-expanded") === "false") {
             bootstrap.Collapse.getOrCreateInstance(wideScreenNavLinks, { toggle: false }).show();
-            wideScreenSearchDimBackground.style.display = "none";
-            mainNav.style.backgroundColor = "var(--xcp-nav-surface)";
-            wideScreenSearchForm.style.display = "none";
-            wideScreenSearchBtn.innerHTML = "<i class='bi bi-search'/>";
-            wideScreenSearchBtn.style.color = "#828282";
             xcp.unlockBodyScroll();
         }
 
