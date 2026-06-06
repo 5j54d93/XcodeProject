@@ -9,6 +9,7 @@ body {
 .followAlert {
   display: flex;
   border-radius: 10px;
+  background-color: #ffffff;
 }
 .followAlertCloseBtn {
   font-size: 13px;
